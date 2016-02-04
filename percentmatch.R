@@ -10,8 +10,6 @@ require(Rcpp)
 
 # exData <- data.matrix(countryData[, 3:ncol(countryData)]) - 5
 
-# Example: Zimbabwe from World Values Survey #6
-
 percentmatchR <- function(matrix){
   
   matrix <- t(matrix)
@@ -31,21 +29,16 @@ percentmatchR <- function(matrix){
   
   return(pmatch)
   
-#   print(paste0("100% matches: ", pmatch %>% filter(match==1) %>% tally()))
-#   print(paste0("95% matches: ", pmatch %>% filter(match>.95) %>% tally()))
-#   print(paste0("90% matches: ", pmatch %>% filter(match>.90) %>% tally()))
-#   print(paste0("85% matches: ", pmatch %>% filter(match>.85) %>% tally()))
-  
 }
 
-# pmatch_ex <- percentmatchR(exData)
-# 
-# pmatch_ex %>% filter(match==1) %>% tally()
-# pmatch_ex %>% filter(match>.95) %>% tally()
-# pmatch_ex %>% filter(match>.90) %>% tally()
-# pmatch_ex %>% filter(match>.85) %>% tally()
-
-
+pmatchSummary <- function(pmatch){
+  
+    print(paste0("100% matches: ", pmatch %>% filter(match==1) %>% tally()))
+    print(paste0("95% matches: ", pmatch %>% filter(match>.95) %>% tally()))
+    print(paste0("90% matches: ", pmatch %>% filter(match>.90) %>% tally()))
+    print(paste0("85% matches: ", pmatch %>% filter(match>.85) %>% tally()))  
+  
+}
 
 
 ####################################################################################################

@@ -17,7 +17,8 @@ survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
 data_files <- dir("./survey_data_files", full.names=TRUE)
 
-rawData <- read.dta(file = data_files[6])
+rawData <- read.dta(file = data_files[6]) 
+# NOTE: Will loop through ALL data_files to automate this process.
 
 # Step 1: Record initial variable count, dataset name
 
@@ -46,17 +47,17 @@ substantive_dat_vars <- ncol(subData)-1
 # Step 4: Recode missing variables
 
 missing_code <- survey_metadata %>% filter(survey==dataset) %>% select(missing_code) %>% as.numeric()
-subData[(data.matrix(subData) - 5) <= missing_code]  <- NA 
-# NOTE: The -5 calculation is a weird but necessary adjustment.
+subData[(data.matrix(subData) - 5) <= missing_code]  <- NA # NOTE: The -5 calculation is a weird but necessary adjustment.
+subData$country <- new_country_var # This is because the -5 calculation above makes Algeria (and potentially other countries) NA
 
 # Step 5: Remove variables than have only one  unique non-missing value & variables with >10% missing data
 
 varsToIgnore <- survey_metadata %>% filter(survey==dataset) %>% select(vars_to_ignore) %>% str_split(" ") %>% unlist() %>% as.character()
 varsToInspect <- setdiff(names(subData), varsToIgnore) 
 
-countries <- levels(subData$country)
+countries <- unique(subData$country)
 
-for (c in countries[1]){
+for (c in countries[2]){
   countryData <- subData %>% filter(country==c)
   
   for (var in varsToInspect){
@@ -71,9 +72,9 @@ for (c in countries[1]){
 # Step 7: Send data to percentmatch algorithm
   pmatch <- percentmatchR(countryData)
   
-# Test printing  
+# Summary
   print(c)
-  print(head(pmatch))
+  pmatchSummary(pmatch)
  
 }
   
