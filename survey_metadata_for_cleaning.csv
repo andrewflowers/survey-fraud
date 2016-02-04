@@ -1,1 +1,7 @@
-survey,country_var,early_drop_vars,final_drop_var,missing_code,vars_to_ignoreworldvaluessurvey_wave6.dta,V2A,V1 V2 V3,V229,-4,country V2Aworldvaluessurvey_wave5.dta,,,,,worldvaluessurvey_wave4.dta,,,,,worldvaluessurvey_wave3.dta,,,,,worldvaluessurvey_wave2.dta,,,,,worldvaluessurvey_wave1.dta,V2,V1 V2 V3,V214,-4,country V2
+survey,country_var,early_drop_vars,final_drop_var,missing_code,vars_to_ignore
+worldvaluessurvey_wave6.dta,V2A,V1 V2 V3,V229,-4,country V2A
+worldvaluessurvey_wave5.dta,V2A,V1 V2 V3,V235,-4,country V2A
+worldvaluessurvey_wave4.dta,V2,V1 V2 V3,V223,-4,country V2
+worldvaluessurvey_wave3.dta,V2,V1 V2 V3,V214,-4,country V2
+worldvaluessurvey_wave2.dta,V2,V1 V2 V3,V353,-4,country V2
+worldvaluessurvey_wave1.dta,V2,V1 V2 V3,V214,-4,country V2
