@@ -57,7 +57,9 @@ varsToInspect <- setdiff(names(subData), varsToIgnore)
 
 countries <- unique(subData$country)
 
-for (c in countries[2]){
+summaryData <- data.frame()
+
+for (c in countries){
   countryData <- subData %>% filter(country==c)
   
   for (var in varsToInspect){
@@ -72,13 +74,16 @@ for (c in countries[2]){
 # Step 7: Send data to percentmatch algorithm
   pmatch <- percentmatchR(countryData)
   
-# Summary
-  print(c)
-  pmatchSummary(pmatch)
- 
+# Summary data, write to file
+  
+  sumData <- pmatchSummary(pmatch, c)
+  print(sumData) # Unnecessary
+  summaryData <- rbind(sumData, summaryData)
+  
 }
-  
-  
+
+# This is incomplete because I should add a `dataset` column
+write_csv(summaryData %>% arrange(desc(country_id)), "replication_summary.csv")
 
 
 

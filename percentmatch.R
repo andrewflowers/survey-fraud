@@ -31,13 +31,21 @@ percentmatchR <- function(matrix){
   
 }
 
-pmatchSummary <- function(pmatch){
+pmatchSummary <- function(pmatch, c){
   
-    print(paste0("100% matches: ", pmatch %>% filter(match==1) %>% tally()))
-    print(paste0("95% matches: ", pmatch %>% filter(match>.95) %>% tally()))
-    print(paste0("90% matches: ", pmatch %>% filter(match>.90) %>% tally()))
-    print(paste0("85% matches: ", pmatch %>% filter(match>.85) %>% tally()))  
-  
+    summaryVector <- data.frame(
+      c,
+      pmatch %>% filter(match>=.85) %>% tally(),
+      pmatch %>% filter(match>=.90) %>% tally(),
+      pmatch %>% filter(match>=.95) %>% tally(),
+      pmatch %>% filter(match==1) %>% tally()
+    )
+    
+    names(summaryVector) <- c("country_id", "dup_observations_at_85", 
+                              "dup_observations_at_90", "dup_observations_at_95", 
+                              "dup_observations_at_100")
+    
+    return(summaryVector)
 }
 
 
