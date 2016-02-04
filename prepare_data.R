@@ -45,13 +45,13 @@ substantive_dat_vars <- ncol(subData)-1
 
 # Step 4: Recode missing variables
 
-# missingResponse <- c('Not asked in survey', 'Missing; RU: Inappropriate response{Inappropriate}')
-# subData[subData %in% missingResponse] <- NA
-subData[(data.matrix(subData) - 5) <= -4]  <- NA
+missing_code <- survey_metadata %>% filter(survey==dataset) %>% select(missing_code) %>% as.numeric()
+subData[(data.matrix(subData) - 5) <= missing_code]  <- NA 
+# NOTE: The -5 calculation is a weird but necessary adjustment.
 
-# Step 5: Remove variables than have only 1 unique non-missing value & variables with >1=10% missing data
+# Step 5: Remove variables than have only one  unique non-missing value & variables with >10% missing data
 
-varsToIgnore <- c("country", "V2A") # Note: this might change depending on the survey
+varsToIgnore <- survey_metadata %>% filter(survey==dataset) %>% select(vars_to_ignore) %>% str_split(" ") %>% unlist() %>% as.character()
 varsToInspect <- setdiff(names(subData), varsToIgnore) 
 
 countries <- levels(subData$country)
@@ -71,6 +71,9 @@ for (c in countries[1]){
 # Step 7: Send data to percentmatch algorithm
   pmatch <- percentmatchR(countryData)
   
+# Test printing  
+  print(c)
+  print(head(pmatch))
  
 }
   
