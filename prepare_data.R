@@ -23,13 +23,11 @@ rawData <- read.dta(file = data_files[6])
 
 orig_dat_vars <- ncol(rawData)
 dataset <- str_extract(data_files[6], pattern='[^/]+$')
-file_for_analysis <- paste0(dataset, "_temp", ".dta") # Note: do we need this?
+file_for_analysis <- gsub(".dta", "_temp.dta", dataset) # Note: do we need this?
 
 # Step 2: Create clean country variable
 
-# old_country_var <- 'V2A' # Note: automate this for all surveys later
 old_country_var <- survey_metadata %>% filter(survey==dataset) %>% select(country_var) %>% as.character()
-
 country_var <- rawData %>% select(contains(old_country_var))
 country_var[, old_country_var] <- gsub(".", "", country_var[, old_country_var], fixed=TRUE)
 new_country_var <- country_var[, old_country_var]
@@ -37,17 +35,12 @@ rawData <- new_country_var %>% cbind(rawData)
 names(rawData)[1] <- 'country'
 rawData <- rawData %>% arrange(country)
 
-# Step 3: Drop unncessary variables
+# Step 3: Drop unncessary variables (id, demographic, weight, and other metadata variables)
 
-# earlyDropVars <- c("V1", "V2", "V3")
 earlyDropVars <- survey_metadata %>% filter(survey==dataset) %>% select(early_drop_vars) %>% str_split(" ") %>% unlist() %>% as.character()
-
-# finalDropVar <- "V229"
 finalDropVar <- survey_metadata %>% filter(survey==dataset) %>% select(final_drop_var) %>% as.character()
-
-dropVars <- c(which(colnames(rawData) %in% earlyDropVars), grep(finalDropVar, names(rawData)):length(names(rawData))) # id, demographic, weight, and metadata variables
+dropVars <- c(which(colnames(rawData) %in% earlyDropVars), grep(finalDropVar, names(rawData)):length(names(rawData))) 
 subData <- rawData %>% select(-dropVars)
-
 substantive_dat_vars <- ncol(subData)-1
 
 # Step 4: Recode missing variables
