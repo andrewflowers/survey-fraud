@@ -1,3 +1,4 @@
 # Survey fraud gitignore file
 
 .DS_Store
+.Rproj.user

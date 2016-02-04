@@ -1,7 +1,7 @@
 # FiveThirtyEight version of percentmatch algorithm
 # Andrew <andrew.flowers@fivethirtyeight.com>
 
-setwd("~/data-analysis/survey-fraud/")
+setwd("~/survey-fraud/")
 
 require(readr)
 require(Rcpp)

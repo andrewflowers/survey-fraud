@@ -1,7 +1,7 @@
 # Prepare data for percentmatch algorithm
 # Andrew <andrew.flowers@fivethirtyeight.com>
 
-setwd("~/data-analysis/survey-fraud/")
+setwd("~/survey-fraud/")
 
 require(foreign)
 require(readr)
@@ -10,20 +10,26 @@ require(stringr)
 
 source("percentmatch.R")
 
-# Example .dta data set
+# Load survey metadata file
+survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
-dtaFile <- './survey_data_files/worldvaluessurvey_wave6.dta'
-rawData <- read.dta(file = dtaFile)
+# Example: World Values Survey, Wave 1-6
+
+data_files <- dir("./survey_data_files", full.names=TRUE)
+
+rawData <- read.dta(file = data_files[6])
 
 # Step 1: Record initial variable count, dataset name
 
 orig_dat_vars <- ncol(rawData)
-dataset <- 'worldvaluessurvey_wave6'
-file_for_analysis <- paste0(dataset, "_temp", ".dta")
+dataset <- str_extract(data_files[6], pattern='[^/]+$')
+file_for_analysis <- paste0(dataset, "_temp", ".dta") # Note: do we need this?
 
 # Step 2: Create clean country variable
 
-old_country_var <- 'V2A' # Note: automate this for all surveys later
+# old_country_var <- 'V2A' # Note: automate this for all surveys later
+old_country_var <- survey_metadata %>% filter(survey==dataset) %>% select(country_var) %>% as.character()
+
 country_var <- rawData %>% select(contains(old_country_var))
 country_var[, old_country_var] <- gsub(".", "", country_var[, old_country_var], fixed=TRUE)
 new_country_var <- country_var[, old_country_var]
@@ -33,8 +39,11 @@ rawData <- rawData %>% arrange(country)
 
 # Step 3: Drop unncessary variables
 
-earlyDropVars <- c("V1", "V2", "V3")
-finalDropVar <- "V229"
+# earlyDropVars <- c("V1", "V2", "V3")
+earlyDropVars <- survey_metadata %>% filter(survey==dataset) %>% select(early_drop_vars) %>% str_split(" ") %>% unlist() %>% as.character()
+
+# finalDropVar <- "V229"
+finalDropVar <- survey_metadata %>% filter(survey==dataset) %>% select(final_drop_var) %>% as.character()
 
 dropVars <- c(which(colnames(rawData) %in% earlyDropVars), grep(finalDropVar, names(rawData)):length(names(rawData))) # id, demographic, weight, and metadata variables
 subData <- rawData %>% select(-dropVars)
