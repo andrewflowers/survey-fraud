@@ -17,20 +17,20 @@ survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
 data_files <- dir("./survey_data_files", full.names=TRUE)
 
-rawData <- read.dta(file = data_files[6]) 
+rawData <- read.dta(file = data_files[2]) 
 # NOTE: Will loop through ALL data_files to automate this process.
 
 # Step 1: Record initial variable count, dataset name
 
 orig_dat_vars <- ncol(rawData)
-dataset <- str_extract(data_files[6], pattern='[^/]+$')
+dataset <- str_extract(data_files[2], pattern='[^/]+$')
 file_for_analysis <- gsub(".dta", "_temp.dta", dataset) # Note: do we need this?
 
 # Step 2: Create clean country variable
 
 old_country_var <- survey_metadata %>% filter(survey==dataset) %>% select(country_var) %>% as.character()
-country_var <- rawData %>% select(contains(old_country_var))
-country_var[, old_country_var] <- gsub(".", "", country_var[, old_country_var], fixed=TRUE)
+country_var <- rawData %>% select(contains(old_country_var)) # Fix this to be exactly filtered for the country_var
+country_var[, old_country_var] <- gsub(".", "", country_var[, old_country_var], fixed=TRUE) 
 new_country_var <- country_var[, old_country_var]
 rawData <- new_country_var %>% cbind(rawData)
 names(rawData)[1] <- 'country'
@@ -66,8 +66,8 @@ for (c in countries){
     if ( ((sum(!is.na(countryData[,var]))/length(countryData[,var])) < 0.90) | (length(unique(as.character(countryData[,var]))) < 2)){
       countryData[,var] <- NULL
     }
-  }
- 
+}
+
 # Step 6: Remove observations with >25% missing
   countryData <- countryData[(rowSums(is.na(countryData))/ncol(countryData)) < 0.25,]
   
