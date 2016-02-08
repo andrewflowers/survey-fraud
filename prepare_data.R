@@ -17,13 +17,13 @@ survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
 data_files <- dir("./survey_data_files", full.names=TRUE)
 
-rawData <- read.dta(file = data_files[2]) 
+rawData <- read.dta(file = data_files[1]) 
 # NOTE: Will loop through ALL data_files to automate this process.
 
 # Step 1: Record initial variable count, dataset name
 
 orig_dat_vars <- ncol(rawData)
-dataset <- str_extract(data_files[2], pattern='[^/]+$')
+dataset <- str_extract(data_files[1], pattern='[^/]+$')
 file_for_analysis <- gsub(".dta", "_temp.dta", dataset) # Note: do we need this?
 
 # Step 2: Create clean country variable
@@ -55,7 +55,7 @@ subData$country <- new_country_var # This is because the -5 calculation above ma
 varsToIgnore <- survey_metadata %>% filter(survey==dataset) %>% select(vars_to_ignore) %>% str_split(" ") %>% unlist() %>% as.character()
 varsToInspect <- setdiff(names(subData), varsToIgnore) 
 
-countries <- unique(subData$country)
+countries <- sort(unique(subData$country))
 
 summaryData <- data.frame()
 
