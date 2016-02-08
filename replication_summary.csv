@@ -1,0 +1,11 @@
+"dataset","initial_observations","final_observations","orig_dat_vars","substantive_dat_vars","final_variables","country_id","dup_observations_at_85","dup_observations_at_90","dup_observations_at_95","dup_observations_at_100"
+"worldvaluessurvey_wave1.dta",1005,1005,136,111,111,"Argentina",48,19,14,0
+"worldvaluessurvey_wave1.dta",1228,1228,136,111,98,"Australia",0,0,0,0
+"worldvaluessurvey_wave1.dta",1003,1003,136,111,90,"Finland",2,0,0,0
+"worldvaluessurvey_wave1.dta",1464,1464,136,111,86,"Hungary",4,4,4,0
+"worldvaluessurvey_wave1.dta",1204,1204,136,111,111,"Japan",195,195,195,195
+"worldvaluessurvey_wave1.dta",1837,1837,136,111,110,"Mexico",32,20,4,0
+"worldvaluessurvey_wave1.dta",1596,1596,136,111,111,"South Africa",29,15,6,0
+"worldvaluessurvey_wave1.dta",970,970,136,111,107,"South Korea",12,2,2,2
+"worldvaluessurvey_wave1.dta",954,954,136,111,111,"Sweden",0,0,0,0
+"worldvaluessurvey_wave1.dta",2325,2325,136,111,109,"United States",530,528,528,528

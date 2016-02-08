@@ -35,9 +35,9 @@ pmatchSummary <- function(pmatch, c){
   
     summaryVector <- data.frame(
       c,
-      pmatch %>% filter(match>=.85) %>% tally(),
-      pmatch %>% filter(match>=.90) %>% tally(),
-      pmatch %>% filter(match>=.95) %>% tally(),
+      pmatch %>% filter(match>.85) %>% tally(),
+      pmatch %>% filter(match>.90) %>% tally(),
+      pmatch %>% filter(match>.95) %>% tally(),
       pmatch %>% filter(match==1) %>% tally()
     )
     
