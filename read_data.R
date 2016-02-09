@@ -31,11 +31,9 @@ readData <- function(dataFile){
 
 # Testing 
 
-dtaFile <- readData("./survey_data_files/worldvaluessurvey_wave1.dta")
-dim(dtaFile)
-
-savFile <- readData("./pew_data/sav_files/Pew Research Global Attitudes Project Spring 2012 Dataset for web.sav")
-dim(savFile)
-
-csvFile <- readData("./sadat_data/Sadat_2003.csv")
-dim(csvFile)
+# dtaFile <- readData("./survey_data_files/worldvaluessurvey_wave1.dta")
+# dim(dtaFile)
+# savFile <- readData("./pew_data/sav_files/Pew Research Global Attitudes Project Spring 2012 Dataset for web.sav")
+# dim(savFile)
+# csvFile <- readData("./sadat_data/Sadat_2003.csv")
+# dim(csvFile)
