@@ -14,14 +14,11 @@ source("read_data.R")
 # Load survey metadata file
 survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
-# Test set: World Values Surveys, Waves 1-6
+# Testing on pew data sets
 
 data_files <- dir("./pew_data/sav_files", full.names=TRUE)
 
 summaryData <- data.frame()
-
-#df <- "./survey_data_files/worldvaluessurvey_wave5.dta" 
-df <- "./pew_data/sav_files/GAP_2007_Data.sav" 
 
 for (df in data_files){
   
@@ -67,8 +64,8 @@ for (df in data_files){
   # Step 4: Recode missing variables
   
   missing_code <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(missing_code) %>% as.numeric()
-  subData[(data.matrix(subData) - 5) <= missing_code]  <- NA # NOTE: The -5 calculation is a weird but necessary adjustment; it might be a Stata-only issue, though.
-  subData$country <- new_country_var # This is because the -5 calculation above makes Algeria (and potentially other countries) NA
+  if (!is.na(missing_code)) { subData[(data.matrix(subData) - 5) <= missing_code]  <- NA } # NOTE: The -5 calculation is a weird but necessary adjustment; it might be a Stata-only issue, though.
+  subData$country <- rawData$country # Check that this works with WorldValues surveys. It's meant to prevent an override of Algeria as NA
   
   # Step 5: Remove variables than have only one  unique non-missing value & variables with >10% missing data
   
@@ -78,7 +75,7 @@ for (df in data_files){
   countries <- sort(unique(subData$country))
   
   for (c in countries){
-    countryData <- subData %>% filter(country==c)
+    countryData <- subData %>% filter(country==c)  
     
     initial_observations <- nrow(countryData)
     
@@ -111,16 +108,16 @@ for (df in data_files){
                      sumData) 
     
     allData <- allData %>% 
-      dplyr::select(1, 7, 2:6, 8:11) %>% 
-      arrange(country_id)
+      dplyr::select(1, 7, 2:6, 8:11) 
     
     summaryData <- rbind(allData, summaryData)
-    
+    # summaryData <- arrange(dataset, desc(country_id)) # Better sort summary data
   }
   
+ 
   print(paste0(df, " is complete"))
   
 } # Note: this ends loop through ONE data set.  
   
 # Write out summary data file
-write_csv(summaryData, "replication_summary_allWV.csv")
+write_csv(summaryData, "replication_summary_pew.csv")

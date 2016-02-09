@@ -23,7 +23,7 @@ percentmatchR <- function(matrix){
     
     comp <- matrix == matrix[,c]
     
-    pmatch$match[c] <- max(colSums(comp[,-c])/rows)
+    pmatch$match[c] <- max(colSums(comp[,-c], na.rm=TRUE)/rows, na.rm=TRUE)
     
   }
   
