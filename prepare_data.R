@@ -16,24 +16,25 @@ survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
 # Test set: World Values Surveys, Waves 1-6
 
-data_files <- dir("./survey_data_files", full.names=TRUE)
+data_files <- dir("./pew_data/sav_files", full.names=TRUE)
 
 summaryData <- data.frame()
 
-for (df in data_files[1]){
+df <- data_files[1]
+
+for (df in data_files){
   
   rawData <- readData(df) # Calls readData function in read_data.R file
   
   # Step 1: Record initial variable count, dataset name
   
   orig_dat_vars <- ncol(rawData)
-  dataset <- str_extract(df, pattern='[^/]+$')
-  file_for_analysis <- gsub(".dta", "_temp.dta", dataset) # Note: do we need this?
+  dataset <- str_sub(str_extract(df, pattern='[^/]+$'), end = -5) 
   
   # Step 2: Create clean country variable
   
-  old_country_var <- survey_metadata %>% filter(survey==dataset) %>% select(country_var) %>% as.character()
-  country_var <- rawData %>% select(contains(old_country_var)) # Fix this to be exactly filtered for the country_var
+  old_country_var <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(country_var) %>% as.character()
+  country_var <- rawData %>% dplyr::select(contains(old_country_var)) # Fix this to be exactly filtered for the country_var
   country_var[, old_country_var] <- gsub(".", "", country_var[, old_country_var], fixed=TRUE) 
   new_country_var <- country_var[, old_country_var]
   rawData <- new_country_var %>% cbind(rawData)
@@ -42,21 +43,21 @@ for (df in data_files[1]){
   
   # Step 3: Drop unncessary variables (id, demographic, weight, and other metadata variables)
   
-  earlyDropVars <- survey_metadata %>% filter(survey==dataset) %>% select(early_drop_vars) %>% str_split(" ") %>% unlist() %>% as.character()
-  finalDropVar <- survey_metadata %>% filter(survey==dataset) %>% select(final_drop_var) %>% as.character()
+  earlyDropVars <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(early_drop_vars) %>% str_split(" ") %>% unlist() %>% as.character()
+  finalDropVar <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(final_drop_var) %>% as.character()
   dropVars <- c(which(colnames(rawData) %in% earlyDropVars), grep(finalDropVar, names(rawData)):length(names(rawData))) 
-  subData <- rawData %>% select(-dropVars)
+  subData <- rawData %>% dplyr::select(-dropVars)
   substantive_dat_vars <- ncol(subData) # Check that this is right!
   
   # Step 4: Recode missing variables
   
-  missing_code <- survey_metadata %>% filter(survey==dataset) %>% select(missing_code) %>% as.numeric()
+  missing_code <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(missing_code) %>% as.numeric()
   subData[(data.matrix(subData) - 5) <= missing_code]  <- NA # NOTE: The -5 calculation is a weird but necessary adjustment.
   subData$country <- new_country_var # This is because the -5 calculation above makes Algeria (and potentially other countries) NA
   
   # Step 5: Remove variables than have only one  unique non-missing value & variables with >10% missing data
   
-  varsToIgnore <- survey_metadata %>% filter(survey==dataset) %>% select(vars_to_ignore) %>% str_split(" ") %>% unlist() %>% as.character()
+  varsToIgnore <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(vars_to_ignore) %>% str_split(" ") %>% unlist() %>% as.character()
   varsToInspect <- setdiff(names(subData), varsToIgnore) 
   
   countries <- sort(unique(subData$country))
@@ -80,7 +81,7 @@ for (df in data_files[1]){
     final_observations <- nrow(countryData)
     
   # Step 7: Send data to percentmatch algorithm
-    pmatch <- percentmatchR(countryData)
+    pmatch <- percentmatchR(countryData) # Calls percentmatchR function in percentmatch.R file
     
   # Write summary data to file, after adding other metadata and cleaning 
     
@@ -95,7 +96,7 @@ for (df in data_files[1]){
                      sumData) 
     
     allData <- allData %>% 
-      select(1, 7, 2:6, 8:11) %>% 
+      dplyr::select(1, 7, 2:6, 8:11) %>% 
       arrange(country_id)
     
     summaryData <- rbind(allData, summaryData)
