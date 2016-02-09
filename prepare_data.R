@@ -9,6 +9,7 @@ require(dplyr)
 require(stringr)
 
 source("percentmatch.R")
+source("read_data.R")
 
 # Load survey metadata file
 survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
@@ -17,10 +18,11 @@ survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
 data_files <- dir("./survey_data_files", full.names=TRUE)
 
+summaryData <- data.frame()
 
-for (df in data_files){
+for (df in data_files[1]){
   
-  rawData <- read.dta(file = df) 
+  rawData <- readData(df) # Calls readData function in read_data.R file
   
   # Step 1: Record initial variable count, dataset name
   
@@ -59,8 +61,6 @@ for (df in data_files){
   
   countries <- sort(unique(subData$country))
   
-  summaryData <- data.frame()
-  
   for (c in countries){
     countryData <- subData %>% filter(country==c)
     
@@ -96,16 +96,15 @@ for (df in data_files){
     
     allData <- allData %>% 
       select(1, 7, 2:6, 8:11) %>% 
-      arrange(desc(country_id))
+      arrange(country_id)
     
     summaryData <- rbind(allData, summaryData)
     
   }
   
-  # This is incomplete because I should add a `dataset` column
-  write_csv(summaryData %>% arrange(desc(country_id)), "replication_summary.csv")
-  
   print(paste0(df, " is complete"))
   
 } # Note: this ends loop through ONE data set.  
   
+# Write out summary data file
+write_csv(summaryData, "replication_summary_allWV.csv")

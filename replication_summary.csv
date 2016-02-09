@@ -1,11 +1,54 @@
-"dataset","initial_observations","final_observations","orig_dat_vars","substantive_dat_vars","final_variables","country_id","dup_observations_at_85","dup_observations_at_90","dup_observations_at_95","dup_observations_at_100"
-"worldvaluessurvey_wave1.dta",1005,1005,136,111,111,"Argentina",48,19,14,0
-"worldvaluessurvey_wave1.dta",1228,1228,136,111,98,"Australia",0,0,0,0
-"worldvaluessurvey_wave1.dta",1003,1003,136,111,90,"Finland",2,0,0,0
-"worldvaluessurvey_wave1.dta",1464,1464,136,111,86,"Hungary",4,4,4,0
-"worldvaluessurvey_wave1.dta",1204,1204,136,111,111,"Japan",195,195,195,195
-"worldvaluessurvey_wave1.dta",1837,1837,136,111,110,"Mexico",32,20,4,0
-"worldvaluessurvey_wave1.dta",1596,1596,136,111,111,"South Africa",29,15,6,0
-"worldvaluessurvey_wave1.dta",970,970,136,111,107,"South Korea",12,2,2,2
-"worldvaluessurvey_wave1.dta",954,954,136,111,111,"Sweden",0,0,0,0
-"worldvaluessurvey_wave1.dta",2325,2325,136,111,109,"United States",530,528,528,528
+"dataset","country_id","initial_observations","final_observations","orig_dat_vars","substantive_dat_vars","final_variables","dup_observations_at_85","dup_observations_at_90","dup_observations_at_95","dup_observations_at_100"
+"worldvaluessurvey_wave3.dta","Albania",999,999,281,236,206,301,200,94,0
+"worldvaluessurvey_wave3.dta","Argentina",1079,1079,281,236,206,0,0,0,0
+"worldvaluessurvey_wave3.dta","Armenia",2000,2000,281,236,208,465,404,232,12
+"worldvaluessurvey_wave3.dta","Australia",2048,2048,281,236,207,0,0,0,0
+"worldvaluessurvey_wave3.dta","Azerbaijan",2002,2002,281,236,208,125,39,6,2
+"worldvaluessurvey_wave3.dta","Bangladesh",1525,1525,281,236,197,143,85,44,2
+"worldvaluessurvey_wave3.dta","Belarus",2092,2092,281,236,208,157,91,30,14
+"worldvaluessurvey_wave3.dta","Bosnia",800,800,281,236,207,64,50,24,0
+"worldvaluessurvey_wave3.dta","Bulgaria",1072,1072,281,236,208,23,13,7,5
+"worldvaluessurvey_wave3.dta","Chile",1000,1000,281,236,169,20,6,2,0
+"worldvaluessurvey_wave3.dta","China",1500,1500,281,236,207,14,6,2,0
+"worldvaluessurvey_wave3.dta","Colombia",6025,6025,281,236,46,0,0,0,0
+"worldvaluessurvey_wave3.dta","Croatia",1196,1196,281,236,169,0,0,0,0
+"worldvaluessurvey_wave3.dta","Czech Rep",1147,1147,281,236,169,2,2,0,0
+"worldvaluessurvey_wave3.dta","Dominican Rep",417,417,281,236,206,9,8,6,0
+"worldvaluessurvey_wave3.dta","El Salvador",1254,1254,281,236,151,0,0,0,0
+"worldvaluessurvey_wave3.dta","Estonia",1021,1021,281,236,208,2,0,0,0
+"worldvaluessurvey_wave3.dta","Finland",987,987,281,236,207,0,0,0,0
+"worldvaluessurvey_wave3.dta","Georgia",2008,2008,281,236,208,14,0,0,0
+"worldvaluessurvey_wave3.dta","Germany",2026,2026,281,236,207,10,4,2,2
+"worldvaluessurvey_wave3.dta","Great Britain",1093,1093,281,236,40,0,0,0,0
+"worldvaluessurvey_wave3.dta","Hungary",650,650,281,236,207,0,0,0,0
+"worldvaluessurvey_wave3.dta","India",2040,2040,281,236,208,254,83,40,0
+"worldvaluessurvey_wave3.dta","Latvia",1200,1200,281,236,207,18,4,0,0
+"worldvaluessurvey_wave3.dta","Lithuania",1009,1009,281,236,207,2,0,0,0
+"worldvaluessurvey_wave3.dta","Macedonia",995,995,281,236,207,24,10,2,0
+"worldvaluessurvey_wave3.dta","Mexico",2364,2364,281,236,209,0,0,0,0
+"worldvaluessurvey_wave3.dta","Moldova",984,984,281,236,205,68,43,6,0
+"worldvaluessurvey_wave3.dta","Montenegro",240,240,281,236,208,0,0,0,0
+"worldvaluessurvey_wave3.dta","New Zealand",1201,1201,281,236,203,0,0,0,0
+"worldvaluessurvey_wave3.dta","Nigeria",1996,1996,281,236,205,77,36,10,0
+"worldvaluessurvey_wave3.dta","Norway",1127,1127,281,236,202,2,0,0,0
+"worldvaluessurvey_wave3.dta","Pakistan",733,733,281,236,68,49,14,4,0
+"worldvaluessurvey_wave3.dta","Peru",1211,1211,281,236,208,17,6,0,0
+"worldvaluessurvey_wave3.dta","Philippines",1200,1200,281,236,206,0,0,0,0
+"worldvaluessurvey_wave3.dta","Poland",1153,1153,281,236,163,0,0,0,0
+"worldvaluessurvey_wave3.dta","Puerto Rico",1164,1164,281,236,208,0,0,0,0
+"worldvaluessurvey_wave3.dta","Romania",1239,1239,281,236,208,163,137,101,14
+"worldvaluessurvey_wave3.dta","Russia",2040,2040,281,236,208,17,7,2,0
+"worldvaluessurvey_wave3.dta","Serbia",1280,1280,281,236,208,4,2,0,0
+"worldvaluessurvey_wave3.dta","Slovakia",1095,1095,281,236,207,2,0,0,0
+"worldvaluessurvey_wave3.dta","Slovenia",1007,1007,281,236,208,6,6,6,6
+"worldvaluessurvey_wave3.dta","South Africa",2935,2935,281,236,199,34,12,4,0
+"worldvaluessurvey_wave3.dta","South Korea",1249,1249,281,236,155,2,2,0,0
+"worldvaluessurvey_wave3.dta","Spain",1211,1211,281,236,208,4,2,0,0
+"worldvaluessurvey_wave3.dta","Sweden",1009,1009,281,236,208,0,0,0,0
+"worldvaluessurvey_wave3.dta","Switzerland",1212,1212,281,236,187,4,2,0,0
+"worldvaluessurvey_wave3.dta","Taiwan",780,780,281,236,205,0,0,0,0
+"worldvaluessurvey_wave3.dta","Turkey",1907,1907,281,236,187,0,0,0,0
+"worldvaluessurvey_wave3.dta","Ukraine",2811,2811,281,236,206,75,48,22,2
+"worldvaluessurvey_wave3.dta","United States",1542,1542,281,236,207,27,13,0,0
+"worldvaluessurvey_wave3.dta","Uruguay",1000,1000,281,236,208,3,0,0,0
+"worldvaluessurvey_wave3.dta","Venezuela",1200,1200,281,236,207,29,15,4,0
