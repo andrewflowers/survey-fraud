@@ -1,4 +1,73 @@
 "dataset","country_id","initial_observations","final_observations","orig_dat_vars","substantive_dat_vars","final_variables","dup_observations_at_85","dup_observations_at_90","dup_observations_at_95","dup_observations_at_100"
+"Pew GAP final 44 country dataset 1.1sav","Vietnam",772,772,399,187,100,2,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Venezuela",700,700,399,187,127,15,5,0,0
+"Pew GAP final 44 country dataset 1.1sav","Uzbekistan",700,700,399,187,133,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","US",1501,1501,399,187,130,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Ukraine",500,500,399,187,134,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Uganda",1008,1008,399,187,128,5,4,0,0
+"Pew GAP final 44 country dataset 1.1sav","Turkey",1005,1005,399,187,142,37,12,10,0
+"Pew GAP final 44 country dataset 1.1sav","Tanzania",720,720,399,187,128,16,12,2,0
+"Pew GAP final 44 country dataset 1.1sav","South Korea",719,719,399,187,126,2,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","South Africa",700,700,399,187,130,2,2,0,0
+"Pew GAP final 44 country dataset 1.1sav","Slovak Republic",500,500,399,187,136,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Senegal",710,710,399,187,140,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Russia",1002,1002,399,187,135,4,4,0,0
+"Pew GAP final 44 country dataset 1.1sav","Poland",500,500,399,187,134,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Philippines",700,700,399,187,130,4,2,2,0
+"Pew GAP final 44 country dataset 1.1sav","Peru",711,711,399,187,126,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Pakistan",2032,2032,399,187,140,19,2,0,0
+"Pew GAP final 44 country dataset 1.1sav","Nigeria",1000,1000,399,187,137,142,80,37,0
+"Pew GAP final 44 country dataset 1.1sav","Mexico",996,996,399,187,126,10,2,0,0
+"Pew GAP final 44 country dataset 1.1sav","Mali",697,697,399,187,142,35,23,0,0
+"Pew GAP final 44 country dataset 1.1sav","Lebanon",1000,1000,399,187,131,47,24,5,0
+"Pew GAP final 44 country dataset 1.1sav","Kenya",658,658,399,187,131,6,6,6,0
+"Pew GAP final 44 country dataset 1.1sav","Jordan",1000,1000,399,187,134,449,386,248,0
+"Pew GAP final 44 country dataset 1.1sav","Japan",702,702,399,187,112,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Ivory Coast",708,708,399,187,133,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Italy",508,508,399,187,110,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Indonesia",1017,1017,399,187,142,14,4,4,0
+"Pew GAP final 44 country dataset 1.1sav","India",2189,2189,399,187,127,36,2,2,0
+"Pew GAP final 44 country dataset 1.1sav","Honduras",506,506,399,187,127,7,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Guatemala",500,500,399,187,129,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Great Britain",501,501,399,187,113,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Ghana",702,702,399,187,130,73,61,28,0
+"Pew GAP final 44 country dataset 1.1sav","Germany",1000,1000,399,187,128,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","France",507,507,399,187,115,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Egypt",1013,1013,399,187,76,161,133,82,0
+"Pew GAP final 44 country dataset 1.1sav","Czech Republic",500,500,399,187,135,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","China",3000,3000,399,187,75,34,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Canada",500,500,399,187,113,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Bulgaria",514,514,399,187,132,10,4,0,0
+"Pew GAP final 44 country dataset 1.1sav","Brazil",1000,1000,399,187,128,2,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Bolivia",782,782,399,187,128,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Bangladesh",689,689,399,187,129,4,4,0,0
+"Pew GAP final 44 country dataset 1.1sav","Argentina",814,814,399,187,127,0,0,0,0
+"Pew GAP final 44 country dataset 1.1sav","Angola",780,780,399,187,126,20,2,0,0
+"Pew Gap 2009 Data","United States",1000,1000,471,211,69,0,0,0,0
+"Pew Gap 2009 Data","Turkey",1005,1005,471,211,89,41,8,2,0
+"Pew Gap 2009 Data","Spain",750,750,471,211,71,0,0,0,0
+"Pew Gap 2009 Data","South Korea",702,702,471,211,71,4,0,0,0
+"Pew Gap 2009 Data","Russia",1001,1001,471,211,72,24,8,6,0
+"Pew Gap 2009 Data","Poland",750,750,471,211,70,2,0,0,0
+"Pew Gap 2009 Data","Palestinian Territories",1204,1204,471,211,89,16,6,4,4
+"Pew Gap 2009 Data","Pakistan",1254,1254,471,211,132,27,4,0,0
+"Pew Gap 2009 Data","Nigeria",1000,1000,471,211,81,229,188,148,6
+"Pew Gap 2009 Data","Mexico",1000,1000,471,211,106,64,54,28,4
+"Pew Gap 2009 Data","Lebanon",1000,1000,471,211,84,320,178,14,0
+"Pew Gap 2009 Data","Kenya",1002,1002,471,211,70,27,9,6,0
+"Pew Gap 2009 Data","Jordan",1000,1000,471,211,89,12,2,0,0
+"Pew Gap 2009 Data","Japan",700,700,471,211,72,0,0,0,0
+"Pew Gap 2009 Data","Israel",1201,1201,471,211,78,37,22,4,0
+"Pew Gap 2009 Data","Indonesia",1000,1000,471,211,90,12,4,2,0
+"Pew Gap 2009 Data","India",2038,2038,471,211,72,214,98,14,2
+"Pew Gap 2009 Data","Great Britain",754,754,471,211,72,0,0,0,0
+"Pew Gap 2009 Data","Germany",751,751,471,211,72,0,0,0,0
+"Pew Gap 2009 Data","France",753,753,471,211,71,0,0,0,0
+"Pew Gap 2009 Data","Egypt",1000,1000,471,211,89,6,2,0,0
+"Pew Gap 2009 Data","China",3169,3169,471,211,64,244,125,69,4
+"Pew Gap 2009 Data","Canada",750,750,471,211,70,0,0,0,0
+"Pew Gap 2009 Data","Brazil",813,813,471,211,70,0,0,0,0
+"Pew Gap 2009 Data","Argentina",800,800,471,211,70,0,0,0,0
 "GAP_2008_Dataset_release","United States",1000,1000,380,174,57,0,0,0,0
 "GAP_2008_Dataset_release","Turkey",1003,1003,380,174,74,48,14,6,0
 "GAP_2008_Dataset_release","Tanzania",704,704,380,174,66,6,2,2,0
