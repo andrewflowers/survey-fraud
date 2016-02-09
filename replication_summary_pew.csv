@@ -1,0 +1,80 @@
+"dataset","country_id","initial_observations","final_observations","orig_dat_vars","substantive_dat_vars","final_variables","dup_observations_at_85","dup_observations_at_90","dup_observations_at_95","dup_observations_at_100"
+"GAP_2008_Dataset_release","United States",1000,1000,380,174,57,0,0,0,0
+"GAP_2008_Dataset_release","Turkey",1003,1003,380,174,74,48,14,6,0
+"GAP_2008_Dataset_release","Tanzania",704,704,380,174,66,6,2,2,0
+"GAP_2008_Dataset_release","Spain",752,752,380,174,59,0,0,0,0
+"GAP_2008_Dataset_release","South Korea",714,714,380,174,62,0,0,0,0
+"GAP_2008_Dataset_release","South Africa",1001,1001,380,174,58,15,4,4,0
+"GAP_2008_Dataset_release","Russia",1000,1000,380,174,60,94,85,63,8
+"GAP_2008_Dataset_release","Poland",750,750,380,174,59,0,0,0,0
+"GAP_2008_Dataset_release","Pakistan",1254,1254,380,174,79,92,26,5,0
+"GAP_2008_Dataset_release","Nigeria",1000,1000,380,174,66,92,37,4,0
+"GAP_2008_Dataset_release","Mexico",805,805,380,174,59,8,8,4,4
+"GAP_2008_Dataset_release","Lebanon",1000,1000,380,174,68,215,128,21,0
+"GAP_2008_Dataset_release","Jordan",1000,1000,380,174,75,4,2,0,0
+"GAP_2008_Dataset_release","Japan",708,708,380,174,63,0,0,0,0
+"GAP_2008_Dataset_release","Indonesia",1000,1000,380,174,74,14,2,2,0
+"GAP_2008_Dataset_release","India",2056,2056,380,174,58,21,8,2,2
+"GAP_2008_Dataset_release","Great Britain",753,753,380,174,60,0,0,0,0
+"GAP_2008_Dataset_release","Germany",750,750,380,174,61,0,0,0,0
+"GAP_2008_Dataset_release","France",754,754,380,174,60,0,0,0,0
+"GAP_2008_Dataset_release","Egypt",1000,1000,380,174,75,22,9,0,0
+"GAP_2008_Dataset_release","China",3212,3212,380,174,97,118,58,14,2
+"GAP_2008_Dataset_release","Brazil",1000,1000,380,174,59,0,0,0,0
+"GAP_2008_Dataset_release","Australia",700,700,380,174,60,0,0,0,0
+"GAP_2008_Dataset_release","Argentina",801,801,380,174,59,2,0,0,0
+"GAP_2007_Data","Venezuela",803,803,961,582,151,0,0,0,0
+"GAP_2007_Data","United States_ballot_b",1008,1008,961,582,77,0,0,0,0
+"GAP_2007_Data","United States_ballot_a",1018,1018,961,582,61,0,0,0,0
+"GAP_2007_Data","Ukraine",500,500,961,582,141,10,6,2,0
+"GAP_2007_Data","Uganda",1122,1122,961,582,148,77,46,40,12
+"GAP_2007_Data","Turkey",971,971,961,582,151,23,10,2,0
+"GAP_2007_Data","Tanzania",704,704,961,582,154,0,0,0,0
+"GAP_2007_Data","Sweden_ballot_b",500,500,961,582,72,0,0,0,0
+"GAP_2007_Data","Sweden_ballot_a",500,500,961,582,57,0,0,0,0
+"GAP_2007_Data","Spain",500,500,961,582,109,0,0,0,0
+"GAP_2007_Data","South Korea",718,718,961,582,108,2,0,0,0
+"GAP_2007_Data","South Africa",1000,1000,961,582,158,4,0,0,0
+"GAP_2007_Data","Slovakia_ballot_b",450,450,961,582,89,0,0,0,0
+"GAP_2007_Data","Slovakia_ballot_a",450,450,961,582,72,0,0,0,0
+"GAP_2007_Data","Senegal",700,700,961,582,157,2,2,2,0
+"GAP_2007_Data","Russia",1002,1002,961,582,140,35,20,13,2
+"GAP_2007_Data","Poland",504,504,961,582,144,2,2,2,0
+"GAP_2007_Data","Peru",800,800,961,582,146,0,0,0,0
+"GAP_2007_Data","Palestinian Territories",808,808,961,582,150,19,11,4,0
+"GAP_2007_Data","Pakistan",2008,2008,961,582,146,122,47,14,0
+"GAP_2007_Data","Nigeria",1128,1128,961,582,160,186,140,76,0
+"GAP_2007_Data","Morocco",1000,1000,961,582,142,26,2,0,0
+"GAP_2007_Data","Mexico",828,828,961,582,146,30,16,14,2
+"GAP_2007_Data","Mali",700,700,961,582,153,2,2,0,0
+"GAP_2007_Data","Malaysia",700,700,961,582,146,25,2,2,0
+"GAP_2007_Data","Lebanon",1000,1000,961,582,146,232,146,57,0
+"GAP_2007_Data","Kuwait",500,500,961,582,148,0,0,0,0
+"GAP_2007_Data","Kenya",1000,1000,961,582,148,33,24,11,0
+"GAP_2007_Data","Jordan",1000,1000,961,582,149,137,98,29,0
+"GAP_2007_Data","Japan",762,762,961,582,111,0,0,0,0
+"GAP_2007_Data","Ivory Coast",700,700,961,582,156,0,0,0,0
+"GAP_2007_Data","Italy",501,501,961,582,112,5,0,0,0
+"GAP_2007_Data","Israel",900,900,961,582,110,0,0,0,0
+"GAP_2007_Data","Indonesia",1008,1008,961,582,152,10,7,0,0
+"GAP_2007_Data","India",2043,2043,961,582,137,167,131,49,0
+"GAP_2007_Data","Great Britain_ballot_b",500,500,961,582,72,0,0,0,0
+"GAP_2007_Data","Great Britain_ballot_a",502,502,961,582,57,0,0,0,0
+"GAP_2007_Data","Ghana",707,707,961,582,148,41,20,10,6
+"GAP_2007_Data","Germany_ballot_b",500,500,961,582,69,0,0,0,0
+"GAP_2007_Data","Germany_ballot_a",500,500,961,582,57,0,0,0,0
+"GAP_2007_Data","France_ballot_b",502,502,961,582,73,0,0,0,0
+"GAP_2007_Data","France_ballot_a",502,502,961,582,57,0,0,0,0
+"GAP_2007_Data","Ethiopia",710,710,961,582,154,81,73,47,7
+"GAP_2007_Data","Egypt",1000,1000,961,582,150,130,94,45,0
+"GAP_2007_Data","Czech Republic_ballot_b",450,450,961,582,89,0,0,0,0
+"GAP_2007_Data","Czech Republic_ballot_a",450,450,961,582,72,0,0,0,0
+"GAP_2007_Data","China",3142,3142,961,582,118,92,37,13,2
+"GAP_2007_Data","Chile",800,800,961,582,153,11,6,0,0
+"GAP_2007_Data","Canada_ballot_b",503,503,961,582,69,0,0,0,0
+"GAP_2007_Data","Canada_ballot_a",501,501,961,582,56,0,0,0,0
+"GAP_2007_Data","Bulgaria",500,500,961,582,140,4,2,0,0
+"GAP_2007_Data","Brazil",1000,1000,961,582,146,4,0,0,0
+"GAP_2007_Data","Bolivia",834,834,961,582,146,11,10,4,0
+"GAP_2007_Data","Bangladesh",1000,1000,961,582,148,3,0,0,0
+"GAP_2007_Data","Argentina",800,800,961,582,151,10,6,4,0
