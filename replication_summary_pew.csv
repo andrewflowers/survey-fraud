@@ -1,4 +1,110 @@
 "dataset","country_id","initial_observations","final_observations","orig_dat_vars","substantive_dat_vars","final_variables","dup_observations_at_85","dup_observations_at_90","dup_observations_at_95","dup_observations_at_100"
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Venezuela",1000,1000,761,405,94,28,6,2,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","United States",1002,1002,761,405,64,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Uganda",800,800,761,405,105,33,11,4,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Turkey",1000,1000,761,405,99,12,6,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Tunisia",1000,1000,761,405,124,4,2,2,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Spain",1000,1000,761,405,76,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","South Korea",809,809,761,405,66,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","South Africa",815,815,761,405,116,21,4,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Senegal",800,800,761,405,115,104,18,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Russia",996,996,761,405,76,67,32,6,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Poland",800,800,761,405,75,2,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Philippines",804,804,761,405,70,7,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Palestinian territories",810,810,761,405,87,29,7,2,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Pakistan",1201,1201,761,405,134,163,44,16,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Nigeria",1031,1031,761,405,119,58,7,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Mexico",1000,1000,761,405,132,15,12,6,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Malaysia",822,822,761,405,86,71,5,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Lebanon",1000,1000,761,405,86,523,336,92,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Kenya",798,798,761,405,110,26,10,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Jordan",1000,1000,761,405,95,2,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Japan",700,700,761,405,67,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Italy",1105,1105,761,405,76,32,8,2,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Israel",922,922,761,405,71,20,12,2,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Indonesia",1000,1000,761,405,82,108,57,9,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Greece",1000,1000,761,405,73,8,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Ghana",799,799,761,405,105,19,2,2,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Germany",1025,1025,761,405,81,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","France",1004,1004,761,405,82,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","El Salvador",792,792,761,405,117,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Egypt",1000,1000,761,405,144,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Czech Republic",700,700,761,405,72,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","China",3226,3226,761,405,89,59,12,2,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Chile",800,800,761,405,94,27,8,4,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Canada",701,701,761,405,57,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Britain",1012,1012,761,405,79,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Brazil",960,960,761,405,97,11,7,4,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Bolivia",800,800,761,405,94,2,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Australia",800,800,761,405,63,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2013 Dataset for web","Argentina",819,819,761,405,97,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","United States",1011,1011,639,516,70,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Turkey",1001,1001,639,516,101,15,0,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Tunisia",1000,1000,639,516,133,2,0,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Spain",1000,1000,639,516,98,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Russia",1000,1000,639,516,100,24,6,2,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Poland",1001,1001,639,516,89,3,0,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Pakistan",1206,1206,639,516,157,40,18,7,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Mexico",1200,1200,639,516,92,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Lebanon",1000,1000,639,516,97,173,67,10,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Jordan",1000,1000,639,516,108,61,13,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Japan",700,700,639,516,82,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Italy",1074,1074,639,516,100,5,3,2,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","India",4018,4018,639,516,94,384,185,31,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Greece",1000,1000,639,516,91,2,0,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Germany",1000,1000,639,516,95,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","France",1004,1004,639,516,93,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Egypt",1000,1000,639,516,133,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Czech Republic",1000,1000,639,516,96,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","China",3177,3177,639,516,96,72,26,12,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Britain",1018,1018,639,516,86,0,0,0,0
+"Pew Research Global Attitudes Project Spring 2012 Dataset for web","Brazil",800,800,639,516,59,2,0,0,0
+"Pew Global Attitudes Spring 2011 Dataset for web","US",1001,1001,617,361,64,0,0,0,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Ukraine",1000,1000,617,361,89,6,2,0,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Turkey",1000,1000,617,361,95,42,10,4,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Spain",1000,1000,617,361,73,0,0,0,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Russia",1000,1000,617,361,94,88,66,21,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Poland",750,750,617,361,64,10,8,8,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Palestinian Territories",825,825,617,361,86,116,71,34,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Pakistan refield",1251,1251,617,361,150,69,33,4,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Pakistan",1970,1970,617,361,144,168,91,30,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Mexico",800,800,617,361,90,9,5,5,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Lithuania",750,750,617,361,93,4,0,0,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Lebanon",1000,1000,617,361,86,143,16,0,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Kenya",1002,1002,617,361,59,15,2,0,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Jordan",1000,1000,617,361,97,238,166,112,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Japan",700,700,617,361,73,0,0,0,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Israel",907,907,617,361,78,6,4,2,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Indonesia",1000,1000,617,361,89,35,9,0,0
+"Pew Global Attitudes Spring 2011 Dataset for web","India",4029,4029,617,361,112,617,325,163,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Germany",1001,1001,617,361,70,0,0,0,0
+"Pew Global Attitudes Spring 2011 Dataset for web","France",1004,1004,617,361,69,0,0,0,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Egypt",1000,1000,617,361,108,311,227,123,0
+"Pew Global Attitudes Spring 2011 Dataset for web","China",3308,3308,617,361,59,235,45,4,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Britain",1000,1000,617,361,69,0,0,0,0
+"Pew Global Attitudes Spring 2011 Dataset for web","Brazil",802,802,617,361,58,2,0,0,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","US",1002,1002,471,258,74,0,0,0,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Turkey",1003,1003,471,258,100,9,2,2,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Spain",755,755,471,258,77,0,0,0,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","South Korea",706,706,471,258,73,0,0,0,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Russia",1001,1001,471,258,75,38,16,6,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Poland",750,750,471,258,73,7,0,0,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Pakistan",2000,2000,471,258,146,121,38,22,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Nigeria",1000,1000,471,258,83,28,21,12,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Mexico",1300,1300,471,258,77,2,2,2,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Lebanon",1000,1000,471,258,84,72,14,2,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Kenya",1002,1002,471,258,69,17,5,4,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Jordan",1000,1000,471,258,96,44,22,4,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Japan",700,700,471,258,71,0,0,0,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Indonesia",1000,1000,471,258,85,20,13,4,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","India",2254,2254,471,258,109,215,97,67,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Germany",750,750,471,258,78,0,0,0,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","France",752,752,471,258,78,0,0,0,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Egypt",1000,1000,471,258,96,84,73,32,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","China",3262,3262,471,258,69,89,23,4,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Britain",750,750,471,258,77,0,0,0,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Brazil",1000,1000,471,258,91,0,0,0,0
+"Pew Global Attitudes Spring 2010 Dataset For Release","Argentina",803,803,471,258,70,0,0,0,0
 "Pew GAP final 44 country dataset 1.1sav","Vietnam",772,772,399,187,100,2,0,0,0
 "Pew GAP final 44 country dataset 1.1sav","Venezuela",700,700,399,187,127,15,5,0,0
 "Pew GAP final 44 country dataset 1.1sav","Uzbekistan",700,700,399,187,133,0,0,0,0
