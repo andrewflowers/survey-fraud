@@ -16,13 +16,13 @@ survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
 # Testing on pew data sets
 
-data_files <- dir("./pew_data/sav_files", full.names=TRUE)
+data_files <- dir("./sadat_data", full.names=TRUE)
 
 summaryData <- data.frame()
 
 for (df in data_files){
   
-  rawData <- readData(df) # Calls readData function in read_data.R file
+  rawData <- readData(data_files[2]) # Calls readData function in read_data.R file
   
   # Step 1: Record initial variable count, dataset name
   
@@ -57,7 +57,9 @@ for (df in data_files){
   
   earlyDropVars <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(early_drop_vars) %>% str_split(" ") %>% unlist() %>% as.character()
   finalDropVar <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(final_drop_var) %>% as.character()
-  dropVars <- c(which(colnames(rawData) %in% earlyDropVars), grep(finalDropVar, names(rawData)):length(names(rawData))) 
+  dropVars <- ifelse(!is.na(finalDropVar), 
+                     c(which(colnames(rawData) %in% earlyDropVars), grep(finalDropVar, names(rawData)):length(names(rawData))),
+                       which(colnames(rawData) %in% earlyDropVars))
   subData <- rawData %>% dplyr::select(-dropVars)
   substantive_dat_vars <- ncol(subData) # Check that this is right!
   
@@ -120,4 +122,4 @@ for (df in data_files){
 } # Note: this ends loop through ONE data set.  
   
 # Write out summary data file
-write_csv(summaryData, "replication_summary_pew.csv")
+write_csv(summaryData, "replication_summary_sadat.csv")
