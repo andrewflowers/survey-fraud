@@ -3,26 +3,28 @@
 
 setwd("~/survey-fraud/")
 
-require(foreign)
-require(readr)
-require(dplyr)
-require(stringr)
-
 source("percentmatch.R")
 source("read_data.R")
+
+require(foreign)
+require(readr)
+require(stringr)
+require(dplyr)
 
 # Load survey metadata file
 survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
 # Testing on pew data sets
 
-data_files <- dir("./sadat_data", full.names=TRUE)
+data_files <- dir("./barometer-data", full.names=TRUE)
 
 summaryData <- data.frame()
 
 for (df in data_files){
   
-  rawData <- readData(data_files[2]) # Calls readData function in read_data.R file
+  df <- data_files[1] # For manual inspection
+  
+  rawData <- readData(df) # Calls readData function in read_data.R file
   
   # Step 1: Record initial variable count, dataset name
   
