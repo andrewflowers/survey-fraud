@@ -1,0 +1,95 @@
+"dataset","country_id","initial_observations","final_observations","orig_dat_vars","substantive_dat_vars","final_variables","dup_observations_at_85","dup_observations_at_90","dup_observations_at_95","dup_observations_at_100"
+"Latinobarometro_2012","Venezuela",1200,1200,336,248,229,24,0,0,0
+"Latinobarometro_2012","Uruguay",1200,1200,336,248,237,4,2,2,0
+"Latinobarometro_2012","Spain",2459,2459,336,248,121,82,4,0,0
+"Latinobarometro_2012","Peru",1200,1200,336,248,229,6,6,4,0
+"Latinobarometro_2012","Paraguay",1200,1200,336,248,229,144,117,52,0
+"Latinobarometro_2012","Panama",1000,1000,336,248,226,0,0,0,0
+"Latinobarometro_2012","Nicaragua",1000,1000,336,248,228,13,12,2,0
+"Latinobarometro_2012","Mexico",1200,1200,336,248,230,4,4,2,0
+"Latinobarometro_2012","Honduras",1000,1000,336,248,230,6,2,0,0
+"Latinobarometro_2012","Guatemala",1000,1000,336,248,229,2,0,0,0
+"Latinobarometro_2012","El Salvador",1000,1000,336,248,230,20,0,0,0
+"Latinobarometro_2012","Ecuador",1200,1200,336,248,229,12,5,4,0
+"Latinobarometro_2012","Dominican Rep",1000,1000,336,248,229,0,0,0,0
+"Latinobarometro_2012","Costa Rica",1000,1000,336,248,230,2,0,0,0
+"Latinobarometro_2012","Colombia",1200,1200,336,248,232,2,0,0,0
+"Latinobarometro_2012","Chile",1200,1200,336,248,230,23,18,16,8
+"Latinobarometro_2012","Brazil",1204,1204,336,248,229,2,2,0,0
+"Latinobarometro_2012","Bolivia",1200,1200,336,248,229,2,0,0,0
+"Latinobarometro_2012","Argentina",1200,1200,336,248,235,0,0,0,0
+"Latinobarometro_2011","Venezuela",1200,1200,414,292,289,92,60,16,0
+"Latinobarometro_2011","Uruguay",1200,1200,414,292,287,5,2,2,0
+"Latinobarometro_2011","Peru",1200,1200,414,292,290,18,8,0,0
+"Latinobarometro_2011","Paraguay",1200,1200,414,292,290,97,66,25,0
+"Latinobarometro_2011","Panama",1000,1000,414,292,288,12,0,0,0
+"Latinobarometro_2011","Nicaragua",1000,1000,414,292,287,0,0,0,0
+"Latinobarometro_2011","Mexico",1200,1200,414,292,290,7,6,0,0
+"Latinobarometro_2011","Honduras",1000,1000,414,292,288,8,4,2,0
+"Latinobarometro_2011","Guatemala",1000,1000,414,292,288,0,0,0,0
+"Latinobarometro_2011","El Salvador",1000,1000,414,292,287,0,0,0,0
+"Latinobarometro_2011","Ecuador",1200,1200,414,292,290,40,33,14,2
+"Latinobarometro_2011","Dominican Rep",1000,1000,414,292,289,41,24,8,2
+"Latinobarometro_2011","Costa Rica",1000,1000,414,292,285,0,0,0,0
+"Latinobarometro_2011","Colombia",1200,1200,414,292,286,0,0,0,0
+"Latinobarometro_2011","Chile",1200,1200,414,292,289,102,79,57,0
+"Latinobarometro_2011","Brazil",1204,1204,414,292,288,4,0,0,0
+"Latinobarometro_2011","Bolivia",1200,1200,414,292,289,12,11,11,0
+"Latinobarometro_2011","Argentina",1200,1200,414,292,289,20,20,16,0
+"Latinobarometro_2010","Venezuela",1200,1200,394,272,265,97,77,39,0
+"Latinobarometro_2010","Uruguay",1200,1200,394,272,267,8,6,0,0
+"Latinobarometro_2010","Spain",2483,2483,394,272,126,5,0,0,0
+"Latinobarometro_2010","Peru",1200,1200,394,272,268,4,0,0,0
+"Latinobarometro_2010","Paraguay",1200,1200,394,272,270,0,0,0,0
+"Latinobarometro_2010","Panama",1000,1000,394,272,267,5,0,0,0
+"Latinobarometro_2010","Nicaragua",1000,1000,394,272,268,2,0,0,0
+"Latinobarometro_2010","Mexico",1200,1200,394,272,270,17,6,0,0
+"Latinobarometro_2010","Honduras",1000,1000,394,272,266,8,2,2,0
+"Latinobarometro_2010","Guatemala",1000,1000,394,272,268,2,0,0,0
+"Latinobarometro_2010","El Salvador",1000,1000,394,272,268,4,0,0,0
+"Latinobarometro_2010","Ecuador",1200,1200,394,272,270,51,16,2,0
+"Latinobarometro_2010","Dominican Rep",1000,1000,394,272,268,10,4,0,0
+"Latinobarometro_2010","Costa Rica",1000,1000,394,272,264,0,0,0,0
+"Latinobarometro_2010","Colombia",1200,1200,394,272,269,0,0,0,0
+"Latinobarometro_2010","Chile",1200,1200,394,272,270,119,73,23,0
+"Latinobarometro_2010","Brazil",1204,1204,394,272,269,14,4,2,0
+"Latinobarometro_2010","Bolivia",1200,1200,394,272,269,13,13,0,0
+"Latinobarometro_2010","Argentina",1200,1200,394,272,269,10,4,2,0
+"Latinobarometro_2009","Venezuela",1200,1200,368,252,243,19,6,2,0
+"Latinobarometro_2009","Uruguay",1200,1200,368,252,242,2,0,0,0
+"Latinobarometro_2009","Spain",2486,2486,368,252,116,0,0,0,0
+"Latinobarometro_2009","Peru",1200,1200,368,252,244,0,0,0,0
+"Latinobarometro_2009","Paraguay",1200,1200,368,252,244,7,4,2,0
+"Latinobarometro_2009","Panama",1000,1000,368,252,242,2,2,0,0
+"Latinobarometro_2009","Nicaragua",1000,1000,368,252,244,0,0,0,0
+"Latinobarometro_2009","Mexico",1200,1200,368,252,242,6,4,4,2
+"Latinobarometro_2009","Honduras",1000,1000,368,252,245,4,2,0,0
+"Latinobarometro_2009","Guatemala",1000,1000,368,252,244,2,2,2,0
+"Latinobarometro_2009","El Salvador",1000,1000,368,252,243,8,0,0,0
+"Latinobarometro_2009","Ecuador",1200,1200,368,252,244,64,41,14,0
+"Latinobarometro_2009","Dominican Rep",1000,1000,368,252,243,4,4,0,0
+"Latinobarometro_2009","Costa Rica",1000,1000,368,252,241,8,4,4,0
+"Latinobarometro_2009","Colombia",1200,1200,368,252,243,8,0,0,0
+"Latinobarometro_2009","Chile",1200,1200,368,252,243,99,65,16,0
+"Latinobarometro_2009","Brazil",1204,1204,368,252,243,2,0,0,0
+"Latinobarometro_2009","Bolivia",1200,1200,368,252,244,6,6,4,0
+"Latinobarometro_2009","Argentina",1200,1200,368,252,243,0,0,0,0
+"Latinobarometro_2008","Venezuela",1200,1200,383,267,261,0,0,0,0
+"Latinobarometro_2008","Uruguay",1200,1200,383,267,262,82,76,60,28
+"Latinobarometro_2008","Spain",2471,2471,383,267,121,4,2,0,0
+"Latinobarometro_2008","Peru",1200,1200,383,267,264,9,8,4,0
+"Latinobarometro_2008","Paraguay",1200,1200,383,267,263,0,0,0,0
+"Latinobarometro_2008","Panama",1000,1000,383,267,263,6,6,2,0
+"Latinobarometro_2008","Nicaragua",1000,1000,383,267,264,62,62,60,50
+"Latinobarometro_2008","Mexico",1200,1200,383,267,263,4,2,2,2
+"Latinobarometro_2008","Honduras",1000,1000,383,267,263,27,10,0,0
+"Latinobarometro_2008","Guatemala",1000,1000,383,267,265,0,0,0,0
+"Latinobarometro_2008","El Salvador",1000,1000,383,267,264,18,8,4,0
+"Latinobarometro_2008","Ecuador",1200,1200,383,267,264,2,0,0,0
+"Latinobarometro_2008","Dominican Rep",1000,1000,383,267,264,4,0,0,0
+"Latinobarometro_2008","Costa Rica",1000,1000,383,267,262,0,0,0,0
+"Latinobarometro_2008","Colombia",1200,1200,383,267,263,0,0,0,0
+"Latinobarometro_2008","Chile",1200,1200,383,267,265,36,26,16,0
+"Latinobarometro_2008","Brazil",1204,1204,383,267,263,4,2,0,0
+"Latinobarometro_2008","Bolivia",1200,1200,383,267,264,13,4,2,0
+"Latinobarometro_2008","Argentina",1200,1200,383,267,264,20,18,8,2
