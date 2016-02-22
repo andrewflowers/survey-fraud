@@ -22,7 +22,7 @@ summaryData <- data.frame()
 
 for (df in data_files){
   
-  df <- data_files[1] # For manual inspection
+  # df <- data_files[4] # For manual inspection
   
   rawData <- readData(df) # Calls readData function in read_data.R file
   
@@ -31,7 +31,6 @@ for (df in data_files){
   orig_dat_vars <- ncol(rawData)
   dataset <- str_sub(str_extract(df, pattern='[^/]+$'), end = -5) 
   
-  # Step 2: Create clean country variable, including ballot options
   
   old_country_var <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(country_var) %>% as.character()
   country_var <- rawData %>% dplyr::select(contains(old_country_var)) # Fix this to be exactly filtered for the country_var
@@ -59,16 +58,19 @@ for (df in data_files){
   
   earlyDropVars <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(early_drop_vars) %>% str_split(" ") %>% unlist() %>% as.character()
   finalDropVar <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(final_drop_var) %>% as.character()
-  dropVars <- ifelse(!is.na(finalDropVar), 
-                     c(which(colnames(rawData) %in% earlyDropVars), grep(finalDropVar, names(rawData)):length(names(rawData))),
-                       which(colnames(rawData) %in% earlyDropVars))
+  
+  ifelse(is.na(finalDropVar), 
+         dropVars <- which(colnames(rawData) %in% earlyDropVars),
+         dropVars <-  c(which(colnames(rawData) %in% earlyDropVars), grep(finalDropVar, names(rawData)):length(names(rawData)))
+                       )
+  
   subData <- rawData %>% dplyr::select(-dropVars)
   substantive_dat_vars <- ncol(subData) # Check that this is right!
   
   # Step 4: Recode missing variables
   
   missing_code <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(missing_code) %>% as.numeric()
-  if (!is.na(missing_code)) { subData[(data.matrix(subData) - 5) <= missing_code]  <- NA } # NOTE: The -5 calculation is a weird but necessary adjustment; it might be a Stata-only issue, though.
+  if (!is.na(missing_code)) { subData[(data.matrix(subData)) == missing_code]  <- NA } # NOTE: May need -5 calculation is a weird but necessary adjustment; it might be a Stata-only issue, though.
   subData$country <- rawData$country # Check that this works with WorldValues surveys. It's meant to prevent an override of Algeria as NA
   
   # Step 5: Remove variables than have only one  unique non-missing value & variables with >10% missing data
@@ -124,4 +126,4 @@ for (df in data_files){
 } # Note: this ends loop through ONE data set.  
   
 # Write out summary data file
-write_csv(summaryData, "replication_summary_sadat.csv")
+write_csv(summaryData, "replication_summary_afrobarometer.csv")
