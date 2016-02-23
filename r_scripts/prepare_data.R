@@ -16,13 +16,13 @@ survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
 # Testing on pew data sets
 
-data_files <- dir("./raw_survey_data/issp_data", full.names=TRUE)
+data_files <- dir("./raw_survey_data/pew_religion_data", full.names=TRUE)
 
 summaryData <- data.frame()
 
 for (df in data_files){
   
-  # df <- data_files[1] # For manual inspection
+  df <- data_files[2] # For manual inspection
   
   rawData <- readData(df) # Calls readData function in read_data.R file
   
