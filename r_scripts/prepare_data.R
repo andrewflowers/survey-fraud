@@ -5,7 +5,7 @@ setwd("~/survey-fraud/")
 
 source("./r_scripts/percentmatch.R")
 source("./r_scripts/read_data.R")
-
+d
 require(foreign)
 require(readr)
 require(stringr)
@@ -16,7 +16,7 @@ survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
 # Testing on pew data sets
 
-data_files <- dir("./issp", full.names=TRUE)
+data_files <- dir("./raw_survey_data/issp_data", full.names=TRUE)
 
 summaryData <- data.frame()
 
