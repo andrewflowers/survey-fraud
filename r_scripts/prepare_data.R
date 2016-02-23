@@ -3,8 +3,8 @@
 
 setwd("~/survey-fraud/")
 
-source("percentmatch.R")
-source("read_data.R")
+source("./r_scripts/percentmatch.R")
+source("./r_scripts/read_data.R")
 
 require(foreign)
 require(readr)
