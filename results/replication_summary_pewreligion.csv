@@ -1,0 +1,56 @@
+"dataset","country_id","initial_observations","final_observations","orig_dat_vars","substantive_dat_vars","final_variables","dup_observations_at_85","dup_observations_at_90","dup_observations_at_95","dup_observations_at_100"
+"pewreligion_pentecostals","United States",1074,1074,200,195,96,4,2,0,0
+"pewreligion_pentecostals","South Korea",1000,1000,200,195,91,20,6,4,2
+"pewreligion_pentecostals","South Africa",1137,1137,200,195,102,2,0,0,0
+"pewreligion_pentecostals","Regions of India Surveyed",1224,1224,200,195,101,44,18,6,0
+"pewreligion_pentecostals","Philippines",1300,1300,200,195,111,30,16,2,0
+"pewreligion_pentecostals","Nigeria",999,999,200,195,100,78,48,26,8
+"pewreligion_pentecostals","Kenya",1001,1001,200,195,111,20,3,0,0
+"pewreligion_pentecostals","Guatemala",1305,1305,200,195,96,2,0,0,0
+"pewreligion_pentecostals","Chile",988,988,200,195,101,6,0,0,0
+"pewreligion_pentecostals","Brazil",1000,1000,200,195,101,2,2,0,0
+"pewreligion_muslims","Uzbekistan",965,965,250,172,78,8,0,0,0
+"pewreligion_muslims","Turkey",1485,1485,250,172,102,204,104,67,12
+"pewreligion_muslims","Tunisia",1450,1450,250,172,100,426,201,53,0
+"pewreligion_muslims","Thailand",1010,1010,250,172,100,103,8,2,0
+"pewreligion_muslims","Tajikistan",1453,1453,250,172,104,428,257,133,0
+"pewreligion_muslims","Russia",1050,1050,250,172,103,56,19,15,2
+"pewreligion_muslims","Palestinian Territories",994,994,250,172,102,143,69,35,2
+"pewreligion_muslims","Pakistan",1450,1450,250,172,106,356,67,4,0
+"pewreligion_muslims","Niger",946,946,250,172,102,405,184,49,2
+"pewreligion_muslims","Morocco",1472,1472,250,172,78,656,309,112,2
+"pewreligion_muslims","Malaysia",1244,1244,250,172,105,364,195,79,0
+"pewreligion_muslims","Lebanon",551,551,250,172,102,190,132,81,8
+"pewreligion_muslims","Kyrgyzstan",1292,1292,250,172,106,141,61,36,2
+"pewreligion_muslims","Kosovo",1266,1266,250,172,103,181,85,33,4
+"pewreligion_muslims","Kazakhstan",998,998,250,172,103,138,83,51,0
+"pewreligion_muslims","Jordan",966,966,250,172,97,113,56,20,2
+"pewreligion_muslims","Iraq",1416,1416,250,172,102,211,57,12,0
+"pewreligion_muslims","Iran",1519,1519,250,172,73,2,0,0,0
+"pewreligion_muslims","Indonesia",1880,1880,250,172,107,438,142,44,4
+"pewreligion_muslims","Egypt",1798,1798,250,172,98,206,83,14,2
+"pewreligion_muslims","Bosnia and Herzegovina",1007,1007,250,172,104,47,10,6,4
+"pewreligion_muslims","Bangladesh",1918,1918,250,172,105,215,50,12,2
+"pewreligion_muslims","Azerbaijan",996,996,250,172,104,272,67,12,4
+"pewreligion_muslims","Algeria",1181,1181,250,172,99,283,128,39,4
+"pewreligion_muslims","Albania",788,788,250,172,102,44,15,4,0
+"pewreligion_muslims","Afghanistan",1509,1509,250,172,87,362,133,77,0
+"pewreligion_africa","Zambia",1000,1000,204,177,142,105,64,46,30
+"pewreligion_africa","Uganda",1040,1040,204,177,122,26,12,4,0
+"pewreligion_africa","Tanzania",1504,1504,204,177,121,4,2,0,0
+"pewreligion_africa","South Africa",1504,1504,204,177,123,65,38,4,2
+"pewreligion_africa","Senegal",1000,1000,204,177,117,287,91,17,2
+"pewreligion_africa","Rwanda",1000,1000,204,177,141,238,127,75,10
+"pewreligion_africa","Nigeria",1516,1516,204,177,120,270,151,79,6
+"pewreligion_africa","Mozambique",1500,1500,204,177,122,0,0,0,0
+"pewreligion_africa","Mali",1000,1000,204,177,142,155,72,43,6
+"pewreligion_africa","Liberia",1500,1500,204,177,116,320,131,26,0
+"pewreligion_africa","Kenya",1500,1500,204,177,122,175,62,21,4
+"pewreligion_africa","Guinea Bissau",1000,1000,204,177,125,155,79,21,0
+"pewreligion_africa","Ghana",1500,1500,204,177,122,363,221,116,14
+"pewreligion_africa","Ethiopia",1500,1500,204,177,122,182,87,30,0
+"pewreligion_africa","Djibouti",1500,1500,204,177,143,410,236,93,18
+"pewreligion_africa","Democratic Republic of the Congo",1519,1519,204,177,115,140,59,16,4
+"pewreligion_africa","Chad",1503,1503,204,177,125,293,101,21,0
+"pewreligion_africa","Cameroon",1503,1503,204,177,122,25,16,12,2
+"pewreligion_africa","Botswana",1002,1002,204,177,120,251,189,115,21
