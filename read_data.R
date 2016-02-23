@@ -9,6 +9,7 @@ require(foreign)
 require(readr)
 require(Hmisc)
 require(memisc)
+require(dplyr)
 
 
 readData <- function(dataFile){

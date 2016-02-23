@@ -16,13 +16,13 @@ survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
 # Testing on pew data sets
 
-data_files <- dir("./barometer-data", full.names=TRUE)
+data_files <- dir("./issp", full.names=TRUE)
 
 summaryData <- data.frame()
 
 for (df in data_files){
   
-  # df <- data_files[4] # For manual inspection
+  # df <- data_files[1] # For manual inspection
   
   rawData <- readData(df) # Calls readData function in read_data.R file
   
@@ -30,7 +30,6 @@ for (df in data_files){
   
   orig_dat_vars <- ncol(rawData)
   dataset <- str_sub(str_extract(df, pattern='[^/]+$'), end = -5) 
-  
   
   old_country_var <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(country_var) %>% as.character()
   country_var <- rawData %>% dplyr::select(contains(old_country_var)) # Fix this to be exactly filtered for the country_var
@@ -121,9 +120,9 @@ for (df in data_files){
   }
   
  
-  print(paste0(df, " is complete"))
+  print(paste0(dataset, " is complete"))
   
 } # Note: this ends loop through ONE data set.  
   
 # Write out summary data file
-write_csv(summaryData, "replication_summary_afrobarometer.csv")
+write_csv(summaryData, "./results/replication_summary_issp.csv")
