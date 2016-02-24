@@ -19,6 +19,7 @@ readData <- function(dataFile){
   fileType <- substr(dataFile, nchar(dataFile)-2, nchar(dataFile))
   
   if (fileType=="dta"){
+    library(foreign)
     rawData <- read.dta(file=dataFile)
   } else if (fileType=="csv"){
     rawData <- read_csv(file=dataFile)

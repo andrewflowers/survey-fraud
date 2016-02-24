@@ -5,7 +5,7 @@ setwd("~/survey-fraud/")
 
 source("./r_scripts/percentmatch.R")
 source("./r_scripts/read_data.R")
-d
+
 require(foreign)
 require(readr)
 require(stringr)
@@ -16,13 +16,13 @@ survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
 # Testing on pew data sets
 
-data_files <- dir("./raw_survey_data/pew_religion_data", full.names=TRUE)
+data_files <- list.files("./raw_survey_data", full.names=TRUE, recursive=TRUE)
 
 summaryData <- data.frame()
 
 for (df in data_files){
   
-  df <- data_files[2] # For manual inspection
+  # df <- data_files[5] # For manual inspection
   
   rawData <- readData(df) # Calls readData function in read_data.R file
   
@@ -125,4 +125,4 @@ for (df in data_files){
 } # Note: this ends loop through ONE data set.  
   
 # Write out summary data file
-write_csv(summaryData, "./results/replication_summary_issp.csv")
+write_csv(summaryData, "./results/replication_summary.csv")
