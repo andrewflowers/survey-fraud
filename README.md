@@ -7,10 +7,10 @@ Here is a guide to the folder structure:
 Folder | Description
 ---- | --------------
 r_scripts | Contains three R scripts, see below for further details.
-raw_survey_data | This contains 41 raw survey data files, organized in sub-folders by survey administrator. *THESE FILES ARE NOT TO BE RELEASED PUBLICLY.**
-results | Contains replication summary files by survey administrator
+raw_survey_data | This contains 41 raw survey data files, organized in sub-folders by survey administrator. **THESE FILES ARE NOT TO BE RELEASED PUBLICLY.**
+results | Contains replication summary files, organized by survey administrator.
 papers | Includes PDF files of Robbins and Kuriakose's paper, as well as a resposne by Pew.
-stata_files | Stata versions of the percentmatch algorithm, along with a sub-folder (`do_scripts`) with Stata do scripts for specific survey administrators. *THE DO SCRIPTS ARE NOT TO BE RELEASED PUBLICLY.**
+stata_files | Stata versions of the percentmatch algorithm, along with a sub-folder (`do_scripts`) with Stata do scripts for specific survey administrators. **THE DO SCRIPTS ARE NOT TO BE RELEASED PUBLICLY.**
 
 The `r_scripts` folder contains the following files:
 
