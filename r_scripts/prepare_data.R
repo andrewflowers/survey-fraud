@@ -125,7 +125,7 @@ for (df in data_files){
 } # Note: this ends loop through ONE data set.  
   
 # Fix Americas Barometer country codes
-abCountryCodes <- read_csv("raw_survey_data/americasbarometer_data/americasbarometer_countrycodes.csv")
+abCountryCodes <- read_csv("./miscellaneous/americasbarometer_countrycodes.csv")
 
 summaryData <- summaryData %>%
   mutate(country_id=ifelse(is.na(abCountryCodes[match(country_id, abCountryCodes$country_code),]$country_name), country_id,
