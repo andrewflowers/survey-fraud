@@ -13,8 +13,7 @@ require(dplyr)
 
 # Load survey metadata file
 survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
-
-# Testing on pew data sets
+# survey_metadata <- read_csv("./miscellaneous/survey_metadata_for_cleaning_AB.csv") # For Arab Barometer test
 
 data_files <- list.files("./raw_survey_data", full.names=TRUE, recursive=TRUE)
 
@@ -23,6 +22,7 @@ summaryData <- data.frame()
 for (df in data_files){
   
   # df <- data_files[5] # For manual inspection
+  # df <- "./miscellaneous/arab_barometer_to_test.sav"
   
   rawData <- readData(df) # Calls readData function in read_data.R file
   
@@ -124,5 +124,12 @@ for (df in data_files){
   
 } # Note: this ends loop through ONE data set.  
   
+# Fix Americas Barometer country codes
+abCountryCodes <- read_csv("raw_survey_data/americasbarometer_data/americasbarometer_countrycodes.csv")
+
+summaryData <- summaryData %>%
+  mutate(country_id=ifelse(is.na(abCountryCodes[match(country_id, abCountryCodes$country_code),]$country_name), country_id,
+                           abCountryCodes[match(country_id, abCountryCodes$country_code),]$country_name))
+
 # Write out summary data file
-write_csv(summaryData, "./results/replication_summary.csv")
+write_csv(summaryData, "./results/replication_summary_022616.csv")
