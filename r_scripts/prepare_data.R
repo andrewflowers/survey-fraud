@@ -21,7 +21,7 @@ summaryData <- data.frame()
 
 for (df in data_files){
   
-  # df <- data_files[5] # For manual inspection
+  #df <- data_files[2] # For manual inspection
   # df <- "./miscellaneous/arab_barometer_to_test.sav"
   
   rawData <- readData(df) # Calls readData function in read_data.R file
@@ -39,19 +39,37 @@ for (df in data_files){
   rawData <- new_country_var %>% cbind(rawData)
   names(rawData)[1] <- 'country'
   rawData <- rawData %>% arrange(country)
-  
+  rawData <- rawData %>% mutate(country=str_extract(country, pattern='[^-]+$'))
+  rawData <- rawData %>% mutate(country=str_trim(country))
+ 
   # Add ballot options to names -- NOTE: May want to break this out as a separate function
   
   ballot_var <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(ballot_var) %>% as.character()
-  ballot_resp <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(ballot_resp) %>% as.character()
+  ballot_resp <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(ballot_resp) %>% str_split(" ") %>% unlist %>% as.character()
   
   if (!is.na(ballot_var)){
-    rawData$country <- ifelse(!is.na(rawData[,ballot_var]), 
-            ifelse(rawData[,ballot_var] == ballot_resp,
-                   paste0(rawData$country, "_ballot_a"),
-                   paste0(rawData$country, "_ballot_b")),
-            paste0(rawData$country))
-  }
+    for (i in 1:nrow(rawData)){
+      
+      # Test whether there are 1 or 2 ballot resposnes
+      if (length(ballot_resp)==1){
+        rawData$country[i] <- ifelse(rawData[i, ballot_var] == ballot_resp,
+          paste0(rawData$country[i], "_", ballot_resp), as.character(rawData$country[i]))
+      } 
+      
+      if(length(ballot_resp)==2){
+        if (is.na(rawData[i, ballot_var])){
+          rawData$country[i] <- as.character(rawData$country[i])
+        } else {
+        rawData$country[i] <- ifelse(rawData[i, ballot_var] == gsub("_", " ", ballot_resp[2]), 
+              paste0(rawData$country[i], "_", ballot_resp[2]),
+              ifelse(rawData[i, ballot_var] == gsub("_", " ", ballot_resp[1]),
+              paste0(rawData$country[i], "_", ballot_resp[1]), as.character(rawData$country[i])))
+        }
+        }
+      }
+    }
+    
+  # View(table(rawData$country))
   
   # Step 3: Drop unncessary variables (id, demographic, weight, and other metadata variables)
   
@@ -64,7 +82,11 @@ for (df in data_files){
                        )
   
   subData <- rawData %>% dplyr::select(-dropVars)
-  substantive_dat_vars <- ncol(subData) # Check that this is right!
+  
+  # Check that this is right!
+  # For Afrobarometer, it's -1. But that's maybe because Afrobarometer has a correct country variable already
+  # The do script doesn't change the country variable
+  substantive_dat_vars <- ncol(subData) -1 
   
   # Step 4: Recode missing variables
   
@@ -72,7 +94,7 @@ for (df in data_files){
   if (!is.na(missing_code)) { subData[(data.matrix(subData)) == missing_code]  <- NA } # NOTE: May need -5 calculation is a weird but necessary adjustment; it might be a Stata-only issue, though.
   subData$country <- rawData$country # Check that this works with WorldValues surveys. It's meant to prevent an override of Algeria as NA
   
-  # Step 5: Remove variables than have only one  unique non-missing value & variables with >10% missing data
+  # Step 5: Remove variables than have only one unique non-missing value & variables with >=10% missing data
   
   varsToIgnore <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(vars_to_ignore) %>% str_split(" ") %>% unlist() %>% as.character()
   varsToInspect <- setdiff(names(subData), varsToIgnore) 
@@ -93,7 +115,7 @@ for (df in data_files){
     final_variables <- ncol(countryData)-1
     
   # Step 6: Remove observations with >25% missing
-    countryData <- countryData[(rowSums(is.na(countryData))/ncol(countryData)) < 0.25,]
+    countryData <- countryData[(rowSums(is.na(countryData))/ncol(countryData)) <= 0.25,]
     
     final_observations <- nrow(countryData)
     
@@ -127,9 +149,10 @@ for (df in data_files){
 # Fix Americas Barometer country codes
 abCountryCodes <- read_csv("./miscellaneous/americasbarometer_countrycodes.csv")
 
-summaryData <- summaryData %>%
-  mutate(country_id=ifelse(is.na(abCountryCodes[match(country_id, abCountryCodes$country_code),]$country_name), country_id,
-                           abCountryCodes[match(country_id, abCountryCodes$country_code),]$country_name))
+summaryData2 <- summaryData %>%
+  mutate(country=ifelse(is.na(abCountryCodes[match(country, abCountryCodes$country_code),]$country_name), 
+                        as.character(country),
+                        abCountryCodes[match(country, abCountryCodes$country_code),]$country_name))
 
 # Write out summary data file
-write_csv(summaryData, "./results/replication_summary_022616.csv")
+write_csv(summaryData2, "./results/replication_summary.csv")
