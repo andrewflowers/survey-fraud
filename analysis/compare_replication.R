@@ -12,6 +12,10 @@ require(ggplot2)
 bfData <- read_csv("./results/replication_summary.csv") # Bialik and Flowers's data
 rkData <- read_csv("Results_File_Cleaned_1209.csv") # Robbins and Kuriakose's data
 
+# Change country names to lower case
+bfData$country <- tolower(bfData$country)
+rkData$country <- tolower(rkData$country)
+
 # Compare dataset names
 View(cbind(sort(unique(rkData$dataset)), sort(unique(bfData$dataset))))
 

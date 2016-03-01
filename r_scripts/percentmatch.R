@@ -5,6 +5,7 @@ setwd("~/survey-fraud/")
 
 require(readr)
 require(Rcpp)
+require(inline)
 
 # Note: use data.matrix to convert factor matrix to numeric codes
 
@@ -41,7 +42,7 @@ pmatchSummary <- function(pmatch, c){
       pmatch %>% filter(match==1) %>% tally()
     )
     
-    names(summaryVector) <- c("country_id", "dup_observations_at_85", 
+    names(summaryVector) <- c("country", "dup_observations_at_85", 
                               "dup_observations_at_90", "dup_observations_at_95", 
                               "dup_observations_at_100")
     
@@ -50,36 +51,24 @@ pmatchSummary <- function(pmatch, c){
 
 
 ####################################################################################################
-#################         Write percentmatch algorithm in CPP                 ######################
+#################           Percentmatch algorithm in CPP                     ######################
 ####################################################################################################
 
 ## CPP Function
-# cppFunction('LogicalVector percentmatch(NumericMatrix x) {
-#             
-#             int nrow = x.nrow(), ncol = x.ncol();
-#             
-#             LogicalVector comparisons(nrow);
-#             
-#             for (int i = 0; i < nrow; i++) {
-# 
-#               NumericMatrix::Row tmp0 = x(i, _);
-#               NumericMatrix::Row tmp1 = x(i, _);
-#               comparisons[i] = tmp0 == tmp1
-#             }
-#             
-#             return comparisons;
-# 
-#             }')
-# 
-# percentmatch(countryData2)
-# 
-# 
-# cppFunction("Logical test(){
-#             
-#       NumericVector xx = NumericVector::create(1.0, 2.0, 3.0, 4.0 );
-#       NumericVector xy = NumericVector::create(1.0, 3.0, 3.0, 4.0 );
-# 
-#       return xx == xy;
-# 
-# }")
+
+percentmatchCpp <- cxxfunction(
+  signature(x="numeric"),
+  body='
+    Rcpp::NumericMatrix xx(x);
+    int nr = xx.nrow();
+    NumericMatrix out(nr,nr);
+    for( int i = 0; i < nr; i++ ){
+      for( int j = 0; j < nr; j++ ){
+        out(i,j) = sum( xx(i,_) == xx(j,_) );
+      }
+    }
+    return out;
+  ', plugin="Rcpp"
+)
+
 
