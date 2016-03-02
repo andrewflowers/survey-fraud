@@ -6,4 +6,4 @@
   * As shown in the `notes` column in the `suvey_metadata_for_cleaning` file, there are some inconsistnecies in the Stata do scripts for some Pew surveys
   * In the Pew Global Attitudes 2011 Stata do script, the last dropped variable is Q154BRA, but this **does not exist** in the data set. I inferred that the correct final drop variable is Q120BRA. Is that right? Am I using a different data set?
   * In the Pew Global Attitudes 2012 Stata do script, the last dropped variable is Q164BRA, but this **does not exist** in the data set. I inferred that the correct final drop variable is Q164. Is that right? Am I using a different data set? This do script seems to be a replica of the Pew 2013 Stata script.
-  * In the Pew Pentecostals Stata do script, none of the variable names match what I'm seeing. Am I using the wrong data set?
+  ~~* In the Pew Pentecostals Stata do script, none of the variable names match what I'm seeing. Am I using the wrong data set?~~
