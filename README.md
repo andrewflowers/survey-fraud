@@ -6,10 +6,13 @@ Here is a guide to the folder structure:
 
 Folder | Description
 ---- | --------------
+analysis | Contains several R scripts for post-replication analysis. In particular, the `compare_replication.R` script produced comparisons between Robbins and Kuriakose's original findings and FiveThirtyEight's replicated results
+charts | R charts as generated from various analysis scripts
+miscellaneous | Random files. Importantly, the 	americasbarometer_countrycodes.csv` file is used by the `prepare_data.R` script to conver th numerical country codes in Americas Barometer surveys to country names
+papers | Includes PDF files of Robbins and Kuriakose's paper, as well as a resposne by Pew.
 r_scripts | Contains three R scripts, see below for further details.
 raw_survey_data | This contains 41 raw survey data files, organized in sub-folders by survey administrator. **THESE FILES ARE NOT TO BE RELEASED PUBLICLY.**
 results | Contains replication summary files, organized by survey administrator.
-papers | Includes PDF files of Robbins and Kuriakose's paper, as well as a resposne by Pew.
 stata_files | Stata versions of the percentmatch algorithm, along with a sub-folder (`do_scripts`) with Stata do scripts for specific survey administrators. **THE DO SCRIPTS ARE NOT TO BE RELEASED PUBLICLY.**
 
 The `r_scripts` folder contains the following files:
