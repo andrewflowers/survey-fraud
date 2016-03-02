@@ -21,8 +21,10 @@ summaryData <- data.frame()
 
 for (df in data_files){
   
-  df <- data_files[24] # For manual inspection
   # df <- "./miscellaneous/arab_barometer_to_test.sav"
+  #df <- data_files[40] # For manual inspection
+  #names(rawData)
+  #grep("^Q95$", names(rawData))
   
   rawData <- readData(df) # Calls readData function in read_data.R file
   
