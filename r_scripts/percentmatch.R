@@ -7,9 +7,7 @@ require(readr)
 require(Rcpp)
 require(inline)
 
-# Note: use data.matrix to convert factor matrix to numeric codes
-
-# exData <- data.matrix(countryData[, 3:ncol(countryData)]) - 5
+# Note: may want to use data.matrix to convert factor matrix to numeric codes
 
 percentmatchR <- function(matrix){
   
@@ -54,7 +52,11 @@ pmatchSummary <- function(pmatch, c){
 #################           Percentmatch algorithm in CPP                     ######################
 ####################################################################################################
 
+### NOTE: this function is still in development and does NOT work properly as of March 2, 2016
+
+
 ## CPP Function
+# Source: https://github.com/jwbowers/kuriakoserobins/blob/master/KuriakoseRobins.Rmd
 
 percentmatchCpp <- cxxfunction(
   signature(x="numeric"),

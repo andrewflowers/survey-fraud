@@ -21,7 +21,7 @@ summaryData <- data.frame()
 
 for (df in data_files){
   
-  # df <- data_files[24] # For manual inspection
+  df <- data_files[24] # For manual inspection
   # df <- "./miscellaneous/arab_barometer_to_test.sav"
   
   rawData <- readData(df) # Calls readData function in read_data.R file
@@ -122,7 +122,7 @@ for (df in data_files){
     
   # Step 7: Send data to percentmatch algorithm
     pmatch <- percentmatchR(countryData) # Calls percentmatchR function in percentmatch.R file
-    # pmatch <- percentmatchCpp(countryData)# Calls percentmatchR function in percentmatch.R file
+    # pmatch <- percentmatchCpp(data.matrix(countryData)) # Calls percentmatchCpp function in percentmatch.R file
     
   # Write summary data to file, after adding other metadata and cleaning 
     
@@ -157,4 +157,4 @@ summaryData2 <- summaryData %>%
                         abCountryCodes[match(country, abCountryCodes$country_code),]$country_name))
 
 # Write out summary data file
-write_csv(summaryData2, "./results/replication_summary_cppTest.csv")
+write_csv(summaryData2, "./results/replication_summary_030216.csv")
