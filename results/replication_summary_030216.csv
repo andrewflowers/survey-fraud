@@ -1,0 +1,1015 @@
+"dataset","country","initial_observations","final_observations","orig_dat_vars","substantive_dat_vars","final_variables","dup_observations_at_85","dup_observations_at_90","dup_observations_at_95","dup_observations_at_100"
+"worldvaluessurvey_wave6","Zimbabwe",1500,1500,387,281,238,74,66,41,4
+"worldvaluessurvey_wave6","Yemen",1000,1000,387,281,243,6,2,0,0
+"worldvaluessurvey_wave6","West Germany",1034,1034,387,281,247,0,0,0,0
+"worldvaluessurvey_wave6","Uzbekistan",1500,1500,387,281,213,15,5,2,0
+"worldvaluessurvey_wave6","Uruguay",1000,1000,387,281,237,0,0,0,0
+"worldvaluessurvey_wave6","United States",2232,2232,387,281,225,13,12,9,3
+"worldvaluessurvey_wave6","Ukraine",1500,1500,387,281,238,11,11,9,0
+"worldvaluessurvey_wave6","Turkey",1605,1605,387,281,226,25,17,8,0
+"worldvaluessurvey_wave6","Tunisia",1205,1205,387,281,244,33,24,15,2
+"worldvaluessurvey_wave6","Trinidad and Tobago",999,999,387,281,223,2,2,0,0
+"worldvaluessurvey_wave6","Thailand",1200,1200,387,281,250,95,65,19,0
+"worldvaluessurvey_wave6","Taiwan",1238,1238,387,281,236,9,4,0,0
+"worldvaluessurvey_wave6","Sweden",1206,1206,387,281,228,0,0,0,0
+"worldvaluessurvey_wave6","Spain",1189,1189,387,281,218,6,4,4,2
+"worldvaluessurvey_wave6","South Korea",1200,1200,387,281,226,15,6,0,0
+"worldvaluessurvey_wave6","South Africa",3531,3531,387,281,250,2,2,2,0
+"worldvaluessurvey_wave6","Slovenia",1069,1069,387,281,228,0,0,0,0
+"worldvaluessurvey_wave6","Singapore",1972,1972,387,281,237,2,2,0,0
+"worldvaluessurvey_wave6","Rwanda",1527,1527,387,281,250,32,16,7,0
+"worldvaluessurvey_wave6","Russia",2500,2500,387,281,227,29,12,6,0
+"worldvaluessurvey_wave6","Romania",1503,1503,387,281,238,0,0,0,0
+"worldvaluessurvey_wave6","Qatar",1060,1060,387,281,193,0,0,0,0
+"worldvaluessurvey_wave6","Poland",966,966,387,281,238,0,0,0,0
+"worldvaluessurvey_wave6","Philippines",1200,1200,387,281,239,0,0,0,0
+"worldvaluessurvey_wave6","Peru",1210,1210,387,281,237,11,9,8,0
+"worldvaluessurvey_wave6","Palestine",1000,1000,387,281,245,32,15,0,0
+"worldvaluessurvey_wave6","Pakistan",1200,1200,387,281,249,185,129,56,0
+"worldvaluessurvey_wave6","Nigeria",1759,1759,387,281,238,194,159,87,3
+"worldvaluessurvey_wave6","New Zealand",841,841,387,281,215,0,0,0,0
+"worldvaluessurvey_wave6","Netherlands",1902,1902,387,281,249,16,7,3,0
+"worldvaluessurvey_wave6","Morocco",1200,1200,387,281,216,48,5,0,0
+"worldvaluessurvey_wave6","Mexico",2000,2000,387,281,240,0,0,0,0
+"worldvaluessurvey_wave6","Malaysia",1300,1300,387,281,238,93,40,10,0
+"worldvaluessurvey_wave6","Libya",2131,2131,387,281,250,28,6,0,0
+"worldvaluessurvey_wave6","Lebanon",1200,1200,387,281,246,18,10,4,0
+"worldvaluessurvey_wave6","Kyrgyzstan",1500,1500,387,281,238,262,170,61,0
+"worldvaluessurvey_wave6","Kuwait",1303,1303,387,281,216,128,86,51,0
+"worldvaluessurvey_wave6","Kazakhstan",1500,1500,387,281,238,224,170,107,2
+"worldvaluessurvey_wave6","Jordan",1200,1200,387,281,245,0,0,0,0
+"worldvaluessurvey_wave6","Japan",2443,2443,387,281,222,2,0,0,0
+"worldvaluessurvey_wave6","Iraq",1200,1200,387,281,247,29,26,24,0
+"worldvaluessurvey_wave6","India",1581,1581,387,281,249,627,466,264,0
+"worldvaluessurvey_wave6","Hong Kong",1000,1000,387,281,240,0,0,0,0
+"worldvaluessurvey_wave6","Ghana",1552,1552,387,281,238,14,6,6,0
+"worldvaluessurvey_wave6","Estonia",1533,1533,387,281,238,2,0,0,0
+"worldvaluessurvey_wave6","Egypt",1523,1523,387,281,228,107,47,9,0
+"worldvaluessurvey_wave6","Ecuador",1202,1202,387,281,248,16,10,6,2
+"worldvaluessurvey_wave6","East Germany",1012,1012,387,281,247,0,0,0,0
+"worldvaluessurvey_wave6","Cyprus (T)",1000,1000,387,281,227,38,25,12,0
+"worldvaluessurvey_wave6","Colombia",1512,1512,387,281,249,8,8,8,4
+"worldvaluessurvey_wave6","China",2300,2300,387,281,237,90,32,8,0
+"worldvaluessurvey_wave6","Chile",1000,1000,387,281,238,175,125,73,42
+"worldvaluessurvey_wave6","Brazil",1486,1486,387,281,250,0,0,0,0
+"worldvaluessurvey_wave6","Belarus",1535,1535,387,281,216,41,34,19,2
+"worldvaluessurvey_wave6","Bahrain",1200,1200,387,281,211,145,95,14,0
+"worldvaluessurvey_wave6","Azerbaijan",1002,1002,387,281,239,26,15,8,0
+"worldvaluessurvey_wave6","Australia",1477,1477,387,281,237,0,0,0,0
+"worldvaluessurvey_wave6","Armenia",1100,1100,387,281,230,0,0,0,0
+"worldvaluessurvey_wave6","Argentina",1030,1030,387,281,237,4,4,4,0
+"worldvaluessurvey_wave6","Algeria",1200,1200,387,281,246,226,182,121,13
+"worldvaluessurvey_wave5","Zambia",1500,1500,366,295,224,106,93,76,24
+"worldvaluessurvey_wave5","West Germany_ballot_b",488,488,366,295,227,0,0,0,0
+"worldvaluessurvey_wave5","West Germany_ballot_a",500,500,366,295,226,0,0,0,0
+"worldvaluessurvey_wave5","Viet Nam",1495,1495,366,295,220,119,56,4,2
+"worldvaluessurvey_wave5","Uruguay",1000,1000,366,295,224,12,6,0,0
+"worldvaluessurvey_wave5","United States_ballot_b",605,605,366,295,229,0,0,0,0
+"worldvaluessurvey_wave5","United States_ballot_a",611,611,366,295,224,0,0,0,0
+"worldvaluessurvey_wave5","United States",33,33,366,295,161,12,11,6,0
+"worldvaluessurvey_wave5","Ukraine",1000,1000,366,295,221,0,0,0,0
+"worldvaluessurvey_wave5","Turkey_ballot_b",1346,1346,366,295,224,19,8,2,0
+"worldvaluessurvey_wave5","Trinidad and Tobago",1002,1002,366,295,219,2,2,2,0
+"worldvaluessurvey_wave5","Thailand",1534,1534,366,295,231,124,111,81,34
+"worldvaluessurvey_wave5","Taiwan",1227,1227,366,295,208,0,0,0,0
+"worldvaluessurvey_wave5","Switzerland",1241,1241,366,295,216,0,0,0,0
+"worldvaluessurvey_wave5","Sweden_ballot_b",493,493,366,295,231,0,0,0,0
+"worldvaluessurvey_wave5","Sweden_ballot_a",510,510,366,295,226,0,0,0,0
+"worldvaluessurvey_wave5","Spain_ballot_b",597,597,366,295,221,12,2,0,0
+"worldvaluessurvey_wave5","Spain_ballot_a",602,602,366,295,216,14,0,0,0
+"worldvaluessurvey_wave5","South Korea",1200,1200,366,295,221,540,534,530,448
+"worldvaluessurvey_wave5","South Africa",2988,2988,366,295,230,15,8,4,0
+"worldvaluessurvey_wave5","Slovenia",1037,1037,366,295,223,0,0,0,0
+"worldvaluessurvey_wave5","Serbia and Montenegro",1220,1220,366,295,222,35,22,16,0
+"worldvaluessurvey_wave5","Rwanda",1507,1507,366,295,210,17,2,2,2
+"worldvaluessurvey_wave5","Russia",2033,2033,366,295,158,9,6,6,0
+"worldvaluessurvey_wave5","Romania",1776,1776,366,295,223,37,31,24,0
+"worldvaluessurvey_wave5","Poland",1000,1000,366,295,222,6,4,2,0
+"worldvaluessurvey_wave5","Peru_ballot_b",726,726,366,295,195,0,0,0,0
+"worldvaluessurvey_wave5","Peru_ballot_a",774,774,366,295,195,2,2,0,0
+"worldvaluessurvey_wave5","Norway_ballot_b",500,500,366,295,229,0,0,0,0
+"worldvaluessurvey_wave5","Norway_ballot_a",525,525,366,295,224,0,0,0,0
+"worldvaluessurvey_wave5","New Zealand",954,954,366,295,139,0,0,0,0
+"worldvaluessurvey_wave5","Netherlands_ballot_b",544,544,366,295,161,0,0,0,0
+"worldvaluessurvey_wave5","Netherlands_ballot_a",506,506,366,295,161,0,0,0,0
+"worldvaluessurvey_wave5","Morocco",1200,1200,366,295,220,0,0,0,0
+"worldvaluessurvey_wave5","Moldova",1046,1046,366,295,223,177,149,78,0
+"worldvaluessurvey_wave5","Mexico",1560,1560,366,295,225,0,0,0,0
+"worldvaluessurvey_wave5","Mali",1534,1534,366,295,228,65,32,10,0
+"worldvaluessurvey_wave5","Malaysia",1201,1201,366,295,219,74,32,10,0
+"worldvaluessurvey_wave5","Jordan",1200,1200,366,295,218,12,4,4,0
+"worldvaluessurvey_wave5","Japan_ballot_b",1096,1096,366,295,208,0,0,0,0
+"worldvaluessurvey_wave5","Italy",1012,1012,366,295,197,0,0,0,0
+"worldvaluessurvey_wave5","Iraq",2701,2701,366,295,100,236,137,83,2
+"worldvaluessurvey_wave5","Iran",2667,2667,366,295,177,32,22,6,0
+"worldvaluessurvey_wave5","Indonesia",2015,2015,366,295,224,211,138,86,22
+"worldvaluessurvey_wave5","India",2001,2001,366,295,222,503,399,297,30
+"worldvaluessurvey_wave5","Hungary_ballot_a",1007,1007,366,295,224,12,2,0,0
+"worldvaluessurvey_wave5","Hong Kong",1252,1252,366,295,105,39,7,2,0
+"worldvaluessurvey_wave5","Guatemala",1000,1000,366,295,133,2,2,2,0
+"worldvaluessurvey_wave5","Great Britain_ballot_a",1041,1041,366,295,162,0,0,0,0
+"worldvaluessurvey_wave5","Ghana",1534,1534,366,295,215,34,28,25,0
+"worldvaluessurvey_wave5","Georgia",1500,1500,366,295,221,48,41,24,0
+"worldvaluessurvey_wave5","France_ballot_b",499,499,366,295,162,0,0,0,0
+"worldvaluessurvey_wave5","France_ballot_a",502,502,366,295,161,0,0,0,0
+"worldvaluessurvey_wave5","Finland_ballot_b",500,500,366,295,231,0,0,0,0
+"worldvaluessurvey_wave5","Finland_ballot_a",514,514,366,295,226,0,0,0,0
+"worldvaluessurvey_wave5","Ethiopia",1500,1500,366,295,227,737,717,696,548
+"worldvaluessurvey_wave5","Egypt",3051,3051,366,295,190,125,2,0,0
+"worldvaluessurvey_wave5","East Germany_ballot_b",546,546,366,295,227,2,2,0,0
+"worldvaluessurvey_wave5","East Germany_ballot_a",530,530,366,295,226,7,6,2,0
+"worldvaluessurvey_wave5","Cyprus",1050,1050,366,295,223,44,38,38,36
+"worldvaluessurvey_wave5","Colombia",3025,3025,366,295,132,11,10,2,0
+"worldvaluessurvey_wave5","China",1991,1991,366,295,203,34,13,2,0
+"worldvaluessurvey_wave5","Chile",1000,1000,366,295,223,38,22,6,0
+"worldvaluessurvey_wave5","Canada",2164,2164,366,295,223,0,0,0,0
+"worldvaluessurvey_wave5","Burkina Faso",1534,1534,366,295,228,45,33,14,0
+"worldvaluessurvey_wave5","Bulgaria",1001,1001,366,295,223,2,2,2,0
+"worldvaluessurvey_wave5","Brazil",1500,1500,366,295,227,0,0,0,0
+"worldvaluessurvey_wave5","Australia_ballot_b",718,718,366,295,232,0,0,0,0
+"worldvaluessurvey_wave5","Australia_ballot_a",703,703,366,295,227,0,0,0,0
+"worldvaluessurvey_wave5","Argentina",1002,1002,366,295,222,0,0,0,0
+"worldvaluessurvey_wave5","Andorra_ballot_b",711,711,366,295,230,5,4,2,0
+"worldvaluessurvey_wave5","Andorra_ballot_a",292,292,366,295,225,0,0,0,0
+"worldvaluessurvey_wave4","Zimbabwe",1002,1002,373,276,223,2,0,0,0
+"worldvaluessurvey_wave4","Viet Nam",1000,1000,373,276,225,84,13,0,0
+"worldvaluessurvey_wave4","Venezuela",1200,1200,373,276,167,42,25,5,0
+"worldvaluessurvey_wave4","United States",1200,1200,373,276,220,2,2,0,0
+"worldvaluessurvey_wave4","Uganda",1002,1002,373,276,224,18,10,2,0
+"worldvaluessurvey_wave4","Turkey",3401,3401,373,276,142,6,2,0,0
+"worldvaluessurvey_wave4","Tanzania",1171,1171,373,276,227,111,35,15,2
+"worldvaluessurvey_wave4","Sweden",1015,1015,373,276,194,0,0,0,0
+"worldvaluessurvey_wave4","Spain",1209,1209,373,276,224,20,16,6,0
+"worldvaluessurvey_wave4","South Korea",1200,1200,373,276,202,23,18,8,2
+"worldvaluessurvey_wave4","South Africa",3000,3000,373,276,220,22,12,2,0
+"worldvaluessurvey_wave4","Singapore",1512,1512,373,276,173,12,2,2,2
+"worldvaluessurvey_wave4","Serbia",1200,1200,373,276,222,4,4,2,0
+"worldvaluessurvey_wave4","Saudi Arabia",1502,1502,373,276,139,89,69,34,4
+"worldvaluessurvey_wave4","Puerto Rico",720,720,373,276,211,2,2,0,0
+"worldvaluessurvey_wave4","Philippines",1200,1200,373,276,227,6,4,2,2
+"worldvaluessurvey_wave4","Peru",1501,1501,373,276,211,19,6,0,0
+"worldvaluessurvey_wave4","Pakistan",2000,2000,373,276,139,77,2,0,0
+"worldvaluessurvey_wave4","Nigeria",2022,2022,373,276,165,107,73,49,10
+"worldvaluessurvey_wave4","Morocco",1251,1251,373,276,189,10,4,0,0
+"worldvaluessurvey_wave4","Montenegro",1060,1060,373,276,224,14,6,6,2
+"worldvaluessurvey_wave4","Moldova",1008,1008,373,276,223,49,30,23,4
+"worldvaluessurvey_wave4","Mexico",1535,1535,373,276,228,12,8,4,0
+"worldvaluessurvey_wave4","Macedonia",1055,1055,373,276,223,27,14,4,0
+"worldvaluessurvey_wave4","Kyrgyzstan",1043,1043,373,276,224,60,34,2,0
+"worldvaluessurvey_wave4","Jordan",1223,1223,373,276,168,2,0,0,0
+"worldvaluessurvey_wave4","Japan",1362,1362,373,276,214,0,0,0,0
+"worldvaluessurvey_wave4","Israel",1199,1199,373,276,57,4,0,0,0
+"worldvaluessurvey_wave4","Iraq",2325,2325,373,276,99,87,55,31,20
+"worldvaluessurvey_wave4","Iran",2532,2532,373,276,159,301,227,30,0
+"worldvaluessurvey_wave4","Indonesia",1000,1000,373,276,168,61,20,10,0
+"worldvaluessurvey_wave4","India",2002,2002,373,276,222,395,290,221,26
+"worldvaluessurvey_wave4","Egypt",3000,3000,373,276,159,18,18,2,0
+"worldvaluessurvey_wave4","China",1000,1000,373,276,190,21,4,0,0
+"worldvaluessurvey_wave4","Chile",1200,1200,373,276,222,290,266,220,27
+"worldvaluessurvey_wave4","Canada",1931,1931,373,276,220,0,0,0,0
+"worldvaluessurvey_wave4","Bosnia",1200,1200,373,276,223,17,2,0,0
+"worldvaluessurvey_wave4","Bangladesh",1500,1500,373,276,218,298,164,89,6
+"worldvaluessurvey_wave4","Argentina",1280,1280,373,276,219,2,0,0,0
+"worldvaluessurvey_wave4","Algeria",1282,1282,373,276,193,108,89,76,34
+"worldvaluessurvey_wave4","Albania",1000,1000,373,276,223,8,2,2,2
+"worldvaluessurvey_wave3","Venezuela",1200,1200,281,233,209,27,15,4,0
+"worldvaluessurvey_wave3","Uruguay",1000,1000,281,233,210,18,10,0,0
+"worldvaluessurvey_wave3","United States",1542,1542,281,233,210,10,4,0,0
+"worldvaluessurvey_wave3","Ukraine",2811,2811,281,233,208,75,48,22,2
+"worldvaluessurvey_wave3","Turkey",1907,1907,281,233,189,12,5,2,0
+"worldvaluessurvey_wave3","Taiwan",780,780,281,233,207,0,0,0,0
+"worldvaluessurvey_wave3","Switzerland",1212,1212,281,233,189,4,2,0,0
+"worldvaluessurvey_wave3","Sweden",1009,1009,281,233,210,0,0,0,0
+"worldvaluessurvey_wave3","Spain",1211,1211,281,233,210,4,2,0,0
+"worldvaluessurvey_wave3","South Korea",1249,1249,281,233,157,2,2,0,0
+"worldvaluessurvey_wave3","South Africa",2935,2935,281,233,201,34,12,4,0
+"worldvaluessurvey_wave3","Slovenia",1007,1007,281,233,210,6,6,6,6
+"worldvaluessurvey_wave3","Slovakia",1095,1095,281,233,209,2,0,0,0
+"worldvaluessurvey_wave3","Serbia",1280,1280,281,233,210,4,2,0,0
+"worldvaluessurvey_wave3","Russia",2040,2040,281,233,210,17,7,2,0
+"worldvaluessurvey_wave3","Romania",1239,1239,281,233,210,163,138,101,14
+"worldvaluessurvey_wave3","Puerto Rico",1164,1164,281,233,210,0,0,0,0
+"worldvaluessurvey_wave3","Poland",1153,1153,281,233,165,0,0,0,0
+"worldvaluessurvey_wave3","Philippines",1200,1200,281,233,208,0,0,0,0
+"worldvaluessurvey_wave3","Peru",1211,1211,281,233,210,17,6,0,0
+"worldvaluessurvey_wave3","Pakistan",733,733,281,233,70,49,22,4,0
+"worldvaluessurvey_wave3","Norway",1127,1127,281,233,204,2,0,0,0
+"worldvaluessurvey_wave3","Nigeria",1996,1996,281,233,207,77,35,10,0
+"worldvaluessurvey_wave3","New Zealand",1201,1201,281,233,207,4,4,4,2
+"worldvaluessurvey_wave3","Montenegro",240,240,281,233,210,0,0,0,0
+"worldvaluessurvey_wave3","Moldova",984,984,281,233,207,72,42,4,0
+"worldvaluessurvey_wave3","Mexico_2",1510,1510,281,233,210,64,22,4,0
+"worldvaluessurvey_wave3","Mexico",854,854,281,233,210,68,32,14,10
+"worldvaluessurvey_wave3","Macedonia",995,995,281,233,209,24,10,2,0
+"worldvaluessurvey_wave3","Lithuania",1009,1009,281,233,209,2,0,0,0
+"worldvaluessurvey_wave3","Latvia",1200,1200,281,233,209,18,4,0,0
+"worldvaluessurvey_wave3","India",2040,2040,281,233,210,253,89,38,0
+"worldvaluessurvey_wave3","Hungary",650,650,281,233,209,0,0,0,0
+"worldvaluessurvey_wave3","Great Britain",1093,1093,281,233,40,0,0,0,0
+"worldvaluessurvey_wave3","Germany_2",1017,1017,281,233,207,4,2,2,2
+"worldvaluessurvey_wave3","Germany",1009,1009,281,233,207,6,2,0,0
+"worldvaluessurvey_wave3","Georgia",2008,2008,281,233,210,14,0,0,0
+"worldvaluessurvey_wave3","Finland",987,987,281,233,209,0,0,0,0
+"worldvaluessurvey_wave3","Estonia",1021,1021,281,233,210,2,0,0,0
+"worldvaluessurvey_wave3","El Salvador",1254,1254,281,233,152,0,0,0,0
+"worldvaluessurvey_wave3","Dominican Rep",417,417,281,233,208,9,8,6,0
+"worldvaluessurvey_wave3","Czech Rep",1147,1147,281,233,208,8,2,0,0
+"worldvaluessurvey_wave3","Croatia",1196,1196,281,233,208,23,10,4,0
+"worldvaluessurvey_wave3","Colombia_2",2996,2996,281,233,171,4,4,2,0
+"worldvaluessurvey_wave3","Colombia",3029,3029,281,233,68,49,19,12,0
+"worldvaluessurvey_wave3","China",1500,1500,281,233,153,52,18,2,2
+"worldvaluessurvey_wave3","Chile",1000,1000,281,233,210,16,6,6,0
+"worldvaluessurvey_wave3","Bulgaria",1072,1072,281,233,210,21,13,7,5
+"worldvaluessurvey_wave3","Bosnia",800,800,281,233,209,64,50,24,0
+"worldvaluessurvey_wave3","Belarus",2092,2092,281,233,210,152,95,30,14
+"worldvaluessurvey_wave3","Bangladesh",1525,1525,281,233,199,139,85,44,2
+"worldvaluessurvey_wave3","Azerbaijan",2002,2002,281,233,210,125,52,6,2
+"worldvaluessurvey_wave3","Australia",2048,2048,281,233,209,0,0,0,0
+"worldvaluessurvey_wave3","Armenia",2000,2000,281,233,210,465,412,232,12
+"worldvaluessurvey_wave3","Argentina",1079,1079,281,233,208,0,0,0,0
+"worldvaluessurvey_wave3","Albania",999,999,281,233,208,299,200,92,0
+"worldvaluessurvey_wave2","Turkey",1030,1030,426,388,137,4,2,0,0
+"worldvaluessurvey_wave2","Switzerland",1400,1400,426,388,169,4,2,0,0
+"worldvaluessurvey_wave2","Spain",1510,1510,426,388,314,6,2,2,0
+"worldvaluessurvey_wave2","South Korea",1251,1251,426,388,216,19,10,4,0
+"worldvaluessurvey_wave2","South Africa",2736,2736,426,388,186,4,2,2,0
+"worldvaluessurvey_wave2","Slovakia",466,466,426,388,209,0,0,0,0
+"worldvaluessurvey_wave2","Russia",1961,1961,426,388,334,27,10,4,0
+"worldvaluessurvey_wave2","Poland",938,938,426,388,121,0,0,0,0
+"worldvaluessurvey_wave2","Nigeria",1001,1001,426,388,309,6,4,4,2
+"worldvaluessurvey_wave2","Mexico",1531,1531,426,388,329,58,28,10,0
+"worldvaluessurvey_wave2","Japan",1011,1011,426,388,337,2,0,0,0
+"worldvaluessurvey_wave2","India",2500,2500,426,388,298,28,8,0,0
+"worldvaluessurvey_wave2","Czech Rep",924,924,426,388,209,0,0,0,0
+"worldvaluessurvey_wave2","China",1000,1000,426,388,304,14,4,0,0
+"worldvaluessurvey_wave2","Chile",1500,1500,426,388,347,16,4,2,0
+"worldvaluessurvey_wave2","Brazil",1782,1782,426,388,337,0,0,0,0
+"worldvaluessurvey_wave2","Belarus",1015,1015,426,388,130,6,4,4,0
+"worldvaluessurvey_wave2","Argentina",1002,1002,426,388,329,6,4,2,0
+"worldvaluessurvey_wave1","United States",2325,2325,136,111,108,530,528,528,528
+"worldvaluessurvey_wave1","Sweden",954,954,136,111,110,0,0,0,0
+"worldvaluessurvey_wave1","South Korea",970,970,136,111,106,12,2,2,2
+"worldvaluessurvey_wave1","South Africa",1596,1596,136,111,110,29,15,6,0
+"worldvaluessurvey_wave1","Mexico",1837,1837,136,111,109,32,20,4,0
+"worldvaluessurvey_wave1","Japan",1204,1204,136,111,110,195,195,195,195
+"worldvaluessurvey_wave1","Hungary",1464,1464,136,111,85,4,4,4,0
+"worldvaluessurvey_wave1","Finland",1003,1003,136,111,89,2,0,0,0
+"worldvaluessurvey_wave1","Australia",1228,1228,136,111,97,0,0,0,0
+"worldvaluessurvey_wave1","Argentina",1005,1005,136,111,110,48,19,14,0
+"sadatchair_2008","UAE",500,500,168,141,49,0,0,0,0
+"sadatchair_2008","Morocco",756,756,168,141,50,276,171,97,51
+"sadatchair_2008","Lebanon",600,600,168,141,50,40,15,6,0
+"sadatchair_2008","KSA",750,750,168,141,50,220,159,72,18
+"sadatchair_2008","Jordan",600,600,168,141,48,181,11,2,0
+"sadatchair_2008","Egypt",840,840,168,141,51,183,136,92,59
+"sadatchair_2006","UAE",500,500,89,64,64,268,248,233,131
+"sadatchair_2006","Morocco",750,750,89,64,62,49,6,0,0
+"sadatchair_2006","Lebanon",600,600,89,64,63,28,8,0,0
+"sadatchair_2006","KSA",750,750,89,64,63,83,29,6,0
+"sadatchair_2006","Jordan",450,450,89,64,64,4,2,0,0
+"sadatchair_2006","Egypt",800,800,89,64,63,113,57,27,4
+"sadatchair_2005","United Arab Emirates",217,217,107,82,59,34,20,12,4
+"sadatchair_2005","Saudi Arabia",800,800,107,82,58,99,32,8,0
+"sadatchair_2005","Morocco",800,800,107,82,46,8,2,2,0
+"sadatchair_2005","Lebanon",500,500,107,82,57,28,5,2,2
+"sadatchair_2005","Jordan",500,500,107,82,57,27,24,11,2
+"sadatchair_2005","Egypt",800,800,107,82,49,383,216,88,15
+"sadatchair_2004","UAE",386,380,81,68,55,0,0,0,0
+"sadatchair_2004","Saudi Arabia",700,700,81,68,68,83,17,6,4
+"sadatchair_2004","Morocco",700,700,81,68,68,10,6,4,4
+"sadatchair_2004","Lebanon",400,400,81,68,68,22,0,0,0
+"sadatchair_2004","Jordan",400,400,81,68,68,12,4,0,0
+"sadatchair_2004","Egypt",850,850,81,68,61,808,766,620,244
+"sadatchair_2003","UAE",400,400,75,69,57,124,111,93,34
+"sadatchair_2003","Morocco",700,700,75,69,62,35,12,2,0
+"sadatchair_2003","Lebanon",400,400,75,69,59,42,24,6,4
+"sadatchair_2003","KSA",700,700,75,69,67,212,59,2,0
+"sadatchair_2003","Jordan",400,398,75,69,55,23,6,0,0
+"sadatchair_2003","Egypt",700,684,75,69,53,145,97,57,19
+"pewreligion_pentecostals","United States",1074,1074,200,194,97,4,2,0,0
+"pewreligion_pentecostals","South Korea",1000,1000,200,194,92,20,6,4,2
+"pewreligion_pentecostals","South Africa",1137,1137,200,194,103,2,0,0,0
+"pewreligion_pentecostals","Regions of India Surveyed",1224,1224,200,194,102,44,18,6,0
+"pewreligion_pentecostals","Philippines",1300,1300,200,194,112,30,16,2,0
+"pewreligion_pentecostals","Nigeria",999,999,200,194,101,78,48,26,8
+"pewreligion_pentecostals","Kenya",1001,1001,200,194,112,20,3,0,0
+"pewreligion_pentecostals","Guatemala",1305,1305,200,194,97,2,0,0,0
+"pewreligion_pentecostals","Chile",988,988,200,194,102,6,0,0,0
+"pewreligion_pentecostals","Brazil",1000,1000,200,194,102,2,2,0,0
+"pewreligion_muslims","Uzbekistan",965,965,250,171,79,8,0,0,0
+"pewreligion_muslims","Turkey",1485,1485,250,171,103,204,104,67,12
+"pewreligion_muslims","Tunisia",1450,1450,250,171,101,426,201,53,0
+"pewreligion_muslims","Thailand",1010,1010,250,171,101,103,8,2,0
+"pewreligion_muslims","Tajikistan",1453,1453,250,171,105,428,257,133,0
+"pewreligion_muslims","Russia",1050,1050,250,171,104,56,19,15,2
+"pewreligion_muslims","Palestinian Territories",994,994,250,171,103,143,69,35,2
+"pewreligion_muslims","Pakistan",1450,1450,250,171,107,356,67,4,0
+"pewreligion_muslims","Niger",946,946,250,171,103,405,184,49,2
+"pewreligion_muslims","Morocco",1472,1472,250,171,79,656,309,112,2
+"pewreligion_muslims","Malaysia",1244,1244,250,171,106,414,195,79,0
+"pewreligion_muslims","Lebanon",551,551,250,171,103,190,132,81,8
+"pewreligion_muslims","Kyrgyzstan",1292,1292,250,171,107,141,61,36,2
+"pewreligion_muslims","Kosovo",1266,1266,250,171,104,181,85,33,4
+"pewreligion_muslims","Kazakhstan",998,998,250,171,104,138,83,51,0
+"pewreligion_muslims","Jordan",966,966,250,171,98,113,56,20,2
+"pewreligion_muslims","Iraq",1416,1416,250,171,103,211,57,12,0
+"pewreligion_muslims","Iran",1519,1519,250,171,74,2,0,0,0
+"pewreligion_muslims","Indonesia",1880,1880,250,171,108,438,142,44,4
+"pewreligion_muslims","Egypt",1798,1798,250,171,99,206,83,14,2
+"pewreligion_muslims","Bosnia and Herzegovina",1007,1007,250,171,105,47,10,6,4
+"pewreligion_muslims","Bangladesh",1918,1918,250,171,106,259,50,12,2
+"pewreligion_muslims","Azerbaijan",996,996,250,171,105,272,67,12,4
+"pewreligion_muslims","Algeria",1181,1181,250,171,100,322,153,52,4
+"pewreligion_muslims","Albania",788,788,250,171,103,44,15,4,0
+"pewreligion_muslims","Afghanistan",1509,1509,250,171,88,362,133,77,0
+"pewreligion_africa","Zambia",1000,1000,204,176,143,105,64,46,30
+"pewreligion_africa","Uganda",1040,1040,204,176,123,26,12,4,0
+"pewreligion_africa","Tanzania",1504,1504,204,176,122,4,2,0,0
+"pewreligion_africa","South Africa",1504,1504,204,176,124,65,38,4,2
+"pewreligion_africa","Senegal",1000,1000,204,176,118,287,91,17,2
+"pewreligion_africa","Rwanda",1000,1000,204,176,142,238,127,75,10
+"pewreligion_africa","Nigeria",1516,1516,204,176,121,270,151,79,6
+"pewreligion_africa","Mozambique",1500,1500,204,176,123,0,0,0,0
+"pewreligion_africa","Mali",1000,1000,204,176,143,155,72,43,6
+"pewreligion_africa","Liberia",1500,1500,204,176,117,320,131,26,0
+"pewreligion_africa","Kenya",1500,1500,204,176,123,175,62,21,4
+"pewreligion_africa","Guinea Bissau",1000,1000,204,176,126,168,79,21,0
+"pewreligion_africa","Ghana",1500,1500,204,176,123,363,221,116,14
+"pewreligion_africa","Ethiopia",1500,1500,204,176,123,182,87,30,0
+"pewreligion_africa","Djibouti",1500,1500,204,176,144,410,236,93,18
+"pewreligion_africa","Democratic Republic of the Congo",1519,1519,204,176,116,140,59,16,4
+"pewreligion_africa","Chad",1503,1503,204,176,126,328,101,21,0
+"pewreligion_africa","Cameroon",1503,1503,204,176,123,25,16,12,2
+"pewreligion_africa","Botswana",1002,1002,204,176,121,251,189,115,21
+"pewglobalattitudes_2013","Venezuela",1000,1000,761,402,94,32,10,2,2
+"pewglobalattitudes_2013","United States",1002,1002,761,402,63,0,0,0,0
+"pewglobalattitudes_2013","Uganda",800,800,761,402,105,44,11,4,0
+"pewglobalattitudes_2013","Turkey",1000,1000,761,402,99,17,6,0,0
+"pewglobalattitudes_2013","Tunisia",1000,1000,761,402,124,8,2,2,0
+"pewglobalattitudes_2013","Spain",1000,1000,761,402,75,0,0,0,0
+"pewglobalattitudes_2013","South Korea",809,809,761,402,66,0,0,0,0
+"pewglobalattitudes_2013","South Africa",815,815,761,402,116,24,7,0,0
+"pewglobalattitudes_2013","Senegal",800,800,761,402,115,133,28,0,0
+"pewglobalattitudes_2013","Russia",996,996,761,402,76,76,37,14,0
+"pewglobalattitudes_2013","Poland",800,800,761,402,75,2,0,0,0
+"pewglobalattitudes_2013","Philippines",804,804,761,402,70,9,0,0,0
+"pewglobalattitudes_2013","Palestinian territories",810,810,761,402,87,32,14,2,0
+"pewglobalattitudes_2013","Pakistan",1201,1201,761,402,134,183,48,18,6
+"pewglobalattitudes_2013","Nigeria",1031,1031,761,402,119,79,13,0,0
+"pewglobalattitudes_2013","Mexico",1000,1000,761,402,132,15,14,8,0
+"pewglobalattitudes_2013","Malaysia",822,822,761,402,86,84,10,0,0
+"pewglobalattitudes_2013","Lebanon",1000,1000,761,402,86,551,396,143,2
+"pewglobalattitudes_2013","Kenya",798,798,761,402,110,32,11,0,0
+"pewglobalattitudes_2013","Jordan",1000,1000,761,402,95,2,0,0,0
+"pewglobalattitudes_2013","Japan",700,700,761,402,67,0,0,0,0
+"pewglobalattitudes_2013","Italy",1105,1105,761,402,76,37,12,4,0
+"pewglobalattitudes_2013","Israel",922,922,761,402,71,20,15,2,2
+"pewglobalattitudes_2013","Indonesia",1000,1000,761,402,82,126,75,25,0
+"pewglobalattitudes_2013","Greece",1000,1000,761,402,73,19,0,0,0
+"pewglobalattitudes_2013","Ghana",799,799,761,402,105,29,2,2,0
+"pewglobalattitudes_2013","Germany",1025,1025,761,402,80,0,0,0,0
+"pewglobalattitudes_2013","France",1004,1004,761,402,81,0,0,0,0
+"pewglobalattitudes_2013","El Salvador",792,792,761,402,117,0,0,0,0
+"pewglobalattitudes_2013","Egypt",1000,1000,761,402,144,0,0,0,0
+"pewglobalattitudes_2013","Czech Republic",700,700,761,402,72,0,0,0,0
+"pewglobalattitudes_2013","China",3226,3226,761,402,89,75,13,6,0
+"pewglobalattitudes_2013","Chile",800,800,761,402,94,33,11,4,0
+"pewglobalattitudes_2013","Canada",701,701,761,402,56,0,0,0,0
+"pewglobalattitudes_2013","Britain",1012,1012,761,402,78,0,0,0,0
+"pewglobalattitudes_2013","Brazil",960,960,761,402,97,11,9,4,0
+"pewglobalattitudes_2013","Bolivia",800,800,761,402,94,6,0,0,0
+"pewglobalattitudes_2013","Australia",800,800,761,402,62,0,0,0,0
+"pewglobalattitudes_2013","Argentina",819,819,761,402,97,0,0,0,0
+"pewglobalattitudes_2012","United States",1011,1011,639,514,70,0,0,0,0
+"pewglobalattitudes_2012","Turkey",1001,1001,639,514,101,27,0,0,0
+"pewglobalattitudes_2012","Tunisia",1000,1000,639,514,133,2,0,0,0
+"pewglobalattitudes_2012","Spain",1000,1000,639,514,98,0,0,0,0
+"pewglobalattitudes_2012","Russia",1000,1000,639,514,100,24,6,4,2
+"pewglobalattitudes_2012","Poland",1001,1001,639,514,89,5,0,0,0
+"pewglobalattitudes_2012","Pakistan",1206,1206,639,514,157,44,20,11,0
+"pewglobalattitudes_2012","Mexico",1200,1200,639,514,92,2,0,0,0
+"pewglobalattitudes_2012","Lebanon",1000,1000,639,514,97,184,88,12,0
+"pewglobalattitudes_2012","Jordan",1000,1000,639,514,108,73,18,2,0
+"pewglobalattitudes_2012","Japan",700,700,639,514,82,0,0,0,0
+"pewglobalattitudes_2012","Italy",1074,1074,639,514,100,5,3,2,0
+"pewglobalattitudes_2012","India",4018,4018,639,514,94,456,227,57,6
+"pewglobalattitudes_2012","Greece",1000,1000,639,514,91,4,0,0,0
+"pewglobalattitudes_2012","Germany",1000,1000,639,514,95,0,0,0,0
+"pewglobalattitudes_2012","France",1004,1004,639,514,93,0,0,0,0
+"pewglobalattitudes_2012","Egypt",1000,1000,639,514,133,0,0,0,0
+"pewglobalattitudes_2012","Czech Republic",1000,1000,639,514,96,0,0,0,0
+"pewglobalattitudes_2012","China",3177,3177,639,514,96,85,36,16,2
+"pewglobalattitudes_2012","Britain",1018,1018,639,514,86,0,0,0,0
+"pewglobalattitudes_2012","Brazil",800,800,639,514,59,2,0,0,0
+"pewglobalattitudes_2011","US",1001,1001,617,359,64,0,0,0,0
+"pewglobalattitudes_2011","Ukraine",1000,1000,617,359,89,9,2,0,0
+"pewglobalattitudes_2011","Turkey",1000,1000,617,359,95,56,13,4,0
+"pewglobalattitudes_2011","Spain",1000,1000,617,359,73,0,0,0,0
+"pewglobalattitudes_2011","Russia",1000,1000,617,359,94,88,71,33,2
+"pewglobalattitudes_2011","Poland",750,750,617,359,64,11,8,8,8
+"pewglobalattitudes_2011","Palestinian Territories",825,825,617,359,86,132,75,42,6
+"pewglobalattitudes_2011","Pakistan refield",1251,1251,617,359,150,89,37,6,2
+"pewglobalattitudes_2011","Pakistan",1970,1970,617,359,144,196,99,38,2
+"pewglobalattitudes_2011","Mexico",800,800,617,359,90,14,6,5,0
+"pewglobalattitudes_2011","Lithuania",750,750,617,359,93,5,0,0,0
+"pewglobalattitudes_2011","Lebanon",1000,1000,617,359,86,177,41,0,0
+"pewglobalattitudes_2011","Kenya",1002,1002,617,359,59,25,6,0,0
+"pewglobalattitudes_2011","Jordan",1000,1000,617,359,97,264,178,124,28
+"pewglobalattitudes_2011","Japan",700,700,617,359,73,0,0,0,0
+"pewglobalattitudes_2011","Israel",907,907,617,359,78,8,6,2,0
+"pewglobalattitudes_2011","Indonesia",1000,1000,617,359,89,37,9,0,0
+"pewglobalattitudes_2011","India",4029,4029,617,359,112,681,366,186,18
+"pewglobalattitudes_2011","Germany",1001,1001,617,359,70,0,0,0,0
+"pewglobalattitudes_2011","France",1004,1004,617,359,69,0,0,0,0
+"pewglobalattitudes_2011","Egypt",1000,1000,617,359,108,320,250,140,24
+"pewglobalattitudes_2011","China",3308,3308,617,359,59,313,95,9,0
+"pewglobalattitudes_2011","Britain",1000,1000,617,359,69,0,0,0,0
+"pewglobalattitudes_2011","Brazil",802,802,617,359,58,3,0,0,0
+"pewglobalattitudes_2010","US",1002,1002,471,254,73,0,0,0,0
+"pewglobalattitudes_2010","Turkey",1003,1003,471,254,99,9,2,2,0
+"pewglobalattitudes_2010","Spain",755,755,471,254,76,0,0,0,0
+"pewglobalattitudes_2010","South Korea",706,706,471,254,73,0,0,0,0
+"pewglobalattitudes_2010","Russia",1001,1001,471,254,74,44,20,8,0
+"pewglobalattitudes_2010","Poland",750,750,471,254,73,7,2,0,0
+"pewglobalattitudes_2010","Pakistan",2000,2000,471,254,145,121,44,22,0
+"pewglobalattitudes_2010","Nigeria",1000,1000,471,254,82,32,22,14,0
+"pewglobalattitudes_2010","Mexico",1300,1300,471,254,76,5,2,2,2
+"pewglobalattitudes_2010","Lebanon",1000,1000,471,254,83,108,20,2,0
+"pewglobalattitudes_2010","Kenya",1002,1002,471,254,68,24,5,4,0
+"pewglobalattitudes_2010","Jordan",1000,1000,471,254,95,46,26,6,0
+"pewglobalattitudes_2010","Japan",700,700,471,254,71,0,0,0,0
+"pewglobalattitudes_2010","Indonesia",1000,1000,471,254,84,27,17,8,0
+"pewglobalattitudes_2010","India",2254,2254,471,254,108,240,106,75,14
+"pewglobalattitudes_2010","Germany",750,750,471,254,77,0,0,0,0
+"pewglobalattitudes_2010","France",752,752,471,254,77,0,0,0,0
+"pewglobalattitudes_2010","Egypt",1000,1000,471,254,95,88,75,42,4
+"pewglobalattitudes_2010","China",3262,3262,471,254,68,141,33,12,0
+"pewglobalattitudes_2010","Britain",750,750,471,254,76,0,0,0,0
+"pewglobalattitudes_2010","Brazil",1000,1000,471,254,91,0,0,0,0
+"pewglobalattitudes_2010","Argentina",803,803,471,254,70,0,0,0,0
+"pewglobalattitudes_2009","United States",1000,1000,471,209,68,0,0,0,0
+"pewglobalattitudes_2009","Turkey",1005,1005,471,209,88,41,8,2,0
+"pewglobalattitudes_2009","Spain",750,750,471,209,70,0,0,0,0
+"pewglobalattitudes_2009","South Korea",702,702,471,209,71,4,0,0,0
+"pewglobalattitudes_2009","Russia",1001,1001,471,209,71,26,8,6,0
+"pewglobalattitudes_2009","Poland",750,750,471,209,70,2,0,0,0
+"pewglobalattitudes_2009","Palestinian Territories",1204,1204,471,209,88,16,6,4,4
+"pewglobalattitudes_2009","Pakistan",1254,1254,471,209,131,27,4,0,0
+"pewglobalattitudes_2009","Nigeria",1000,1000,471,209,80,231,188,150,6
+"pewglobalattitudes_2009","Mexico",1000,1000,471,209,106,64,54,28,4
+"pewglobalattitudes_2009","Lebanon",1000,1000,471,209,83,320,178,14,0
+"pewglobalattitudes_2009","Kenya",1002,1002,471,209,69,27,9,6,0
+"pewglobalattitudes_2009","Jordan",1000,1000,471,209,88,12,2,0,0
+"pewglobalattitudes_2009","Japan",700,700,471,209,72,0,0,0,0
+"pewglobalattitudes_2009","Israel",1201,1201,471,209,77,37,22,4,0
+"pewglobalattitudes_2009","Indonesia",1000,1000,471,209,89,12,2,2,0
+"pewglobalattitudes_2009","India",2038,2038,471,209,71,216,98,14,2
+"pewglobalattitudes_2009","Great Britain",754,754,471,209,71,0,0,0,0
+"pewglobalattitudes_2009","Germany",751,751,471,209,71,0,0,0,0
+"pewglobalattitudes_2009","France",753,753,471,209,70,0,0,0,0
+"pewglobalattitudes_2009","Egypt",1000,1000,471,209,88,6,2,0,0
+"pewglobalattitudes_2009","China",3169,3169,471,209,64,244,125,69,4
+"pewglobalattitudes_2009","Canada",750,750,471,209,69,0,0,0,0
+"pewglobalattitudes_2009","Brazil",813,813,471,209,70,0,0,0,0
+"pewglobalattitudes_2009","Argentina",800,800,471,209,70,0,0,0,0
+"pewglobalattitudes_2008","United States",1000,1000,380,173,57,0,0,0,0
+"pewglobalattitudes_2008","Turkey",1003,1003,380,173,74,48,14,6,0
+"pewglobalattitudes_2008","Tanzania",704,704,380,173,66,6,2,2,0
+"pewglobalattitudes_2008","Spain",752,752,380,173,59,0,0,0,0
+"pewglobalattitudes_2008","South Korea",714,714,380,173,62,0,0,0,0
+"pewglobalattitudes_2008","South Africa",1001,1001,380,173,58,15,4,4,0
+"pewglobalattitudes_2008","Russia",1000,1000,380,173,60,94,85,63,8
+"pewglobalattitudes_2008","Poland",750,750,380,173,59,0,0,0,0
+"pewglobalattitudes_2008","Pakistan",1254,1254,380,173,79,92,26,5,0
+"pewglobalattitudes_2008","Nigeria",1000,1000,380,173,66,92,37,4,0
+"pewglobalattitudes_2008","Mexico",805,805,380,173,59,8,8,4,4
+"pewglobalattitudes_2008","Lebanon",1000,1000,380,173,68,215,128,21,0
+"pewglobalattitudes_2008","Jordan",1000,1000,380,173,75,4,2,0,0
+"pewglobalattitudes_2008","Japan",708,708,380,173,63,0,0,0,0
+"pewglobalattitudes_2008","Indonesia",1000,1000,380,173,74,14,2,2,0
+"pewglobalattitudes_2008","India",2056,2056,380,173,58,21,8,2,2
+"pewglobalattitudes_2008","Great Britain",753,753,380,173,60,0,0,0,0
+"pewglobalattitudes_2008","Germany",750,750,380,173,61,0,0,0,0
+"pewglobalattitudes_2008","France",754,754,380,173,60,0,0,0,0
+"pewglobalattitudes_2008","Egypt",1000,1000,380,173,75,22,9,0,0
+"pewglobalattitudes_2008","China",3212,3212,380,173,97,118,58,14,2
+"pewglobalattitudes_2008","Brazil",1000,1000,380,173,59,0,0,0,0
+"pewglobalattitudes_2008","Australia",700,700,380,173,60,0,0,0,0
+"pewglobalattitudes_2008","Argentina",801,801,380,173,59,2,0,0,0
+"pewglobalattitudes_2007","Venezuela",803,803,961,581,151,0,0,0,0
+"pewglobalattitudes_2007","United States_Form_B",1008,1008,961,581,77,0,0,0,0
+"pewglobalattitudes_2007","United States_Form_A",1018,1018,961,581,61,0,0,0,0
+"pewglobalattitudes_2007","Ukraine",500,500,961,581,141,10,6,2,0
+"pewglobalattitudes_2007","Uganda",1122,1122,961,581,148,77,46,40,12
+"pewglobalattitudes_2007","Turkey",971,971,961,581,151,23,10,2,0
+"pewglobalattitudes_2007","Tanzania",704,704,961,581,154,0,0,0,0
+"pewglobalattitudes_2007","Sweden_Form_B",500,500,961,581,72,0,0,0,0
+"pewglobalattitudes_2007","Sweden_Form_A",500,500,961,581,57,0,0,0,0
+"pewglobalattitudes_2007","Spain",500,500,961,581,109,0,0,0,0
+"pewglobalattitudes_2007","South Korea",718,718,961,581,108,2,0,0,0
+"pewglobalattitudes_2007","South Africa",1000,1000,961,581,158,4,0,0,0
+"pewglobalattitudes_2007","Slovakia_Form_B",450,450,961,581,89,0,0,0,0
+"pewglobalattitudes_2007","Slovakia_Form_A",450,450,961,581,72,0,0,0,0
+"pewglobalattitudes_2007","Senegal",700,700,961,581,157,2,2,2,0
+"pewglobalattitudes_2007","Russia",1002,1002,961,581,140,35,20,13,2
+"pewglobalattitudes_2007","Poland",504,504,961,581,144,2,2,2,0
+"pewglobalattitudes_2007","Peru",800,800,961,581,146,0,0,0,0
+"pewglobalattitudes_2007","Palestinian Territories",808,808,961,581,150,19,11,4,0
+"pewglobalattitudes_2007","Pakistan",2008,2008,961,581,146,122,47,14,0
+"pewglobalattitudes_2007","Nigeria",1128,1128,961,581,160,186,140,76,0
+"pewglobalattitudes_2007","Morocco",1000,1000,961,581,142,26,2,0,0
+"pewglobalattitudes_2007","Mexico",828,828,961,581,146,30,16,14,2
+"pewglobalattitudes_2007","Mali",700,700,961,581,153,2,2,0,0
+"pewglobalattitudes_2007","Malaysia",700,700,961,581,146,25,2,2,0
+"pewglobalattitudes_2007","Lebanon",1000,1000,961,581,146,232,146,57,0
+"pewglobalattitudes_2007","Kuwait",500,500,961,581,148,0,0,0,0
+"pewglobalattitudes_2007","Kenya",1000,1000,961,581,148,33,24,11,0
+"pewglobalattitudes_2007","Jordan",1000,1000,961,581,149,137,98,29,0
+"pewglobalattitudes_2007","Japan",762,762,961,581,111,0,0,0,0
+"pewglobalattitudes_2007","Ivory Coast",700,700,961,581,156,0,0,0,0
+"pewglobalattitudes_2007","Italy",501,501,961,581,112,5,0,0,0
+"pewglobalattitudes_2007","Israel",900,900,961,581,110,0,0,0,0
+"pewglobalattitudes_2007","Indonesia",1008,1008,961,581,152,10,7,0,0
+"pewglobalattitudes_2007","India",2043,2043,961,581,137,167,131,49,0
+"pewglobalattitudes_2007","Great Britain_Form_B",500,500,961,581,72,0,0,0,0
+"pewglobalattitudes_2007","Great Britain_Form_A",502,502,961,581,57,0,0,0,0
+"pewglobalattitudes_2007","Ghana",707,707,961,581,148,41,20,10,6
+"pewglobalattitudes_2007","Germany_Form_B",500,500,961,581,69,0,0,0,0
+"pewglobalattitudes_2007","Germany_Form_A",500,500,961,581,57,0,0,0,0
+"pewglobalattitudes_2007","France_Form_B",502,502,961,581,73,0,0,0,0
+"pewglobalattitudes_2007","France_Form_A",502,502,961,581,57,0,0,0,0
+"pewglobalattitudes_2007","Ethiopia",710,710,961,581,154,81,73,47,7
+"pewglobalattitudes_2007","Egypt",1000,1000,961,581,150,130,94,45,0
+"pewglobalattitudes_2007","Czech Republic_Form_B",450,450,961,581,89,0,0,0,0
+"pewglobalattitudes_2007","Czech Republic_Form_A",450,450,961,581,72,0,0,0,0
+"pewglobalattitudes_2007","China",3142,3142,961,581,118,92,37,13,2
+"pewglobalattitudes_2007","Chile",800,800,961,581,153,11,6,0,0
+"pewglobalattitudes_2007","Canada_Form_B",503,503,961,581,69,0,0,0,0
+"pewglobalattitudes_2007","Canada_Form_A",501,501,961,581,56,0,0,0,0
+"pewglobalattitudes_2007","Bulgaria",500,500,961,581,140,4,2,0,0
+"pewglobalattitudes_2007","Brazil",1000,1000,961,581,146,4,0,0,0
+"pewglobalattitudes_2007","Bolivia",834,834,961,581,146,11,10,4,0
+"pewglobalattitudes_2007","Bangladesh",1000,1000,961,581,148,3,0,0,0
+"pewglobalattitudes_2007","Argentina",800,800,961,581,151,10,6,4,0
+"pewglobalattitudes_2002","Vietnam",772,772,399,186,100,2,0,0,0
+"pewglobalattitudes_2002","Venezuela",700,700,399,186,127,15,5,0,0
+"pewglobalattitudes_2002","Uzbekistan",700,700,399,186,133,0,0,0,0
+"pewglobalattitudes_2002","US",1501,1501,399,186,130,0,0,0,0
+"pewglobalattitudes_2002","Ukraine",500,500,399,186,134,0,0,0,0
+"pewglobalattitudes_2002","Uganda",1008,1008,399,186,128,5,4,0,0
+"pewglobalattitudes_2002","Turkey",1005,1005,399,186,142,37,12,10,0
+"pewglobalattitudes_2002","Tanzania",720,720,399,186,128,16,12,2,0
+"pewglobalattitudes_2002","South Korea",719,719,399,186,126,2,0,0,0
+"pewglobalattitudes_2002","South Africa",700,700,399,186,130,2,2,0,0
+"pewglobalattitudes_2002","Slovak Republic",500,500,399,186,136,0,0,0,0
+"pewglobalattitudes_2002","Senegal",710,710,399,186,140,0,0,0,0
+"pewglobalattitudes_2002","Russia",1002,1002,399,186,135,4,4,0,0
+"pewglobalattitudes_2002","Poland",500,500,399,186,134,0,0,0,0
+"pewglobalattitudes_2002","Philippines",700,700,399,186,130,4,2,2,0
+"pewglobalattitudes_2002","Peru",711,711,399,186,126,0,0,0,0
+"pewglobalattitudes_2002","Pakistan",2032,2032,399,186,140,19,2,0,0
+"pewglobalattitudes_2002","Nigeria",1000,1000,399,186,137,142,80,37,0
+"pewglobalattitudes_2002","Mexico",996,996,399,186,126,10,2,0,0
+"pewglobalattitudes_2002","Mali",697,697,399,186,142,35,23,0,0
+"pewglobalattitudes_2002","Lebanon",1000,1000,399,186,131,47,24,5,0
+"pewglobalattitudes_2002","Kenya",658,658,399,186,131,6,6,6,0
+"pewglobalattitudes_2002","Jordan",1000,1000,399,186,134,449,386,248,0
+"pewglobalattitudes_2002","Japan",702,702,399,186,112,0,0,0,0
+"pewglobalattitudes_2002","Ivory Coast",708,708,399,186,133,0,0,0,0
+"pewglobalattitudes_2002","Italy",508,508,399,186,110,0,0,0,0
+"pewglobalattitudes_2002","Indonesia",1017,1017,399,186,142,14,4,4,0
+"pewglobalattitudes_2002","India",2189,2189,399,186,127,36,2,2,0
+"pewglobalattitudes_2002","Honduras",506,506,399,186,127,7,0,0,0
+"pewglobalattitudes_2002","Guatemala",500,500,399,186,129,0,0,0,0
+"pewglobalattitudes_2002","Great Britain",501,501,399,186,113,0,0,0,0
+"pewglobalattitudes_2002","Ghana",702,702,399,186,130,73,61,28,0
+"pewglobalattitudes_2002","Germany",1000,1000,399,186,128,0,0,0,0
+"pewglobalattitudes_2002","France",507,507,399,186,115,0,0,0,0
+"pewglobalattitudes_2002","Egypt",1013,1013,399,186,76,161,133,82,0
+"pewglobalattitudes_2002","Czech Republic",500,500,399,186,135,0,0,0,0
+"pewglobalattitudes_2002","China",3000,3000,399,186,75,34,0,0,0
+"pewglobalattitudes_2002","Canada",500,500,399,186,113,0,0,0,0
+"pewglobalattitudes_2002","Bulgaria",514,514,399,186,132,10,4,0,0
+"pewglobalattitudes_2002","Brazil",1000,1000,399,186,128,2,0,0,0
+"pewglobalattitudes_2002","Bolivia",782,782,399,186,128,0,0,0,0
+"pewglobalattitudes_2002","Bangladesh",689,689,399,186,129,4,4,0,0
+"pewglobalattitudes_2002","Argentina",814,814,399,186,127,0,0,0,0
+"pewglobalattitudes_2002","Angola",780,780,399,186,126,20,2,0,0
+"latinobarometro_2012","Venezuela",1200,1200,336,247,230,24,2,0,0
+"latinobarometro_2012","Uruguay",1200,1200,336,247,238,4,2,2,0
+"latinobarometro_2012","Spain",2459,2459,336,247,122,82,4,0,0
+"latinobarometro_2012","Peru",1200,1200,336,247,230,6,6,4,0
+"latinobarometro_2012","Paraguay",1200,1200,336,247,230,144,118,52,0
+"latinobarometro_2012","Panama",1000,1000,336,247,227,0,0,0,0
+"latinobarometro_2012","Nicaragua",1000,1000,336,247,229,13,12,2,0
+"latinobarometro_2012","Mexico",1200,1200,336,247,231,4,4,2,0
+"latinobarometro_2012","Honduras",1000,1000,336,247,231,6,2,0,0
+"latinobarometro_2012","Guatemala",1000,1000,336,247,230,2,0,0,0
+"latinobarometro_2012","El Salvador",1000,1000,336,247,231,20,0,0,0
+"latinobarometro_2012","Ecuador",1200,1200,336,247,230,12,5,4,0
+"latinobarometro_2012","Dominican Rep",1000,1000,336,247,230,0,0,0,0
+"latinobarometro_2012","Costa Rica",1000,1000,336,247,231,2,0,0,0
+"latinobarometro_2012","Colombia",1200,1200,336,247,233,2,0,0,0
+"latinobarometro_2012","Chile",1200,1200,336,247,231,23,18,16,8
+"latinobarometro_2012","Brazil",1204,1204,336,247,230,2,2,0,0
+"latinobarometro_2012","Bolivia",1200,1200,336,247,230,2,0,0,0
+"latinobarometro_2012","Argentina",1200,1200,336,247,236,0,0,0,0
+"latinobarometro_2011","Venezuela",1200,1200,414,291,290,92,62,16,0
+"latinobarometro_2011","Uruguay",1200,1200,414,291,288,5,2,2,0
+"latinobarometro_2011","Peru",1200,1200,414,291,291,18,8,0,0
+"latinobarometro_2011","Paraguay",1200,1200,414,291,291,97,66,25,0
+"latinobarometro_2011","Panama",1000,1000,414,291,289,12,0,0,0
+"latinobarometro_2011","Nicaragua",1000,1000,414,291,288,0,0,0,0
+"latinobarometro_2011","Mexico",1200,1200,414,291,291,7,6,0,0
+"latinobarometro_2011","Honduras",1000,1000,414,291,289,8,4,2,0
+"latinobarometro_2011","Guatemala",1000,1000,414,291,289,0,0,0,0
+"latinobarometro_2011","El Salvador",1000,1000,414,291,288,0,0,0,0
+"latinobarometro_2011","Ecuador",1200,1200,414,291,291,40,33,14,2
+"latinobarometro_2011","Dominican Rep",1000,1000,414,291,290,41,29,8,2
+"latinobarometro_2011","Costa Rica",1000,1000,414,291,286,0,0,0,0
+"latinobarometro_2011","Colombia",1200,1200,414,291,287,0,0,0,0
+"latinobarometro_2011","Chile",1200,1200,414,291,290,102,85,57,0
+"latinobarometro_2011","Brazil",1204,1204,414,291,289,4,0,0,0
+"latinobarometro_2011","Bolivia",1200,1200,414,291,290,12,11,11,0
+"latinobarometro_2011","Argentina",1200,1200,414,291,290,20,20,16,0
+"latinobarometro_2009","Venezuela",1200,1200,368,250,244,19,6,2,0
+"latinobarometro_2009","Uruguay",1200,1200,368,250,242,2,0,0,0
+"latinobarometro_2009","Spain",2486,2486,368,250,117,0,0,0,0
+"latinobarometro_2009","Peru",1200,1200,368,250,244,0,0,0,0
+"latinobarometro_2009","Paraguay",1200,1200,368,250,244,7,4,2,0
+"latinobarometro_2009","Panama",1000,1000,368,250,242,2,2,0,0
+"latinobarometro_2009","Nicaragua",1000,1000,368,250,244,0,0,0,0
+"latinobarometro_2009","Mexico",1200,1200,368,250,243,6,4,4,2
+"latinobarometro_2009","Honduras",1000,1000,368,250,245,4,2,0,0
+"latinobarometro_2009","Guatemala",1000,1000,368,250,244,2,2,2,0
+"latinobarometro_2009","El Salvador",1000,1000,368,250,244,8,0,0,0
+"latinobarometro_2009","Ecuador",1200,1200,368,250,244,64,41,14,0
+"latinobarometro_2009","Dominican Rep",1000,1000,368,250,244,4,4,0,0
+"latinobarometro_2009","Costa Rica",1000,1000,368,250,241,8,4,4,0
+"latinobarometro_2009","Colombia",1200,1200,368,250,244,8,0,0,0
+"latinobarometro_2009","Chile",1200,1200,368,250,244,99,65,16,0
+"latinobarometro_2009","Brazil",1204,1204,368,250,244,2,0,0,0
+"latinobarometro_2009","Bolivia",1200,1200,368,250,244,6,6,4,0
+"latinobarometro_2009","Argentina",1200,1200,368,250,244,0,0,0,0
+"latinobarometro_2008","Venezuela",1200,1200,383,266,262,0,0,0,0
+"latinobarometro_2008","Uruguay",1200,1200,383,266,263,82,76,60,28
+"latinobarometro_2008","Spain",2471,2471,383,266,122,4,2,0,0
+"latinobarometro_2008","Peru",1200,1200,383,266,265,9,8,4,0
+"latinobarometro_2008","Paraguay",1200,1200,383,266,264,0,0,0,0
+"latinobarometro_2008","Panama",1000,1000,383,266,264,6,6,2,0
+"latinobarometro_2008","Nicaragua",1000,1000,383,266,265,62,62,60,50
+"latinobarometro_2008","Mexico",1200,1200,383,266,264,4,2,2,2
+"latinobarometro_2008","Honduras",1000,1000,383,266,264,27,10,0,0
+"latinobarometro_2008","Guatemala",1000,1000,383,266,266,0,0,0,0
+"latinobarometro_2008","El Salvador",1000,1000,383,266,265,18,8,4,0
+"latinobarometro_2008","Ecuador",1200,1200,383,266,265,2,0,0,0
+"latinobarometro_2008","Dominican Rep",1000,1000,383,266,265,4,0,0,0
+"latinobarometro_2008","Costa Rica",1000,1000,383,266,263,0,0,0,0
+"latinobarometro_2008","Colombia",1200,1200,383,266,264,0,0,0,0
+"latinobarometro_2008","Chile",1200,1200,383,266,266,42,26,16,0
+"latinobarometro_2008","Brazil",1204,1204,383,266,264,4,2,0,0
+"latinobarometro_2008","Bolivia",1200,1200,383,266,265,13,4,2,0
+"latinobarometro_2008","Argentina",1200,1200,383,266,265,20,18,8,2
+"internationalsocialsurvey_2012","West",1208,1208,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","Venezuela",1016,1016,389,84,59,119,95,76,68
+"internationalsocialsurvey_2012","United States",1302,1302,389,84,58,5,5,3,2
+"internationalsocialsurvey_2012","Turkey",1620,1620,389,84,59,86,40,8,0
+"internationalsocialsurvey_2012","Taiwan",2072,2072,389,84,58,12,0,0,0
+"internationalsocialsurvey_2012","Switzerland",1237,1237,389,84,58,2,0,0,0
+"internationalsocialsurvey_2012","Sweden",1060,1060,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","Spain",2595,2595,389,84,58,0,0,0,0
+"internationalsocialsurvey_2012","South Korea",1396,1396,389,84,59,2,0,0,0
+"internationalsocialsurvey_2012","South Africa",2547,2547,389,84,54,57,22,11,5
+"internationalsocialsurvey_2012","Slovenia",1034,1034,389,84,58,5,0,0,0
+"internationalsocialsurvey_2012","Slovakia",1128,1128,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","Russia",1525,1525,389,84,57,30,16,10,4
+"internationalsocialsurvey_2012","Poland",1115,1115,389,84,59,2,0,0,0
+"internationalsocialsurvey_2012","Philippines",1200,1200,389,84,57,0,0,0,0
+"internationalsocialsurvey_2012","Norway",1444,1444,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","Mexico",1527,1527,389,84,57,2,0,0,0
+"internationalsocialsurvey_2012","Lithuania",1187,1187,389,84,59,14,2,0,0
+"internationalsocialsurvey_2012","Latvia",1000,1000,389,84,59,14,4,2,0
+"internationalsocialsurvey_2012","Japan",1212,1212,389,84,57,4,0,0,0
+"internationalsocialsurvey_2012","Israel",1220,1220,389,84,59,11,2,0,0
+"internationalsocialsurvey_2012","Ireland",1215,1215,389,84,58,0,0,0,0
+"internationalsocialsurvey_2012","India",1660,1660,389,84,58,376,257,107,13
+"internationalsocialsurvey_2012","Iceland",1172,1172,389,84,59,4,2,0,0
+"internationalsocialsurvey_2012","Great Britain",950,950,389,84,56,0,0,0,0
+"internationalsocialsurvey_2012","France",2409,2409,389,84,58,0,0,0,0
+"internationalsocialsurvey_2012","Finland",1171,1171,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","East",558,558,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","Denmark",1403,1403,389,84,58,0,0,0,0
+"internationalsocialsurvey_2012","Czech Republic",1804,1804,389,84,59,31,12,0,0
+"internationalsocialsurvey_2012","Croatia",1000,1000,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","China",5946,5946,389,84,57,114,45,12,2
+"internationalsocialsurvey_2012","Chile",1564,1564,389,84,59,2,0,0,0
+"internationalsocialsurvey_2012","Canada",983,983,389,84,59,6,6,6,6
+"internationalsocialsurvey_2012","Bulgaria",1003,1003,389,84,57,23,10,6,2
+"internationalsocialsurvey_2012","Austria",1182,1182,389,84,58,6,0,0,0
+"internationalsocialsurvey_2012","Australia",1612,1612,389,84,58,4,0,0,0
+"internationalsocialsurvey_2012","Argentina",977,977,389,84,59,0,0,0,0
+"internationalsocialsurvey_2011","West",1117,1117,336,66,61,0,0,0,0
+"internationalsocialsurvey_2011","Wallonia",1873,1873,336,66,63,35,32,28,25
+"internationalsocialsurvey_2011","United States",1550,1550,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Turkey",1559,1559,336,66,65,50,11,3,0
+"internationalsocialsurvey_2011","Taiwan",2199,2199,336,66,58,0,0,0,0
+"internationalsocialsurvey_2011","Switzerland",1212,1212,336,66,63,0,0,0,0
+"internationalsocialsurvey_2011","Sweden",1158,1158,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Spain",2712,2712,336,66,64,0,0,0,0
+"internationalsocialsurvey_2011","South Africa",3004,3004,336,66,58,184,151,121,58
+"internationalsocialsurvey_2011","Slovenia",1082,1082,336,66,60,19,0,0,0
+"internationalsocialsurvey_2011","Slovak Republic",1128,1128,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Russia",1511,1511,336,66,65,7,2,0,0
+"internationalsocialsurvey_2011","Portugal",1022,1022,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Poland",1115,1115,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Philippines",1200,1200,336,66,65,2,0,0,0
+"internationalsocialsurvey_2011","Norway",1834,1834,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Netherlands",1472,1472,336,66,65,3,3,2,2
+"internationalsocialsurvey_2011","Lithuania",1187,1187,336,66,60,4,0,0,0
+"internationalsocialsurvey_2011","Korea (South)",1535,1535,336,66,64,0,0,0,0
+"internationalsocialsurvey_2011","Japan",1306,1306,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Italy",1186,1186,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Israel",1220,1220,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Great Britain",936,936,336,66,59,3,3,3,3
+"internationalsocialsurvey_2011","France",3319,3319,336,66,64,0,0,0,0
+"internationalsocialsurvey_2011","Flanders",1210,1210,336,66,65,0,0,0,0
+"internationalsocialsurvey_2011","Finland",1340,1340,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","East",564,564,336,66,61,0,0,0,0
+"internationalsocialsurvey_2011","Denmark",1388,1388,336,66,64,0,0,0,0
+"internationalsocialsurvey_2011","Czech Republic",1804,1804,336,66,60,8,0,0,0
+"internationalsocialsurvey_2011","Croatia",1210,1210,336,66,61,23,7,2,0
+"internationalsocialsurvey_2011","China",5620,5620,336,66,60,63,42,23,7
+"internationalsocialsurvey_2011","Chile",1559,1559,336,66,60,4,4,4,0
+"internationalsocialsurvey_2011","Bulgaria",1003,1003,336,66,60,8,4,0,0
+"internationalsocialsurvey_2011","Australia",1946,1946,336,66,60,2,2,2,2
+"internationalsocialsurvey_2010","United States",1430,1382,331,62,52,0,0,0,0
+"internationalsocialsurvey_2010","Turkey",1665,1592,331,62,45,119,66,27,6
+"internationalsocialsurvey_2010","Taiwan",2209,2184,331,62,61,0,0,0,0
+"internationalsocialsurvey_2010","Switzerland",1212,1201,331,62,60,0,0,0,0
+"internationalsocialsurvey_2010","Sweden",1181,1149,331,62,52,0,0,0,0
+"internationalsocialsurvey_2010","Spain",2560,2510,331,62,51,2,0,0,0
+"internationalsocialsurvey_2010","South Africa",3112,2995,331,62,51,160,117,65,28
+"internationalsocialsurvey_2010","Slovenia",1082,1066,331,62,58,5,0,0,0
+"internationalsocialsurvey_2010","Slovak Republic",1159,1124,331,62,53,8,8,7,3
+"internationalsocialsurvey_2010","Russia",1619,1579,331,62,39,15,10,6,4
+"internationalsocialsurvey_2010","Philippines",1200,1195,331,62,61,2,2,0,0
+"internationalsocialsurvey_2010","Norway",1382,1345,331,62,55,0,0,0,0
+"internationalsocialsurvey_2010","New Zealand",1172,1147,331,62,59,2,2,0,0
+"internationalsocialsurvey_2010","Mexico",1637,1597,331,62,61,76,35,9,2
+"internationalsocialsurvey_2010","Lithuania",1023,996,331,62,44,26,20,11,8
+"internationalsocialsurvey_2010","Latvia",1000,978,331,62,49,12,6,0,0
+"internationalsocialsurvey_2010","Korea (South)",1576,1544,331,62,61,0,0,0,0
+"internationalsocialsurvey_2010","Japan",1307,1242,331,62,46,2,0,0,0
+"internationalsocialsurvey_2010","Israel",1216,1191,331,62,55,2,2,0,0
+"internationalsocialsurvey_2010","Great Britain and/or United Kingdom",928,883,331,62,49,0,0,0,0
+"internationalsocialsurvey_2010","Germany",1407,1337,331,62,52,0,0,0,0
+"internationalsocialsurvey_2010","France",2253,2144,331,62,57,2,2,2,0
+"internationalsocialsurvey_2010","Finland",1211,1162,331,62,50,0,0,0,0
+"internationalsocialsurvey_2010","Denmark",1305,1234,331,62,51,0,0,0,0
+"internationalsocialsurvey_2010","Czech Republic",1428,1403,331,62,58,9,4,2,0
+"internationalsocialsurvey_2010","Croatia",1210,1205,331,62,57,25,17,12,0
+"internationalsocialsurvey_2010","Chile",1436,1388,331,62,55,0,0,0,0
+"internationalsocialsurvey_2010","Canada",985,974,331,62,56,0,0,0,0
+"internationalsocialsurvey_2010","Bulgaria",1003,974,331,62,47,6,2,2,0
+"internationalsocialsurvey_2010","Belgium",1142,1103,331,62,55,0,0,0,0
+"internationalsocialsurvey_2010","Austria",1019,1010,331,62,58,2,0,0,0
+"internationalsocialsurvey_2010","Argentina",1130,1111,331,62,55,2,0,0,0
+"internationalsocialsurvey_2009","Venezuela",999,995,350,76,55,72,66,60,38
+"internationalsocialsurvey_2009","United States",1581,1535,350,76,52,0,0,0,0
+"internationalsocialsurvey_2009","Ukraine",2012,1981,350,76,47,10,2,0,0
+"internationalsocialsurvey_2009","Turkey",1569,1528,350,76,52,5,3,3,0
+"internationalsocialsurvey_2009","Taiwan",2026,2002,350,76,61,0,0,0,0
+"internationalsocialsurvey_2009","Switzerland",1229,1224,350,76,57,0,0,0,0
+"internationalsocialsurvey_2009","Sweden",1137,1098,350,76,50,0,0,0,0
+"internationalsocialsurvey_2009","Spain",1215,1193,350,76,46,8,0,0,0
+"internationalsocialsurvey_2009","South Korea",1599,1590,350,76,68,0,0,0,0
+"internationalsocialsurvey_2009","South Africa",3305,3227,350,76,52,6,2,0,0
+"internationalsocialsurvey_2009","Slovenia",1065,1044,350,76,43,7,0,0,0
+"internationalsocialsurvey_2009","Slovak Republic",1159,1133,350,76,56,2,0,0,0
+"internationalsocialsurvey_2009","Russia",1603,1558,350,76,50,2,0,0,0
+"internationalsocialsurvey_2009","Portugal",1000,985,350,76,45,2,0,0,0
+"internationalsocialsurvey_2009","Poland",1263,1237,350,76,48,0,0,0,0
+"internationalsocialsurvey_2009","Philippines",1200,1194,350,76,49,0,0,0,0
+"internationalsocialsurvey_2009","Norway",1456,1411,350,76,56,335,322,253,102
+"internationalsocialsurvey_2009","New Zealand",935,903,350,76,60,2,2,2,0
+"internationalsocialsurvey_2009","Latvia",1069,1058,350,76,52,37,25,6,0
+"internationalsocialsurvey_2009","Japan",1296,1239,350,76,40,0,0,0,0
+"internationalsocialsurvey_2009","Italy",1084,1019,350,76,51,0,0,0,0
+"internationalsocialsurvey_2009","Israel",1193,1180,350,76,48,0,0,0,0
+"internationalsocialsurvey_2009","Iceland",947,934,350,76,62,0,0,0,0
+"internationalsocialsurvey_2009","Hungary",1010,1007,350,76,59,0,0,0,0
+"internationalsocialsurvey_2009","Great Britain and/or United Kingdom",958,930,350,76,44,0,0,0,0
+"internationalsocialsurvey_2009","Germany",1395,1369,350,76,51,0,0,0,0
+"internationalsocialsurvey_2009","France",2817,2739,350,76,47,2,2,0,0
+"internationalsocialsurvey_2009","Finland",880,842,350,76,56,0,0,0,0
+"internationalsocialsurvey_2009","Estonia",1005,992,350,76,60,0,0,0,0
+"internationalsocialsurvey_2009","Denmark",1518,1458,350,76,47,0,0,0,0
+"internationalsocialsurvey_2009","Czech Republic",1205,1199,350,76,64,0,0,0,0
+"internationalsocialsurvey_2009","Cyprus",1000,994,350,76,55,0,0,0,0
+"internationalsocialsurvey_2009","Croatia",1201,1187,350,76,49,0,0,0,0
+"internationalsocialsurvey_2009","China",3010,2955,350,76,50,14,6,0,0
+"internationalsocialsurvey_2009","Chile",1505,1477,350,76,50,2,2,0,0
+"internationalsocialsurvey_2009","Bulgaria",1000,946,350,76,32,11,6,2,0
+"internationalsocialsurvey_2009","Belgium",1115,1078,350,76,45,0,0,0,0
+"internationalsocialsurvey_2009","Austria",1019,1005,350,76,55,0,0,0,0
+"internationalsocialsurvey_2009","Australia",1525,1467,350,76,47,0,0,0,0
+"internationalsocialsurvey_2009","Argentina",1133,1117,350,76,49,2,0,0,0
+"internationalsocialsurvey_2008","Venezuela",1077,1063,363,83,61,7,0,0,0
+"internationalsocialsurvey_2008","Uruguay",1010,999,363,83,65,4,0,0,0
+"internationalsocialsurvey_2008","United States",1365,1349,363,83,65,0,0,0,0
+"internationalsocialsurvey_2008","United Kingdom",3075,2957,363,83,44,8,4,2,0
+"internationalsocialsurvey_2008","Ukraine",2036,1992,363,83,27,212,14,2,0
+"internationalsocialsurvey_2008","Turkey",1453,1434,363,83,68,80,38,7,0
+"internationalsocialsurvey_2008","Taiwan",1927,1886,363,83,56,0,0,0,0
+"internationalsocialsurvey_2008","Switzerland",1229,1223,363,83,70,0,0,0,0
+"internationalsocialsurvey_2008","Sweden",1235,1178,363,83,41,6,0,0,0
+"internationalsocialsurvey_2008","Spain",2373,2320,363,83,58,4,4,4,2
+"internationalsocialsurvey_2008","South Korea",1508,1498,363,83,71,2,2,0,0
+"internationalsocialsurvey_2008","South Africa",3292,3261,363,83,66,101,50,19,4
+"internationalsocialsurvey_2008","Slovenia",1065,1035,363,83,57,3,2,0,0
+"internationalsocialsurvey_2008","Slovak Republic",1138,1094,363,83,56,7,5,0,0
+"internationalsocialsurvey_2008","Russia",1015,981,363,83,15,380,71,8,8
+"internationalsocialsurvey_2008","Portugal",1000,993,363,83,59,2,0,0,0
+"internationalsocialsurvey_2008","Poland",1263,1225,363,83,53,10,2,0,0
+"internationalsocialsurvey_2008","Philippines",1200,1199,363,83,73,2,2,2,0
+"internationalsocialsurvey_2008","Norway",1072,1037,363,83,45,0,0,0,0
+"internationalsocialsurvey_2008","New Zealand",1027,997,363,83,56,0,0,0,0
+"internationalsocialsurvey_2008","Netherlands",1951,1901,363,83,57,0,0,0,0
+"internationalsocialsurvey_2008","Mexico",1471,1446,363,83,69,53,20,4,2
+"internationalsocialsurvey_2008","Latvia",1069,1042,363,83,67,50,34,20,2
+"internationalsocialsurvey_2008","Japan",1200,1155,363,83,14,196,17,0,0
+"internationalsocialsurvey_2008","Italy",1078,1072,363,83,56,28,2,0,0
+"internationalsocialsurvey_2008","Israel",1193,1174,363,83,58,2,0,0,0
+"internationalsocialsurvey_2008","Ireland",2049,2034,363,83,60,30,14,12,6
+"internationalsocialsurvey_2008","Hungary",1010,997,363,83,63,22,10,4,0
+"internationalsocialsurvey_2008","Germany",1706,1620,363,83,45,11,0,0,0
+"internationalsocialsurvey_2008","France",2454,2342,363,83,45,4,0,0,0
+"internationalsocialsurvey_2008","Finland",1136,1083,363,83,38,0,0,0,0
+"internationalsocialsurvey_2008","Dominican Republic",2086,2084,363,83,72,11,0,0,0
+"internationalsocialsurvey_2008","Denmark",2004,1947,363,83,53,8,0,0,0
+"internationalsocialsurvey_2008","Czech Republic",1512,1454,363,83,59,27,15,2,0
+"internationalsocialsurvey_2008","Cyprus",1000,994,363,83,53,3,0,0,0
+"internationalsocialsurvey_2008","Croatia",1201,1187,363,83,44,2,2,0,0
+"internationalsocialsurvey_2008","Chile",1505,1477,363,83,59,0,0,0,0
+"internationalsocialsurvey_2008","Belgium",1263,1210,363,83,45,0,0,0,0
+"internationalsocialsurvey_2008","Austria",1020,999,363,83,41,4,0,0,0
+"internationalsocialsurvey_2008","Australia",1718,1660,363,83,44,2,2,2,0
+"americasbarometer_2012","Ecuador",1500,1484,1791,622,64,26,20,8,0
+"americasbarometer_2012","Colombia",1512,1501,1791,622,112,6,4,4,0
+"americasbarometer_2012","Panama",1620,1598,1791,622,58,16,0,0,0
+"americasbarometer_2012","Costa Rica",1498,1488,1791,622,70,2,2,2,0
+"americasbarometer_2012","Nicaragua",1686,1684,1791,622,67,4,0,0,0
+"americasbarometer_2012","Honduras",1728,1690,1791,622,63,11,2,0,0
+"americasbarometer_2012","El Salvador",1497,1452,1791,622,68,0,0,0,0
+"americasbarometer_2012","Belize",1512,1508,1791,622,69,5,0,0,0
+"americasbarometer_2012","Guyana",1529,1524,1791,622,56,0,0,0,0
+"americasbarometer_2012","Jamaica",1500,1480,1791,622,58,0,0,0,0
+"americasbarometer_2012","Haiti",1836,1820,1791,622,62,6,4,2,0
+"americasbarometer_2012","Dominican Republic",1512,1504,1791,622,89,2,2,2,0
+"americasbarometer_2012","Guatemala",1509,1468,1791,622,67,0,0,0,0
+"americasbarometer_2012","Brazil",1499,1492,1791,622,76,24,10,4,0
+"americasbarometer_2012","Uruguay",1512,1505,1791,622,68,6,0,0,0
+"americasbarometer_2012","Paraguay",1510,1493,1791,622,68,0,0,0,0
+"americasbarometer_2012","Peru",1500,1493,1791,622,65,2,0,0,0
+"americasbarometer_2012","Mexico",1560,1553,1791,622,67,4,2,2,0
+"americasbarometer_2010","Ecuador",2999,2969,1791,622,64,12,12,10,2
+"americasbarometer_2010","Colombia",1506,1498,1791,622,100,0,0,0,0
+"americasbarometer_2010","Panama",1536,1528,1791,622,74,8,2,0,0
+"americasbarometer_2010","Costa Rica",1500,1486,1791,622,58,12,3,0,0
+"americasbarometer_2010","Nicaragua",1540,1506,1791,622,60,0,0,0,0
+"americasbarometer_2010","Honduras",1596,1583,1791,622,71,0,0,0,0
+"americasbarometer_2010","El Salvador",1550,1548,1791,622,63,2,2,2,0
+"americasbarometer_2010","Belize",1504,1488,1791,622,59,2,2,2,0
+"americasbarometer_2010","Guyana",1540,1527,1791,622,53,10,0,0,0
+"americasbarometer_2010","Jamaica",1504,1485,1791,622,57,10,6,2,0
+"americasbarometer_2010","Haiti",1752,1743,1791,622,54,6,0,0,0
+"americasbarometer_2010","Dominican Republic",1498,1472,1791,622,82,4,4,4,0
+"americasbarometer_2010","Guatemala",1494,1454,1791,622,62,2,2,2,0
+"americasbarometer_2010","Brazil",2482,2437,1791,622,62,13,8,2,0
+"americasbarometer_2010","Uruguay",1500,1487,1791,622,58,0,0,0,0
+"americasbarometer_2010","Paraguay",1501,1455,1791,622,59,0,0,0,0
+"americasbarometer_2010","Peru",1500,1486,1791,622,72,0,0,0,0
+"americasbarometer_2010","Mexico",1562,1534,1791,622,70,0,0,0,0
+"americasbarometer_2008","Ecuador",3000,2960,1791,622,82,34,22,7,0
+"americasbarometer_2008","Colombia",1503,1480,1791,622,96,0,0,0,0
+"americasbarometer_2008","Panama",1536,1495,1791,622,70,8,4,4,0
+"americasbarometer_2008","Costa Rica",1499,1468,1791,622,67,12,12,12,0
+"americasbarometer_2008","Nicaragua",1539,1496,1791,622,61,4,2,0,0
+"americasbarometer_2008","Canada",2032,2025,1791,622,27,22,0,0,0
+"americasbarometer_2008","United States",1500,1499,1791,622,45,21,12,6,0
+"americasbarometer_2008","Honduras",1522,1483,1791,622,59,0,0,0,0
+"americasbarometer_2008","El Salvador",1549,1541,1791,622,75,0,0,0,0
+"americasbarometer_2008","Belize",1552,1526,1791,622,33,47,6,0,0
+"americasbarometer_2008","Guyana",2514,2453,1791,622,59,4,4,2,2
+"americasbarometer_2008","Jamaica",1499,1465,1791,622,63,32,26,14,0
+"americasbarometer_2008","Haiti",1536,1526,1791,622,67,5,0,0,0
+"americasbarometer_2008","Dominican Republic",1507,1465,1791,622,76,2,2,2,0
+"americasbarometer_2008","Guatemala",1538,1483,1791,622,53,8,0,0,0
+"americasbarometer_2008","Argentina",1486,1450,1791,622,55,65,45,29,8
+"americasbarometer_2008","Venezuela",1500,1438,1791,622,58,119,105,66,10
+"americasbarometer_2008","Brazil",1497,1460,1791,622,69,0,0,0,0
+"americasbarometer_2008","Uruguay",1500,1484,1791,622,65,0,0,0,0
+"americasbarometer_2008","Chile",1527,1494,1791,622,72,0,0,0,0
+"americasbarometer_2008","Paraguay",1166,1160,1791,622,66,21,0,0,0
+"americasbarometer_2008","Peru",1500,1481,1791,622,76,0,0,0,0
+"americasbarometer_2008","Bolivia",3003,2898,1791,622,73,6,2,0,0
+"americasbarometer_2008","Mexico",1560,1549,1791,622,79,2,2,2,0
+"americasbarometer_2006","Ecuador",2925,2879,1791,622,70,6,4,2,0
+"americasbarometer_2006","Colombia",1491,1459,1791,622,91,0,0,0,0
+"americasbarometer_2006","Panama",1536,1508,1791,622,76,58,24,6,0
+"americasbarometer_2006","Costa Rica",1497,1495,1791,622,77,2,2,2,0
+"americasbarometer_2006","Nicaragua",1759,1712,1791,622,76,18,18,13,2
+"americasbarometer_2006","Canada",601,598,1791,622,28,6,0,0,0
+"americasbarometer_2006","United States",609,609,1791,622,29,0,0,0,0
+"americasbarometer_2006","Honduras",1585,1582,1791,622,76,6,6,6,2
+"americasbarometer_2006","El Salvador",1729,1718,1791,622,77,0,0,0,0
+"americasbarometer_2006","Guyana",1555,1544,1791,622,68,45,32,19,0
+"americasbarometer_2006","Jamaica",1595,1576,1791,622,72,40,30,3,0
+"americasbarometer_2006","Haiti",1625,1602,1791,622,69,55,26,10,0
+"americasbarometer_2006","Dominican Republic",1516,1504,1791,622,86,0,0,0,0
+"americasbarometer_2006","Guatemala",1498,1424,1791,622,77,14,14,6,0
+"americasbarometer_2006","Venezuela",1510,1492,1791,622,77,11,4,2,0
+"americasbarometer_2006","Brazil",1214,1197,1791,622,71,15,8,8,0
+"americasbarometer_2006","Uruguay",1200,1181,1791,622,77,0,0,0,0
+"americasbarometer_2006","Chile",1517,1499,1791,622,79,10,0,0,0
+"americasbarometer_2006","Paraguay",1165,1152,1791,622,70,17,3,0,0
+"americasbarometer_2006","Peru",1500,1486,1791,622,77,4,0,0,0
+"americasbarometer_2006","Bolivia",3008,2875,1791,622,66,2,0,0,0
+"americasbarometer_2006","Mexico",1560,1521,1791,622,72,11,6,0,0
+"americasbarometer_2004","Ecuador",3000,2956,1791,622,65,4,2,2,0
+"americasbarometer_2004","Colombia",1479,1456,1791,622,68,0,0,0,0
+"americasbarometer_2004","Panama",1639,1608,1791,622,73,0,0,0,0
+"americasbarometer_2004","Costa Rica",1500,1496,1791,622,62,0,0,0,0
+"americasbarometer_2004","Nicaragua",1430,1395,1791,622,58,0,0,0,0
+"americasbarometer_2004","Honduras",1500,1427,1791,622,59,4,0,0,0
+"americasbarometer_2004","El Salvador",1589,1549,1791,622,66,0,0,0,0
+"americasbarometer_2004","Dominican Republic",4460,4395,1791,622,33,38,0,0,0
+"americasbarometer_2004","Guatemala",1708,1625,1791,622,39,2,0,0,0
+"americasbarometer_2004","Bolivia",3072,3033,1791,622,53,6,6,4,0
+"americasbarometer_2004","Mexico",1556,1523,1791,622,82,24,20,10,0
+"afrobarometer_wave4","Zimbabwe",1200,1200,294,195,195,2,0,0,0
+"afrobarometer_wave4","Zambia",1200,1200,294,195,195,0,0,0,0
+"afrobarometer_wave4","Uganda",2431,2431,294,195,195,48,16,8,2
+"afrobarometer_wave4","Tanzania",1208,1208,294,195,195,0,0,0,0
+"afrobarometer_wave4","South Africa",2400,2400,294,195,195,98,60,13,0
+"afrobarometer_wave4","Senegal",1200,1200,294,195,195,0,0,0,0
+"afrobarometer_wave4","Nigeria",2324,2324,294,195,195,219,131,48,4
+"afrobarometer_wave4","Namibia",1200,1200,294,195,195,24,12,4,0
+"afrobarometer_wave4","Mozambique",1200,1200,294,195,195,4,0,0,0
+"afrobarometer_wave4","Mali",1232,1232,294,195,195,4,0,0,0
+"afrobarometer_wave4","Malawi",1200,1200,294,195,195,0,0,0,0
+"afrobarometer_wave4","Madagascar",1350,1350,294,195,195,28,6,0,0
+"afrobarometer_wave4","Liberia",1200,1200,294,195,195,0,0,0,0
+"afrobarometer_wave4","Lesotho",1200,1200,294,195,194,0,0,0,0
+"afrobarometer_wave4","Kenya",1104,1104,294,195,195,4,4,2,0
+"afrobarometer_wave4","Ghana",1200,1200,294,195,194,2,2,0,0
+"afrobarometer_wave4","Cape Verde",1264,1264,294,195,186,2,0,0,0
+"afrobarometer_wave4","Burkina Faso",1200,1200,294,195,195,0,0,0,0
+"afrobarometer_wave4","Botswana",1200,1200,294,195,195,0,0,0,0
+"afrobarometer_wave4","Benin",1200,1200,294,195,195,4,0,0,0
+"afrobarometer_wave3","Zimbabwe",1048,1048,302,220,176,13,2,0,0
+"afrobarometer_wave3","Zambia",1200,1200,302,220,220,93,43,10,0
+"afrobarometer_wave3","Uganda",2400,2400,302,220,220,14,6,2,0
+"afrobarometer_wave3","Tanzania",1304,1304,302,220,220,2,0,0,0
+"afrobarometer_wave3","South Africa",2400,2400,302,220,219,79,54,16,0
+"afrobarometer_wave3","Senegal",1200,1200,302,220,220,0,0,0,0
+"afrobarometer_wave3","Nigeria",2363,2363,302,220,220,22,6,0,0
+"afrobarometer_wave3","Namibia",1200,1200,302,220,220,0,0,0,0
+"afrobarometer_wave3","Mozambique",1198,1198,302,220,220,8,2,0,0
+"afrobarometer_wave3","Mali",1244,1244,302,220,220,0,0,0,0
+"afrobarometer_wave3","Malawi",1200,1200,302,220,219,0,0,0,0
+"afrobarometer_wave3","Madagascar",1350,1350,302,220,219,5,2,0,0
+"afrobarometer_wave3","Lesotho",1161,1161,302,220,220,0,0,0,0
+"afrobarometer_wave3","Kenya",1278,1278,302,220,219,0,0,0,0
+"afrobarometer_wave3","Ghana",1197,1197,302,220,220,0,0,0,0
+"afrobarometer_wave3","Cape Verde",1256,1256,302,220,217,16,2,0,0
+"afrobarometer_wave3","Botswana",1200,1200,302,220,220,0,0,0,0
+"afrobarometer_wave3","Benin",1198,1198,302,220,220,9,0,0,0
+"afrobarometer_wave2","Zimbabwe",1104,1104,330,229,140,0,0,0,0
+"afrobarometer_wave2","Zambia",1198,1198,330,229,229,0,0,0,0
+"afrobarometer_wave2","Uganda",2400,2400,330,229,229,8,8,6,0
+"afrobarometer_wave2","Tanzania",1223,1223,330,229,228,54,26,12,0
+"afrobarometer_wave2","South Africa",2400,2400,330,229,227,29,17,7,0
+"afrobarometer_wave2","Senegal",1200,1200,330,229,228,108,106,94,0
+"afrobarometer_wave2","Nigeria",2428,2428,330,229,229,99,50,18,0
+"afrobarometer_wave2","Namibia",1199,1199,330,229,229,2,2,0,0
+"afrobarometer_wave2","Mozambique",1400,1400,330,229,228,6,6,2,0
+"afrobarometer_wave2","Mali",1283,1283,330,229,228,5,2,0,0
+"afrobarometer_wave2","Malawi",1200,1200,330,229,226,6,6,4,0
+"afrobarometer_wave2","Lesotho",1200,1200,330,229,229,6,6,2,0
+"afrobarometer_wave2","Kenya",2398,2398,330,229,228,12,10,0,0
+"afrobarometer_wave2","Ghana",1200,1200,330,229,228,26,20,14,0
+"afrobarometer_wave2","Cape Verde",1268,1268,330,229,222,6,0,0,0
+"afrobarometer_wave2","Botswana",1200,1200,330,229,226,4,4,2,0
+"afrobarometer_wave1","Zimbabwe",1200,1200,144,119,113,59,38,8,4
+"afrobarometer_wave1","Zambia",1198,1198,144,119,115,29,11,0,0
+"afrobarometer_wave1","Uganda",2271,2271,144,119,68,4,2,2,0
+"afrobarometer_wave1","Tanzania",2198,2198,144,119,110,56,38,6,0
+"afrobarometer_wave1","South Africa",2200,2200,144,119,119,94,71,25,10
+"afrobarometer_wave1","Nigeria",3603,3603,144,119,104,129,85,70,20
+"afrobarometer_wave1","Namibia",1183,1183,144,119,110,52,31,8,0
+"afrobarometer_wave1","Mali",2089,2089,144,119,110,11,6,2,2
+"afrobarometer_wave1","Malawi",1208,1208,144,119,114,11,2,0,0
+"afrobarometer_wave1","Lesotho",1177,1177,144,119,110,17,11,2,0
+"afrobarometer_wave1","Ghana",2004,2004,144,119,81,8,4,2,2
+"afrobarometer_wave1","Botswana",1200,1200,144,119,110,4,4,4,0

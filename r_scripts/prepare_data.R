@@ -13,6 +13,7 @@ require(dplyr)
 
 # Load survey metadata file
 survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
+
 # survey_metadata <- read_csv("./miscellaneous/survey_metadata_for_cleaning_AB.csv") # For Arab Barometer test
 
 data_files <- list.files("./raw_survey_data", full.names=TRUE, recursive=TRUE)
@@ -22,10 +23,8 @@ summaryData <- data.frame()
 for (df in data_files){
   
   # df <- "./miscellaneous/arab_barometer_to_test.sav"
-  #df <- data_files[40] # For manual inspection
-  #names(rawData)
-  #grep("^Q95$", names(rawData))
-  
+  # df <- data_files[20] # For manual inspection
+
   rawData <- readData(df) # Calls readData function in read_data.R file
   
   # Step 1: Record initial variable count, dataset name
@@ -71,9 +70,7 @@ for (df in data_files){
       }
     }
     
-  # View(table(rawData$country))
-  
-  # Step 3: Drop unncessary variables (id, demographic, weight, and other metadata variables)
+    # Step 3: Drop unncessary variables (id, demographic, weight, and other metadata variables)
   
   earlyDropVars <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(early_drop_vars) %>% str_split(" ") %>% unlist() %>% as.character()
   finalDropVar <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(final_drop_var) %>% as.character()
@@ -86,7 +83,6 @@ for (df in data_files){
   
   subData <- rawData %>% dplyr::select(-dropVars)
   
-  # Check that this is right!
   # For Afrobarometer, it's -1. But that's maybe because Afrobarometer has a correct country variable already
   # The do script doesn't change the country variable
   substantive_dat_vars <- ncol(subData) -1 
@@ -94,8 +90,9 @@ for (df in data_files){
   # Step 4: Recode missing variables
   
   missing_code <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(missing_code) %>% as.numeric()
-  if (!is.na(missing_code)) { subData[(data.matrix(subData)) == missing_code]  <- NA } # NOTE: May need -5 calculation is a weird but necessary adjustment; it might be a Stata-only issue, though.
-  subData$country <- rawData$country # Check that this works with WorldValues surveys. It's meant to prevent an override of Algeria as NA
+  # NOTE: May need -5 calculation is a weird but necessary adjustment; it might be a Stata-only issue, though.
+  if (!is.na(missing_code)) { subData[(data.matrix(subData)) == missing_code]  <- NA } 
+  subData$country <- rawData$country 
   
   # Step 5: Remove variables than have only one unique non-missing value & variables with >=10% missing data
   
@@ -122,27 +119,29 @@ for (df in data_files){
     
     final_observations <- nrow(countryData)
     
-  # Step 7: Send data to percentmatch algorithm
-    pmatch <- percentmatchR(countryData) # Calls percentmatchR function in percentmatch.R file
-    # pmatch <- percentmatchCpp(data.matrix(countryData)) # Calls percentmatchCpp function in percentmatch.R file
-    
-  # Write summary data to file, after adding other metadata and cleaning 
-    
-    sumData <- pmatchSummary(pmatch, c)
-    # print(sumData) # Unnecessary
-    allData <- cbind(dataset, 
-                     initial_observations, 
-                     final_observations,
-                     orig_dat_vars, 
-                     substantive_dat_vars,
-                     final_variables,
-                     sumData) 
-    
-    allData <- allData %>% 
-      dplyr::select(1, 7, 2:6, 8:11) 
-    
-    summaryData <- rbind(allData, summaryData)
-    # summaryData <- arrange(dataset, desc(country_id)) # Better sort summary data
+    if (is.data.frame(countryData)){
+    # Step 7: Send data to percentmatch algorithm
+      pmatch <- percentmatchR(countryData) # Calls percentmatchR function in percentmatch.R file
+      # pmatch <- percentmatchCpp(data.matrix(countryData)) # Calls percentmatchCpp function in percentmatch.R file
+      
+    # Write summary data to file, after adding other metadata and cleaning 
+      
+      sumData <- pmatchSummary(pmatch, c)
+      # print(sumData) # Unnecessary
+      allData <- cbind(dataset, 
+                       initial_observations, 
+                       final_observations,
+                       orig_dat_vars, 
+                       substantive_dat_vars,
+                       final_variables,
+                       sumData) 
+      
+      allData <- allData %>% 
+        dplyr::select(1, 7, 2:6, 8:11) 
+      
+      summaryData <- rbind(allData, summaryData)
+      # summaryData <- arrange(dataset, desc(country_id)) # Better sort summary data
+    }
   }
   
  
@@ -159,4 +158,4 @@ summaryData2 <- summaryData %>%
                         abCountryCodes[match(country, abCountryCodes$country_code),]$country_name))
 
 # Write out summary data file
-write_csv(summaryData2, "./results/replication_summary_030216.csv")
+write_csv(summaryData2, "./results/replication_summary.csv")
