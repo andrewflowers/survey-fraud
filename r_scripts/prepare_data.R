@@ -5,6 +5,7 @@ setwd("~/survey-fraud/")
 
 source("./r_scripts/percentmatch.R")
 source("./r_scripts/read_data.R")
+source("./r_scripts/functions.R")
 
 require(foreign)
 require(readr)
@@ -23,7 +24,7 @@ summaryData <- data.frame()
 for (df in data_files){
   
   # df <- "./miscellaneous/arab_barometer_to_test.sav"
-  # df <- data_files[20] # For manual inspection
+  # df <- data_files[12] # For manual inspection
 
   rawData <- readData(df) # Calls readData function in read_data.R file
   
@@ -39,10 +40,12 @@ for (df in data_files){
   if ("country" %in% names(rawData)) {rawData$country <- NULL }
   rawData <- new_country_var %>% cbind(rawData)
   names(rawData)[1] <- 'country'
+  
+  # Clean country string
+  rawData$country <- clean_country_string(rawData$country) # Calls clean_country_string function from functions.R
+  
   rawData <- rawData %>% arrange(country)
-  rawData <- rawData %>% mutate(country=str_extract(country, pattern='[^-]+$'))
-  rawData <- rawData %>% mutate(country=str_trim(country))
- 
+  
   # Add ballot options to names -- NOTE: May want to break this out as a separate function
   
   ballot_var <- survey_metadata %>% filter(survey==dataset) %>% dplyr::select(ballot_var) %>% as.character()
@@ -158,4 +161,4 @@ summaryData2 <- summaryData %>%
                         abCountryCodes[match(country, abCountryCodes$country_code),]$country_name))
 
 # Write out summary data file
-write_csv(summaryData2, "./results/replication_summary.csv")
+write_csv(summaryData2, "./results/replication_summary_030416.csv")

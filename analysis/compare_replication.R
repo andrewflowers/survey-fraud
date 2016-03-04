@@ -9,7 +9,7 @@ require(tidyr)
 require(stringr)
 require(ggplot2)
 
-bfData <- read_csv("./results/replication_summary_030116.csv") # Bialik and Flowers's data
+bfData <- read_csv("./results/replication_summary_030416.csv") # Bialik and Flowers's data
 rkData <- read_csv("Results_File_Cleaned_1209.csv") # Robbins and Kuriakose's data
 
 # Change country names to lower case
@@ -38,4 +38,32 @@ compData %>%
             error_at_95=1-sum(comp_at_95, na.rm=T)/n(),
             error_at_100=1-sum(comp_at_100, na.rm=T)/n())
 
-#### Read specific data sets into
+# Dataset-by-dataset error rate
+error_by_dataset <- compData %>% 
+  group_by(dataset) %>% 
+    summarize(error_at_85=1-sum(comp_at_85, na.rm=T)/n(),
+            error_at_90=1-sum(comp_at_90, na.rm=T)/n(),
+            error_at_95=1-sum(comp_at_95, na.rm=T)/n(),
+            error_at_100=1-sum(comp_at_100, na.rm=T)/n()) %>% 
+  filter(error_at_100>0)
+
+# Check ISSP names
+View(compData %>% filter(dataset %in% c("internationalsocialsurvey_2008", 
+                                      "internationalsocialsurvey_2009",
+                                      "internationalsocialsurvey_2010",
+                                      "internationalsocialsurvey_2011",
+                                      "internationalsocialsurvey_2012"
+                                      )) %>% 
+  select(dataset, country, initial_observations.x, initial_observations.y) %>% 
+  filter(is.na(initial_observations.y)))
+
+View(bfData %>% filter(dataset %in% c("internationalsocialsurvey_2008", 
+                                        "internationalsocialsurvey_2009",
+                                        "internationalsocialsurvey_2010",
+                                        "internationalsocialsurvey_2011",
+                                        "internationalsocialsurvey_2012"
+)) %>% distinct(country))
+
+# Export comparison sheet
+write_csv(compData, "comparisons.csv")
+
