@@ -3,7 +3,6 @@
 
 setwd("~/survey-fraud/")
 
-require(readr)
 require(Rcpp)
 require(inline)
 
@@ -29,24 +28,6 @@ percentmatchR <- function(matrix){
   return(pmatch)
   
 }
-
-pmatchSummary <- function(pmatch, c){
-  
-    summaryVector <- data.frame(
-      c,
-      pmatch %>% filter(match>.85) %>% tally(),
-      pmatch %>% filter(match>.90) %>% tally(),
-      pmatch %>% filter(match>.95) %>% tally(),
-      pmatch %>% filter(match==1) %>% tally()
-    )
-    
-    names(summaryVector) <- c("country", "dup_observations_at_85", 
-                              "dup_observations_at_90", "dup_observations_at_95", 
-                              "dup_observations_at_100")
-    
-    return(summaryVector)
-}
-
 
 ####################################################################################################
 #################           Percentmatch algorithm in CPP                     ######################
