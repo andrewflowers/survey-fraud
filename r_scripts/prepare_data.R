@@ -24,7 +24,7 @@ summaryData <- data.frame()
 for (df in data_files){
   
   # df <- "./miscellaneous/arab_barometer_to_test.sav"
-  # df <- data_files[12] # For manual inspection
+  # df <- data_files[28] # For manual inspection
 
   rawData <- readData(df) # Calls readData function in read_data.R file
   
@@ -117,33 +117,39 @@ for (df in data_files){
   
     final_variables <- ncol(countryData)-1
     
+    # Write out all variables, other than country, to be tested
+    var_list <-  paste(setdiff(names(countryData), "country"), collapse=" ")
+    
   # Step 6: Remove observations with >25% missing
     countryData <- countryData[(rowSums(is.na(countryData))/ncol(countryData)) <= 0.25,]
     
     final_observations <- nrow(countryData)
     
     if (is.data.frame(countryData)){
-    # Step 7: Send data to percentmatch algorithm
-      pmatch <- percentmatchR(countryData) # Calls percentmatchR function in percentmatch.R file
-      # pmatch <- percentmatchCpp(data.matrix(countryData)) # Calls percentmatchCpp function in percentmatch.R file
-      
-    # Write summary data to file, after adding other metadata and cleaning 
-      
-      sumData <- pmatchSummary(pmatch, c)
-      # print(sumData) # Unnecessary
-      allData <- cbind(dataset, 
-                       initial_observations, 
-                       final_observations,
-                       orig_dat_vars, 
-                       substantive_dat_vars,
-                       final_variables,
-                       sumData) 
-      
-      allData <- allData %>% 
-        dplyr::select(1, 7, 2:6, 8:11) 
-      
-      summaryData <- rbind(allData, summaryData)
-      # summaryData <- arrange(dataset, desc(country_id)) # Better sort summary data
+      if (nrow(countryData)>33){
+        # Step 7: Send data to percentmatch algorithm
+          pmatch <- percentmatchR(countryData) # Calls percentmatchR function in percentmatch.R file
+          # pmatch <- percentmatchCpp(data.matrix(countryData)) # Calls percentmatchCpp function in percentmatch.R file
+          
+        # Write summary data to file, after adding other metadata and cleaning 
+          
+          sumData <- pmatchSummary(pmatch, c)
+          # print(sumData) # Unnecessary
+          allData <- cbind(dataset, 
+                           initial_observations, 
+                           final_observations,
+                           orig_dat_vars, 
+                           substantive_dat_vars,
+                           final_variables,
+                           sumData, 
+                           var_list)
+          
+          allData <- allData %>% 
+            dplyr::select(1, 7, 2:6, 8:11) 
+          
+          summaryData <- rbind(allData, summaryData)
+          # summaryData <- arrange(dataset, desc(country_id)) # Better sort summary data
+      }
     }
   }
   

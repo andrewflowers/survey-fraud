@@ -16,8 +16,12 @@ rkData <- read_csv("Results_File_Cleaned_1209.csv") # Robbins and Kuriakose's da
 bfData$country <- tolower(bfData$country)
 rkData$country <- tolower(rkData$country)
 
+# Test country name differences 
+setdiff(bfData$country, rkData$country)
+setdiff(rkData$country, bfData$country)
+
 # Compare dataset names
-View(cbind(sort(unique(rkData$dataset)), sort(unique(bfData$dataset))))
+# View(cbind(sort(unique(rkData$dataset)), sort(unique(bfData$dataset))))
 
 # Match by dataset and country
 joinData <- rkData %>% 
