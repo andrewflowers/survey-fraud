@@ -37,3 +37,37 @@ pmatchSummary <- function(pmatch, c){
   
   return(summaryVector)
 }
+
+numRespCat <- function(rawmatrix){
+  
+  numResp <- c()
+  
+  for(i in ncol(rawmatrix)){
+    numResp <- append(numResp, length(table(rawmatrix[,i])))
+  }
+  
+  return(median(numResp))
+  
+}
+
+longestRepeatSeq <- function(matrix){
+  
+  matrix <- t(matrix)
+  
+  cols <- ncol(matrix)
+  rows <- nrow(matrix)
+  
+  repeateSeq <- data.frame(respondent=seq(1, cols), length=NA)
+  
+  for (c in 1:cols){
+    
+    comp <- matrix == matrix[,c]
+    
+    repeateSeq$length[c] <- comp  ### write algorithm for longest sequence
+    
+  }
+  
+  return(repeateSeq)
+  
+}
+
