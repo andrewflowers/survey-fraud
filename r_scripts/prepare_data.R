@@ -19,12 +19,12 @@ survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
 data_files <- list.files("./raw_survey_data", full.names=TRUE, recursive=TRUE)
 
-summaryData <- data.frame()
+# summaryData <- data.frame()
 
-for (df in data_files){
+for (df in data_files[27:40]){
   
   # df <- "./miscellaneous/arab_barometer_to_test.sav"
-  # df <- data_files[41] # For manual inspection
+  # df <- data_files[40] # For manual inspection
 
   rawData <- readData(df) # Calls readData function in read_data.R file
   

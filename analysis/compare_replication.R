@@ -9,7 +9,7 @@ require(tidyr)
 require(stringr)
 require(ggplot2)
 
-bfData <- read_csv("./results/replication_summary_030416v2.csv") # Bialik and Flowers's data
+bfData <- read_csv("./results/replication_summary_030816.csv") # Bialik and Flowers's data
 rkData <- read_csv("Results_File_Cleaned_1209.csv") # Robbins and Kuriakose's data
 
 # Change country names to lower case
@@ -36,8 +36,8 @@ compData <- joinData %>%
 
 # Calculate error rates
 compData %>% 
-  select(23:26) %>% 
-  summarize(error_at_85=1-sum(comp_at_85, na.rm=T)/n(),
+  dplyr::select(comp_at_85, comp_at_90, comp_at_95, comp_at_100) %>% 
+  dplyr::summarize(error_at_85=1-sum(comp_at_85, na.rm=T)/n(),
             error_at_90=1-sum(comp_at_90, na.rm=T)/n(),
             error_at_95=1-sum(comp_at_95, na.rm=T)/n(),
             error_at_100=1-sum(comp_at_100, na.rm=T)/n())
@@ -45,11 +45,11 @@ compData %>%
 # Dataset-by-dataset error rate
 error_by_dataset <- compData %>% 
   group_by(dataset) %>% 
-    summarize(error_at_85=1-sum(comp_at_85, na.rm=T)/n(),
+    dplyr::summarize(error_at_85=1-sum(comp_at_85, na.rm=T)/n(),
             error_at_90=1-sum(comp_at_90, na.rm=T)/n(),
             error_at_95=1-sum(comp_at_95, na.rm=T)/n(),
             error_at_100=1-sum(comp_at_100, na.rm=T)/n()) %>% 
-  filter(error_at_100>0)
+  filter(error_at_100>0) %>% arrange(desc(error_at_100))
 
 # Check ISSP names
 View(compData %>% filter(dataset %in% c("internationalsocialsurvey_2008", 
@@ -70,4 +70,20 @@ View(bfData %>% filter(dataset %in% c("internationalsocialsurvey_2008",
 
 # Export comparison sheet
 write_csv(compData, "comparisons.csv")
+
+
+# Analyze variable list differences
+compData$var_diff <- NA
+
+compData$var_match <- compData$var_list == compData$varlist
+
+for (dataset in compData){
+  
+  var_diff <- setdiff(compData$varlist[dataset] %>% str_split(" ") %>% unlist %>% as.character(), 
+                      compData$var_list[dataset] %>% str_split(" ") %>% unlist %>% as.character())  
+  
+}
+
+
+
 

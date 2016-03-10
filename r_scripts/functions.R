@@ -71,3 +71,9 @@ longestRepeatSeq <- function(matrix){
   
 }
 
+stringToVector <- function(dataframe, dataset, variable){
+  
+  vector <- dataframe %>% filter(survey==dataset) %>% dplyr::select(variable) %>% str_split(" ") %>% unlist %>% as.character()
+  
+  return(vector)
+}
