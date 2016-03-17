@@ -19,12 +19,12 @@ survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
 data_files <- list.files("./raw_survey_data", full.names=TRUE, recursive=TRUE)
 
-# summaryData <- data.frame()
+summaryData <- data.frame()
 
-for (df in data_files[27:40]){
+for (df in data_files){
   
   # df <- "./miscellaneous/arab_barometer_to_test.sav"
-  # df <- data_files[40] # For manual inspection
+  # df <- data_files[30] # For manual inspection
 
   rawData <- readData(df) # Calls readData function in read_data.R file
   
@@ -132,7 +132,7 @@ for (df in data_files[27:40]){
           # pmatch <- percentmatchCpp(data.matrix(countryData)) # Calls percentmatchCpp function in percentmatch.R file
           
         # Calculate median number of responses to questions
-          median_num_resp <- numRespCat(countryData)
+          median_num_resp <- numRespCat(countryData, var_list %>% str_split(" ") %>% unlist() %>% as.character())
           
         # Write summary data to file, after adding other metadata and cleaning 
           
@@ -171,4 +171,4 @@ summaryData2 <- summaryData %>%
                         abCountryCodes[match(country, abCountryCodes$country_code),]$country_name))
 
 # Write out summary data file
-write_csv(summaryData2, "./results/replication_summary_030816.csv")
+write_csv(summaryData2, "./results/replication_summary_031016.csv")

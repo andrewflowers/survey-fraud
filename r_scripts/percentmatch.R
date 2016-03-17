@@ -10,6 +10,8 @@ require(inline)
 
 percentmatchR <- function(matrix){
   
+  # Possible improvement: http://stackoverflow.com/questions/19933788/r-compare-all-the-columns-pairwise-in-matrix
+  
   matrix <- t(matrix)
   
   cols <- ncol(matrix)

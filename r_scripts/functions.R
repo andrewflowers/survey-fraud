@@ -38,33 +38,44 @@ pmatchSummary <- function(pmatch, c){
   return(summaryVector)
 }
 
-numRespCat <- function(rawmatrix){
+numRespCat <- function(rawmatrix, var_list){
   
-  numResp <- c()
+#   numResp <- c()
   
-  for(i in ncol(rawmatrix)){
-    numResp <- append(numResp, length(table(rawmatrix[,i])))
-  }
-  
-  return(median(numResp))
+#   for(i in var_list){
+#     numResp <- append(numResp, length(table(rawmatrix[,i])))
+#     # print(numResp)
+#   }
+#   
+#   return(median(numResp))
+
+  return(median(sapply(rawmatrix[,var_list], function(x) length(table(x)))))
   
 }
 
+# The following method is inspired by a paper from Ali Mushtaq (Datafugue) at DataFab 2016
+
 longestRepeatSeq <- function(matrix){
+  # Possible improvement: http://stackoverflow.com/questions/19933788/r-compare-all-the-columns-pairwise-in-matrix
   
   matrix <- t(matrix)
   
   cols <- ncol(matrix)
-  rows <- nrow(matrix)
   
   repeateSeq <- data.frame(respondent=seq(1, cols), length=NA)
   
   for (c in 1:cols){
     
-    comp <- matrix == matrix[,c]
+    comp <- as.data.frame(matrix == matrix[,c])
     
-    repeateSeq$length[c] <- comp  ### write algorithm for longest sequence
+    repeateSeq$length[c] <- max(sapply(comp[,-c], function(x) {max(sapply(split(x, cumsum(x==0)), length)-1)}))
+    print(paste0(c, " is finished. Longest sequence is: ", repeateSeq$length[c]))
     
+    # The above function is complicated: the original data matrix is transposed, and every columns is compared 
+    # to every other column to get a boolean matrix -- this represents matches. Then, for each column, we use
+    # sapply to split that column into separate sub-lists (with split) at each instance of FALSE. These sub-lists 
+    # have a length equal to the number of sequential TRUE entries (+1). So we subtract one (-1) and take the max.
+    # This max is the longest repeated match sequence.
   }
   
   return(repeateSeq)
