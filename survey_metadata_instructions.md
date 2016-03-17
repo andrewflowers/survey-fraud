@@ -4,7 +4,7 @@ To run the percentmatch algorithm on a survey data set, one must first enter som
 
 Column | Description
 ----- | --------
-survey | Name of the survey data file, excluding the file extentsion (.csv, .dta, .sav)
+survey | Name of the survey data file, excluding the file extension (.csv, .dta, .sav)
 country_var | The variable which indicates the country name 
 ballot_var | For when two surveys of the same country where taken (e.g., "Colombia" and "Colombia_2"); only a few surveys will require this option. `ballot_var` is the specific variable name in the survey used to distinguish sub-country surveys from one another 
 ballot_resp | For when two surveys of the same country where taken (e.g., "Colombia" and "Colombia_2"); only a few surveys will require this option.  `ballot_resp` is the specific variable **response** that distinguishes one country-survey set from another. If there is more than one option, they should be separated by a single space (" ") 

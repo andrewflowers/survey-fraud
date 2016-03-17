@@ -21,7 +21,7 @@ File | Description
 ---- | --------------
 `functions.R` | A catch-all script containing several R functions used by the other scripts.
 `percentmatch.R` | R versions of the percentmatch algorithm, along with other functions. There are two versions of the algorithm: percentmatchR and percentmatchCpp. The former is written in base R, while the latter uses RCpp (compiled C++ run through R). **percentmatchCpp is still in development**
-`prepare_data.R` | An R script that takes raw data files  from `survey_data_files` and cleans/preapres them for the percentmatch algorithm. This script was written off the `stata_files/do_scripts` as provided by Robbins and Kuriakose. To run it, one must enter survey metadta in the file `survey_metadata_for_cleaning.csv`
+`prepare_data.R` | An R script that takes raw data files  from `survey_data_files` and cleans/preapres them for the percentmatch algorithm. This script was written off the `stata_files/do_scripts` as provided by Robbins and Kuriakose. To run it, one must enter survey metadata in the file `survey_metadata_for_cleaning.csv`
 `read_data.R` | An R function that reads in data from a range of file formats, like .csv, Stata (.dta) or SPSS (.sav).
 
 
@@ -31,7 +31,7 @@ The original results file, from Robbins and Kuriakose, is `Results_File_Cleaned_
 
 Two crucial files are worth explaining in more detail.
 
-(1) `survey_metadata_for_cleaning.csv`: [Click here for instructions](https://github.com/andrewflowers/survey-fraud/blob/master/survey_metadata_instructions.md). This file lists each survey by row and metadata by column. The metadata entered -- which variables to drop, the name of the country variable, etc. -- are used by the `prepare_data.R` script to clean the raw data files. See 
+(1) `survey_metadata_for_cleaning.csv`: [Click here for instructions](https://github.com/andrewflowers/survey-fraud/blob/master/survey_metadata_instructions.md). This file lists each survey by row and metadata by column. The metadata entered -- which variables to drop, the name of the country variable, etc. -- are used by the `prepare_data.R` script to clean the raw data files. 
 
 (2) `replication_summary_MMDDYY.csv`: These are dated replication files in the `results` folder, from FiveThirtyEight's attempt to replicate Robbins and Kuriakose's results, as found in `Results_File_Cleaned_1209.csv`. **AS OF NOW, THE REPLICATION IS CLOSE BUT IMPERFECT.**
 
