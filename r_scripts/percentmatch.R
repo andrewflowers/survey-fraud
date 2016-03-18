@@ -31,6 +31,28 @@ percentmatchR <- function(matrix){
   
 }
 
+percentmatchMatrix <- function(matrix){
+  
+  names <- names(matrix)
+  
+  matrix <- t(matrix)
+  cols <- ncol(matrix)
+  rows <- nrow(matrix)
+  
+  pmatchMatrix <- data.frame(row.names=names, matrix(ncol=length(names)))
+  
+  for (c in 1:cols){
+    
+    comp <- matrix == matrix[,c]
+    
+    pmatch$match[c] <- max(colSums(comp[,-c], na.rm=TRUE)/rows, na.rm=TRUE)
+    
+  }
+  
+  return(pmatch)
+  
+}
+
 ####################################################################################################
 #################           Percentmatch algorithm in CPP                     ######################
 ####################################################################################################

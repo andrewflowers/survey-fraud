@@ -1,5 +1,5 @@
 # Compare replicated data to Robbins and Kuriakose's data
-# Andrew <andrew.flowers@fivethirtyeight.com>
+# Andrew Flowers <andrew.flowers@fivethirtyeight.com>
 
 setwd("~/survey-fraud/")
 
@@ -9,7 +9,7 @@ require(tidyr)
 require(stringr)
 require(ggplot2)
 
-bfData <- read_csv("./results/replication_summary_030816.csv") # Bialik and Flowers's data
+bfData <- read_csv("./results/replication_summary_031716.csv") # Bialik and Flowers's data
 rkData <- read_csv("Results_File_Cleaned_1209.csv") # Robbins and Kuriakose's data
 
 # Change country names to lower case
@@ -40,7 +40,7 @@ compData %>%
   dplyr::summarize(error_at_85=1-sum(comp_at_85, na.rm=T)/n(),
             error_at_90=1-sum(comp_at_90, na.rm=T)/n(),
             error_at_95=1-sum(comp_at_95, na.rm=T)/n(),
-            error_at_100=1-sum(comp_at_100, na.rm=T)/n())
+            error_at_100=1-sum(comp_at_100, na.rm=T))
 
 # Dataset-by-dataset error rate
 error_by_dataset <- compData %>% 
@@ -51,6 +51,7 @@ error_by_dataset <- compData %>%
             error_at_100=1-sum(comp_at_100, na.rm=T)/n()) %>% 
   filter(error_at_100>0) %>% arrange(desc(error_at_100))
 
+error_by_dataset
 # Check ISSP names
 View(compData %>% filter(dataset %in% c("internationalsocialsurvey_2008", 
                                       "internationalsocialsurvey_2009",
@@ -72,17 +73,36 @@ View(bfData %>% filter(dataset %in% c("internationalsocialsurvey_2008",
 write_csv(compData, "comparisons.csv")
 
 
-# Analyze variable list differences
-compData$var_diff <- NA
+# Analyze variable list differences -- CAN'T DO THIS UNTIL NOBLE RE-RUN'S HIS REPLICATION FOOD
 
-compData$var_match <- compData$var_list == compData$varlist
+# compData$var_diff <- NA
+# 
+# compData$var_match <- compData$var_list == compData$varlist
+# 
+# for (dataset in compData){
+#   
+#   var_diff <- setdiff(compData$varlist[dataset] %>% str_split(" ") %>% unlist %>% as.character(), 
+#                       compData$var_list[dataset] %>% str_split(" ") %>% unlist %>% as.character())  
+#   
+# }
 
-for (dataset in compData){
-  
-  var_diff <- setdiff(compData$varlist[dataset] %>% str_split(" ") %>% unlist %>% as.character(), 
-                      compData$var_list[dataset] %>% str_split(" ") %>% unlist %>% as.character())  
-  
-}
+
+
+# Compare top line results
+
+topLine <- compData %>% 
+  mutate(org_share_85=dup_observations_at_85.x/initial_observations.x,
+         rep_share_85=dup_observations_at_85.y/initial_observations.y,
+         org_5pt=ifelse(org_share_85>=0.05, 1, 0),
+         rep_5pt=ifelse(rep_share_85>=0.05, 1, 0))
+
+sum(topLine$org_5pt)/nrow(topLine) 
+sum(topLine$rep_5pt, na.rm=T)/nrow(topLine) 
+
+
+
+##### Pew counter analysis #####
+
 
 
 
