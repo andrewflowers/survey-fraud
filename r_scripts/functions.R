@@ -25,15 +25,40 @@ pmatchSummary <- function(pmatch, c){
   
   summaryVector <- data.frame(
     c,
+    pmatch %>% filter(match>0) %>% tally(), # new
+    pmatch %>% filter(match>.05) %>% tally(), # new
+    pmatch %>% filter(match>.10) %>% tally(), # new
+    pmatch %>% filter(match>.15) %>% tally(), # new
+    pmatch %>% filter(match>.20) %>% tally(), # new
+    pmatch %>% filter(match>.25) %>% tally(), # new
+    pmatch %>% filter(match>.30) %>% tally(), # new
+    pmatch %>% filter(match>.35) %>% tally(), # new
+    pmatch %>% filter(match>.40) %>% tally(), # new
+    pmatch %>% filter(match>.45) %>% tally(), # new
+    pmatch %>% filter(match>.50) %>% tally(), # new
+    pmatch %>% filter(match>.55) %>% tally(), # new
+    pmatch %>% filter(match>.60) %>% tally(), # new
+    pmatch %>% filter(match>.65) %>% tally(), # new
+    pmatch %>% filter(match>.70) %>% tally(), # new
+    pmatch %>% filter(match>.75) %>% tally(), # new
+    pmatch %>% filter(match>.80) %>% tally(), # new
     pmatch %>% filter(match>.85) %>% tally(),
     pmatch %>% filter(match>.90) %>% tally(),
     pmatch %>% filter(match>.95) %>% tally(),
     pmatch %>% filter(match==1) %>% tally()
   )
   
-  names(summaryVector) <- c("country", "dup_observations_at_85", 
-                            "dup_observations_at_90", "dup_observations_at_95", 
-                            "dup_observations_at_100")
+  names(summaryVector) <- c("country", "dup_observations_at_0", 
+                            "dup_observations_at_05", "dup_observations_at_10", 
+                            "dup_observations_at_15", "dup_observations_at_20", 
+                            "dup_observations_at_25", "dup_observations_at_30", 
+                            "dup_observations_at_35", "dup_observations_at_40", 
+                            "dup_observations_at_45", "dup_observations_at_50", 
+                            "dup_observations_at_55", "dup_observations_at_60", 
+                            "dup_observations_at_65", "dup_observations_at_70", 
+                            "dup_observations_at_75", "dup_observations_at_80", 
+                            "dup_observations_at_85", "dup_observations_at_90", 
+                            "dup_observations_at_95", "dup_observations_at_100")
   
   return(summaryVector)
 }

@@ -1,0 +1,185 @@
+"dataset","country","initial_observations","final_observations","orig_dat_vars","substantive_dat_vars","final_variables","dup_observations_at_85","dup_observations_at_90","dup_observations_at_95","dup_observations_at_100"
+"internationalsocialsurvey_2012","West",1208,1208,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","Venezuela",1016,1016,389,84,59,119,95,76,68
+"internationalsocialsurvey_2012","United States",1302,1302,389,84,58,5,5,3,2
+"internationalsocialsurvey_2012","Turkey",1620,1620,389,84,59,86,40,8,0
+"internationalsocialsurvey_2012","Taiwan",2072,2072,389,84,58,12,0,0,0
+"internationalsocialsurvey_2012","Switzerland",1237,1237,389,84,58,2,0,0,0
+"internationalsocialsurvey_2012","Sweden",1060,1060,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","Spain",2595,2595,389,84,58,0,0,0,0
+"internationalsocialsurvey_2012","South Korea",1396,1396,389,84,59,2,0,0,0
+"internationalsocialsurvey_2012","South Africa",2547,2547,389,84,54,57,22,11,5
+"internationalsocialsurvey_2012","Slovenia",1034,1034,389,84,58,5,0,0,0
+"internationalsocialsurvey_2012","Slovakia",1128,1128,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","Russia",1525,1525,389,84,57,30,16,10,4
+"internationalsocialsurvey_2012","Poland",1115,1115,389,84,59,2,0,0,0
+"internationalsocialsurvey_2012","Philippines",1200,1200,389,84,57,0,0,0,0
+"internationalsocialsurvey_2012","Norway",1444,1444,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","Mexico",1527,1527,389,84,57,2,0,0,0
+"internationalsocialsurvey_2012","Lithuania",1187,1187,389,84,59,14,2,0,0
+"internationalsocialsurvey_2012","Latvia",1000,1000,389,84,59,14,4,2,0
+"internationalsocialsurvey_2012","Japan",1212,1212,389,84,57,4,0,0,0
+"internationalsocialsurvey_2012","Israel",1220,1220,389,84,59,11,2,0,0
+"internationalsocialsurvey_2012","Ireland",1215,1215,389,84,58,0,0,0,0
+"internationalsocialsurvey_2012","India",1660,1660,389,84,58,376,257,107,13
+"internationalsocialsurvey_2012","Iceland",1172,1172,389,84,59,4,2,0,0
+"internationalsocialsurvey_2012","Great Britain",950,950,389,84,56,0,0,0,0
+"internationalsocialsurvey_2012","France",2409,2409,389,84,58,0,0,0,0
+"internationalsocialsurvey_2012","Finland",1171,1171,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","East",558,558,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","Denmark",1403,1403,389,84,58,0,0,0,0
+"internationalsocialsurvey_2012","Czech Republic",1804,1804,389,84,59,31,12,0,0
+"internationalsocialsurvey_2012","Croatia",1000,1000,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","China",5946,5946,389,84,57,114,45,12,2
+"internationalsocialsurvey_2012","Chile",1564,1564,389,84,59,2,0,0,0
+"internationalsocialsurvey_2012","Canada",983,983,389,84,59,6,6,6,6
+"internationalsocialsurvey_2012","Bulgaria",1003,1003,389,84,57,23,10,6,2
+"internationalsocialsurvey_2012","Austria",1182,1182,389,84,58,6,0,0,0
+"internationalsocialsurvey_2012","Australia",1612,1612,389,84,58,4,0,0,0
+"internationalsocialsurvey_2012","Argentina",977,977,389,84,59,0,0,0,0
+"internationalsocialsurvey_2011","West",1117,1117,336,66,61,0,0,0,0
+"internationalsocialsurvey_2011","Wallonia",1873,1873,336,66,63,35,32,28,25
+"internationalsocialsurvey_2011","United States",1550,1550,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Turkey",1559,1559,336,66,65,50,11,3,0
+"internationalsocialsurvey_2011","Taiwan",2199,2199,336,66,58,0,0,0,0
+"internationalsocialsurvey_2011","Switzerland",1212,1212,336,66,63,0,0,0,0
+"internationalsocialsurvey_2011","Sweden",1158,1158,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Spain",2712,2712,336,66,64,0,0,0,0
+"internationalsocialsurvey_2011","South Africa",3004,3004,336,66,58,184,151,121,58
+"internationalsocialsurvey_2011","Slovenia",1082,1082,336,66,60,19,0,0,0
+"internationalsocialsurvey_2011","Slovak Republic",1128,1128,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Russia",1511,1511,336,66,65,7,2,0,0
+"internationalsocialsurvey_2011","Portugal",1022,1022,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Poland",1115,1115,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Philippines",1200,1200,336,66,65,2,0,0,0
+"internationalsocialsurvey_2011","Norway",1834,1834,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Netherlands",1472,1472,336,66,65,3,3,2,2
+"internationalsocialsurvey_2011","Lithuania",1187,1187,336,66,60,4,0,0,0
+"internationalsocialsurvey_2011","Korea South",1535,1535,336,66,64,0,0,0,0
+"internationalsocialsurvey_2011","Japan",1306,1306,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Italy",1186,1186,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Israel",1220,1220,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","Great Britain",936,936,336,66,59,3,3,3,3
+"internationalsocialsurvey_2011","France",3319,3319,336,66,64,0,0,0,0
+"internationalsocialsurvey_2011","Flanders",1210,1210,336,66,65,0,0,0,0
+"internationalsocialsurvey_2011","Finland",1340,1340,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","East",564,564,336,66,61,0,0,0,0
+"internationalsocialsurvey_2011","Denmark",1388,1388,336,66,64,0,0,0,0
+"internationalsocialsurvey_2011","Czech Republic",1804,1804,336,66,60,8,0,0,0
+"internationalsocialsurvey_2011","Croatia",1210,1210,336,66,61,23,7,2,0
+"internationalsocialsurvey_2011","China",5620,5620,336,66,60,63,42,23,7
+"internationalsocialsurvey_2011","Chile",1559,1559,336,66,60,4,4,4,0
+"internationalsocialsurvey_2011","Bulgaria",1003,1003,336,66,60,8,4,0,0
+"internationalsocialsurvey_2011","Australia",1946,1946,336,66,60,2,2,2,2
+"internationalsocialsurvey_2010","United States",1430,1382,331,62,52,0,0,0,0
+"internationalsocialsurvey_2010","Turkey",1665,1592,331,62,45,119,66,27,6
+"internationalsocialsurvey_2010","Taiwan",2209,2184,331,62,61,0,0,0,0
+"internationalsocialsurvey_2010","Switzerland",1212,1201,331,62,60,0,0,0,0
+"internationalsocialsurvey_2010","Sweden",1181,1149,331,62,52,0,0,0,0
+"internationalsocialsurvey_2010","Spain",2560,2510,331,62,51,2,0,0,0
+"internationalsocialsurvey_2010","South Africa",3112,2995,331,62,51,160,117,65,28
+"internationalsocialsurvey_2010","Slovenia",1082,1066,331,62,58,5,0,0,0
+"internationalsocialsurvey_2010","Slovak Republic",1159,1124,331,62,53,8,8,7,3
+"internationalsocialsurvey_2010","Russia",1619,1579,331,62,39,15,10,6,4
+"internationalsocialsurvey_2010","Philippines",1200,1195,331,62,61,2,2,0,0
+"internationalsocialsurvey_2010","Norway",1382,1345,331,62,55,0,0,0,0
+"internationalsocialsurvey_2010","New Zealand",1172,1147,331,62,59,2,2,0,0
+"internationalsocialsurvey_2010","Mexico",1637,1597,331,62,61,76,35,9,2
+"internationalsocialsurvey_2010","Lithuania",1023,996,331,62,44,26,20,11,8
+"internationalsocialsurvey_2010","Latvia",1000,978,331,62,49,12,6,0,0
+"internationalsocialsurvey_2010","Korea South",1576,1544,331,62,61,0,0,0,0
+"internationalsocialsurvey_2010","Japan",1307,1242,331,62,46,2,0,0,0
+"internationalsocialsurvey_2010","Israel",1216,1191,331,62,55,2,2,0,0
+"internationalsocialsurvey_2010","Great Britain and_or United Kingdom",928,883,331,62,49,0,0,0,0
+"internationalsocialsurvey_2010","Germany",1407,1337,331,62,52,0,0,0,0
+"internationalsocialsurvey_2010","France",2253,2144,331,62,57,2,2,2,0
+"internationalsocialsurvey_2010","Finland",1211,1162,331,62,50,0,0,0,0
+"internationalsocialsurvey_2010","Denmark",1305,1234,331,62,51,0,0,0,0
+"internationalsocialsurvey_2010","Czech Republic",1428,1403,331,62,58,9,4,2,0
+"internationalsocialsurvey_2010","Croatia",1210,1205,331,62,57,25,17,12,0
+"internationalsocialsurvey_2010","Chile",1436,1388,331,62,55,0,0,0,0
+"internationalsocialsurvey_2010","Canada",985,974,331,62,56,0,0,0,0
+"internationalsocialsurvey_2010","Bulgaria",1003,974,331,62,47,6,2,2,0
+"internationalsocialsurvey_2010","Belgium",1142,1103,331,62,55,0,0,0,0
+"internationalsocialsurvey_2010","Austria",1019,1010,331,62,58,2,0,0,0
+"internationalsocialsurvey_2010","Argentina",1130,1111,331,62,55,2,0,0,0
+"internationalsocialsurvey_2009","Venezuela",999,995,350,76,55,72,66,60,38
+"internationalsocialsurvey_2009","United States",1581,1535,350,76,52,0,0,0,0
+"internationalsocialsurvey_2009","Ukraine",2012,1981,350,76,47,10,2,0,0
+"internationalsocialsurvey_2009","Turkey",1569,1528,350,76,52,5,3,3,0
+"internationalsocialsurvey_2009","Taiwan",2026,2002,350,76,61,0,0,0,0
+"internationalsocialsurvey_2009","Switzerland",1229,1224,350,76,57,0,0,0,0
+"internationalsocialsurvey_2009","Sweden",1137,1098,350,76,50,0,0,0,0
+"internationalsocialsurvey_2009","Spain",1215,1193,350,76,46,8,0,0,0
+"internationalsocialsurvey_2009","South Korea",1599,1590,350,76,68,0,0,0,0
+"internationalsocialsurvey_2009","South Africa",3305,3227,350,76,52,6,2,0,0
+"internationalsocialsurvey_2009","Slovenia",1065,1044,350,76,43,7,0,0,0
+"internationalsocialsurvey_2009","Slovak Republic",1159,1133,350,76,56,2,0,0,0
+"internationalsocialsurvey_2009","Russia",1603,1558,350,76,50,2,0,0,0
+"internationalsocialsurvey_2009","Portugal",1000,985,350,76,45,2,0,0,0
+"internationalsocialsurvey_2009","Poland",1263,1237,350,76,48,0,0,0,0
+"internationalsocialsurvey_2009","Philippines",1200,1194,350,76,49,0,0,0,0
+"internationalsocialsurvey_2009","Norway",1456,1411,350,76,56,335,322,253,102
+"internationalsocialsurvey_2009","New Zealand",935,903,350,76,60,2,2,2,0
+"internationalsocialsurvey_2009","Latvia",1069,1058,350,76,52,37,25,6,0
+"internationalsocialsurvey_2009","Japan",1296,1239,350,76,40,0,0,0,0
+"internationalsocialsurvey_2009","Italy",1084,1019,350,76,51,0,0,0,0
+"internationalsocialsurvey_2009","Israel",1193,1180,350,76,48,0,0,0,0
+"internationalsocialsurvey_2009","Iceland",947,934,350,76,62,0,0,0,0
+"internationalsocialsurvey_2009","Hungary",1010,1007,350,76,59,0,0,0,0
+"internationalsocialsurvey_2009","Great Britain and_or United Kingdom",958,930,350,76,44,0,0,0,0
+"internationalsocialsurvey_2009","Germany",1395,1369,350,76,51,0,0,0,0
+"internationalsocialsurvey_2009","France",2817,2739,350,76,47,2,2,0,0
+"internationalsocialsurvey_2009","Finland",880,842,350,76,56,0,0,0,0
+"internationalsocialsurvey_2009","Estonia",1005,992,350,76,60,0,0,0,0
+"internationalsocialsurvey_2009","Denmark",1518,1458,350,76,47,0,0,0,0
+"internationalsocialsurvey_2009","Czech Republic",1205,1199,350,76,64,0,0,0,0
+"internationalsocialsurvey_2009","Cyprus",1000,994,350,76,55,0,0,0,0
+"internationalsocialsurvey_2009","Croatia",1201,1187,350,76,49,0,0,0,0
+"internationalsocialsurvey_2009","China",3010,2955,350,76,50,14,6,0,0
+"internationalsocialsurvey_2009","Chile",1505,1477,350,76,50,2,2,0,0
+"internationalsocialsurvey_2009","Bulgaria",1000,946,350,76,32,11,6,2,0
+"internationalsocialsurvey_2009","Belgium",1115,1078,350,76,45,0,0,0,0
+"internationalsocialsurvey_2009","Austria",1019,1005,350,76,55,0,0,0,0
+"internationalsocialsurvey_2009","Australia",1525,1467,350,76,47,0,0,0,0
+"internationalsocialsurvey_2009","Argentina",1133,1117,350,76,49,2,0,0,0
+"internationalsocialsurvey_2008","Venezuela",1077,1063,363,83,61,7,0,0,0
+"internationalsocialsurvey_2008","Uruguay",1010,999,363,83,65,4,0,0,0
+"internationalsocialsurvey_2008","United States",1365,1349,363,83,65,0,0,0,0
+"internationalsocialsurvey_2008","United Kingdom",3075,2957,363,83,44,8,4,2,0
+"internationalsocialsurvey_2008","Ukraine",2036,1992,363,83,27,212,14,2,0
+"internationalsocialsurvey_2008","Turkey",1453,1434,363,83,68,80,38,7,0
+"internationalsocialsurvey_2008","Taiwan",1927,1886,363,83,56,0,0,0,0
+"internationalsocialsurvey_2008","Switzerland",1229,1223,363,83,70,0,0,0,0
+"internationalsocialsurvey_2008","Sweden",1235,1178,363,83,41,6,0,0,0
+"internationalsocialsurvey_2008","Spain",2373,2320,363,83,58,4,4,4,2
+"internationalsocialsurvey_2008","South Korea",1508,1498,363,83,71,2,2,0,0
+"internationalsocialsurvey_2008","South Africa",3292,3261,363,83,66,101,50,19,4
+"internationalsocialsurvey_2008","Slovenia",1065,1035,363,83,57,3,2,0,0
+"internationalsocialsurvey_2008","Slovak Republic",1138,1094,363,83,56,7,5,0,0
+"internationalsocialsurvey_2008","Russia",1015,981,363,83,15,380,71,8,8
+"internationalsocialsurvey_2008","Portugal",1000,993,363,83,59,2,0,0,0
+"internationalsocialsurvey_2008","Poland",1263,1225,363,83,53,10,2,0,0
+"internationalsocialsurvey_2008","Philippines",1200,1199,363,83,73,2,2,2,0
+"internationalsocialsurvey_2008","Norway",1072,1037,363,83,45,0,0,0,0
+"internationalsocialsurvey_2008","New Zealand",1027,997,363,83,56,0,0,0,0
+"internationalsocialsurvey_2008","Netherlands",1951,1901,363,83,57,0,0,0,0
+"internationalsocialsurvey_2008","Mexico",1471,1446,363,83,69,53,20,4,2
+"internationalsocialsurvey_2008","Latvia",1069,1042,363,83,67,50,34,20,2
+"internationalsocialsurvey_2008","Japan",1200,1155,363,83,14,196,17,0,0
+"internationalsocialsurvey_2008","Italy",1078,1072,363,83,56,28,2,0,0
+"internationalsocialsurvey_2008","Israel",1193,1174,363,83,58,2,0,0,0
+"internationalsocialsurvey_2008","Ireland",2049,2034,363,83,60,30,14,12,6
+"internationalsocialsurvey_2008","Hungary",1010,997,363,83,63,22,10,4,0
+"internationalsocialsurvey_2008","Germany",1706,1620,363,83,45,11,0,0,0
+"internationalsocialsurvey_2008","France",2454,2342,363,83,45,4,0,0,0
+"internationalsocialsurvey_2008","Finland",1136,1083,363,83,38,0,0,0,0
+"internationalsocialsurvey_2008","Dominican Republic",2086,2084,363,83,72,11,0,0,0
+"internationalsocialsurvey_2008","Denmark",2004,1947,363,83,53,8,0,0,0
+"internationalsocialsurvey_2008","Czech Republic",1512,1454,363,83,59,27,15,2,0
+"internationalsocialsurvey_2008","Cyprus",1000,994,363,83,53,3,0,0,0
+"internationalsocialsurvey_2008","Croatia",1201,1187,363,83,44,2,2,0,0
+"internationalsocialsurvey_2008","Chile",1505,1477,363,83,59,0,0,0,0
+"internationalsocialsurvey_2008","Belgium",1263,1210,363,83,45,0,0,0,0
+"internationalsocialsurvey_2008","Austria",1020,999,363,83,41,4,0,0,0
+"internationalsocialsurvey_2008","Australia",1718,1660,363,83,44,2,2,2,0

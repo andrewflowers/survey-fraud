@@ -19,12 +19,12 @@ survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 
 data_files <- list.files("./raw_survey_data", full.names=TRUE, recursive=TRUE)
 
-#summaryData <- data.frame()
+summaryData <- data.frame()
 
-for (df in data_files[27:40]){
+for (df in data_files){
   
   # df <- "./miscellaneous/arab_barometer_to_test.sav"
-  # df <- data_files[30] # For manual inspection
+  # df <- data_files[1] # For manual inspection
 
   rawData <- readData(df) # Calls readData function in read_data.R file
   
@@ -149,7 +149,7 @@ for (df in data_files[27:40]){
                            median_num_resp)
           
           allData <- allData %>% 
-            dplyr::select(1, 7, 2:6, 8:13) 
+            dplyr::select(1, 7, 2:6, 8:30) 
           
           summaryData <- rbind(allData, summaryData)
           # summaryData <- arrange(dataset, desc(country_id)) # Better sort summary data
@@ -171,4 +171,4 @@ summaryData2 <- summaryData %>%
                         abCountryCodes[match(country, abCountryCodes$country_code),]$country_name))
 
 # Write out summary data file
-write_csv(summaryData2, "./results/replication_summary_031716.csv")
+write_csv(summaryData2, "./results/replication_summary_051816.csv")

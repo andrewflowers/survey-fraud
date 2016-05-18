@@ -1,0 +1,185 @@
+"dataset","country","initial_observations","final_observations","orig_dat_vars","substantive_dat_vars","final_variables","dup_observations_at_85","dup_observations_at_90","dup_observations_at_95","dup_observations_at_100"
+"internationalsocialsurvey_2012","ZA_South Africa",2547,2547,389,84,54,57,22,11,5
+"internationalsocialsurvey_2012","VE_Venezuela",1016,1016,389,84,59,119,95,76,68
+"internationalsocialsurvey_2012","US_United States",1302,1302,389,84,58,5,5,3,2
+"internationalsocialsurvey_2012","TW_Taiwan",2072,2072,389,84,58,12,0,0,0
+"internationalsocialsurvey_2012","TR_Turkey",1620,1620,389,84,59,86,40,8,0
+"internationalsocialsurvey_2012","SK_Slovakia",1128,1128,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","SI_Slovenia",1034,1034,389,84,58,5,0,0,0
+"internationalsocialsurvey_2012","SE_Sweden",1060,1060,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","RU_Russia",1525,1525,389,84,57,30,16,10,4
+"internationalsocialsurvey_2012","PL_Poland",1115,1115,389,84,59,2,0,0,0
+"internationalsocialsurvey_2012","PH_Philippines",1200,1200,389,84,57,0,0,0,0
+"internationalsocialsurvey_2012","NO_Norway",1444,1444,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","MX_Mexico",1527,1527,389,84,57,2,0,0,0
+"internationalsocialsurvey_2012","LV_Latvia",1000,1000,389,84,59,14,4,2,0
+"internationalsocialsurvey_2012","LT_Lithuania",1187,1187,389,84,59,14,2,0,0
+"internationalsocialsurvey_2012","KR_South Korea",1396,1396,389,84,59,2,0,0,0
+"internationalsocialsurvey_2012","JP_Japan",1212,1212,389,84,57,4,0,0,0
+"internationalsocialsurvey_2012","IS_Iceland",1172,1172,389,84,59,4,2,0,0
+"internationalsocialsurvey_2012","IN_India",1660,1660,389,84,58,376,257,107,13
+"internationalsocialsurvey_2012","IL_Israel",1220,1220,389,84,59,11,2,0,0
+"internationalsocialsurvey_2012","IE_Ireland",1215,1215,389,84,58,0,0,0,0
+"internationalsocialsurvey_2012","HR_Croatia",1000,1000,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","GB_GBN_Great Britain",950,950,389,84,56,0,0,0,0
+"internationalsocialsurvey_2012","FR_France",2409,2409,389,84,58,0,0,0,0
+"internationalsocialsurvey_2012","FI_Finland",1171,1171,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","ES_Spain",2595,2595,389,84,58,0,0,0,0
+"internationalsocialsurvey_2012","DK_Denmark",1403,1403,389,84,58,0,0,0,0
+"internationalsocialsurvey_2012","DE_W_Germany_West",1208,1208,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","DE_E_Germany_East",558,558,389,84,59,0,0,0,0
+"internationalsocialsurvey_2012","CZ_Czech Republic",1804,1804,389,84,59,31,12,0,0
+"internationalsocialsurvey_2012","CN_China",5946,5946,389,84,57,114,45,12,2
+"internationalsocialsurvey_2012","CL_Chile",1564,1564,389,84,59,2,0,0,0
+"internationalsocialsurvey_2012","CH_Switzerland",1237,1237,389,84,58,2,0,0,0
+"internationalsocialsurvey_2012","CA_Canada",983,983,389,84,59,6,6,6,6
+"internationalsocialsurvey_2012","BG_Bulgaria",1003,1003,389,84,57,23,10,6,2
+"internationalsocialsurvey_2012","AU_Australia",1612,1612,389,84,58,4,0,0,0
+"internationalsocialsurvey_2012","AT_Austria",1182,1182,389,84,58,6,0,0,0
+"internationalsocialsurvey_2012","AR_Argentina",977,977,389,84,59,0,0,0,0
+"internationalsocialsurvey_2011","ZA_South Africa",3004,3004,336,66,58,184,151,121,58
+"internationalsocialsurvey_2011","US_United States",1550,1550,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","TW_Taiwan",2199,2199,336,66,58,0,0,0,0
+"internationalsocialsurvey_2011","TR_Turkey",1559,1559,336,66,65,50,11,3,0
+"internationalsocialsurvey_2011","SK_Slovak Republic",1128,1128,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","SI_Slovenia",1082,1082,336,66,60,19,0,0,0
+"internationalsocialsurvey_2011","SE_Sweden",1158,1158,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","RU_Russia",1511,1511,336,66,65,7,2,0,0
+"internationalsocialsurvey_2011","PT_Portugal",1022,1022,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","PL_Poland",1115,1115,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","PH_Philippines",1200,1200,336,66,65,2,0,0,0
+"internationalsocialsurvey_2011","NO_Norway",1834,1834,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","NL_Netherlands",1472,1472,336,66,65,3,3,2,2
+"internationalsocialsurvey_2011","LT_Lithuania",1187,1187,336,66,60,4,0,0,0
+"internationalsocialsurvey_2011","KR_Korea South",1535,1535,336,66,64,0,0,0,0
+"internationalsocialsurvey_2011","JP_Japan",1306,1306,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","IT_Italy",1186,1186,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","IL_Israel",1220,1220,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","HR_Croatia",1210,1210,336,66,61,23,7,2,0
+"internationalsocialsurvey_2011","FR_France",3319,3319,336,66,64,0,0,0,0
+"internationalsocialsurvey_2011","FI_Finland",1340,1340,336,66,60,0,0,0,0
+"internationalsocialsurvey_2011","ES_Spain",2712,2712,336,66,64,0,0,0,0
+"internationalsocialsurvey_2011","DK_Denmark",1388,1388,336,66,64,0,0,0,0
+"internationalsocialsurvey_2011","CZ_Czech Republic",1804,1804,336,66,60,8,0,0,0
+"internationalsocialsurvey_2011","CN_China",5620,5620,336,66,60,63,42,23,7
+"internationalsocialsurvey_2011","CL_Chile",1559,1559,336,66,60,4,4,4,0
+"internationalsocialsurvey_2011","CH_Switzerland",1212,1212,336,66,63,0,0,0,0
+"internationalsocialsurvey_2011","BG_Bulgaria",1003,1003,336,66,60,8,4,0,0
+"internationalsocialsurvey_2011","AU_Australia",1946,1946,336,66,60,2,2,2,2
+"internationalsocialsurvey_2011","82601 GB_GBN_Great Britain",936,936,336,66,59,3,3,3,3
+"internationalsocialsurvey_2011","5602 BE_WAL_Belgium_Wallonia",1873,1873,336,66,63,35,32,28,25
+"internationalsocialsurvey_2011","5601 BE_FLA_Belgium_Flanders",1210,1210,336,66,65,0,0,0,0
+"internationalsocialsurvey_2011","27602 DE_E_Germany_East",564,564,336,66,61,0,0,0,0
+"internationalsocialsurvey_2011","27601 DE_W_Germany_West",1117,1117,336,66,61,0,0,0,0
+"internationalsocialsurvey_2010","ZA_South Africa",3112,2995,331,62,51,160,117,65,28
+"internationalsocialsurvey_2010","US_United States",1430,1382,331,62,52,0,0,0,0
+"internationalsocialsurvey_2010","TW_Taiwan",2209,2184,331,62,61,0,0,0,0
+"internationalsocialsurvey_2010","TR_Turkey",1665,1592,331,62,45,119,66,27,6
+"internationalsocialsurvey_2010","SK_Slovak Republic",1159,1124,331,62,53,8,8,7,3
+"internationalsocialsurvey_2010","SI_Slovenia",1082,1066,331,62,58,5,0,0,0
+"internationalsocialsurvey_2010","SE_Sweden",1181,1149,331,62,52,0,0,0,0
+"internationalsocialsurvey_2010","RU_Russia",1619,1579,331,62,39,15,10,6,4
+"internationalsocialsurvey_2010","PH_Philippines",1200,1195,331,62,61,2,2,0,0
+"internationalsocialsurvey_2010","NZ_New Zealand",1172,1147,331,62,59,2,2,0,0
+"internationalsocialsurvey_2010","NO_Norway",1382,1345,331,62,55,0,0,0,0
+"internationalsocialsurvey_2010","MX_Mexico",1637,1597,331,62,61,76,35,9,2
+"internationalsocialsurvey_2010","LV_Latvia",1000,978,331,62,49,12,6,0,0
+"internationalsocialsurvey_2010","LT_Lithuania",1023,996,331,62,44,26,20,11,8
+"internationalsocialsurvey_2010","KR_Korea South",1576,1544,331,62,61,0,0,0,0
+"internationalsocialsurvey_2010","JP_Japan",1307,1242,331,62,46,2,0,0,0
+"internationalsocialsurvey_2010","IL_Israel",1216,1191,331,62,55,2,2,0,0
+"internationalsocialsurvey_2010","HR_Croatia",1210,1205,331,62,57,25,17,12,0
+"internationalsocialsurvey_2010","GB_Great Britain and_or United Kingdom",928,883,331,62,49,0,0,0,0
+"internationalsocialsurvey_2010","FR_France",2253,2144,331,62,57,2,2,2,0
+"internationalsocialsurvey_2010","FI_Finland",1211,1162,331,62,50,0,0,0,0
+"internationalsocialsurvey_2010","ES_Spain",2560,2510,331,62,51,2,0,0,0
+"internationalsocialsurvey_2010","DK_Denmark",1305,1234,331,62,51,0,0,0,0
+"internationalsocialsurvey_2010","DE_Germany",1407,1337,331,62,52,0,0,0,0
+"internationalsocialsurvey_2010","CZ_Czech Republic",1428,1403,331,62,58,9,4,2,0
+"internationalsocialsurvey_2010","CL_Chile",1436,1388,331,62,55,0,0,0,0
+"internationalsocialsurvey_2010","CH_Switzerland",1212,1201,331,62,60,0,0,0,0
+"internationalsocialsurvey_2010","CA_Canada",985,974,331,62,56,0,0,0,0
+"internationalsocialsurvey_2010","BG_Bulgaria",1003,974,331,62,47,6,2,2,0
+"internationalsocialsurvey_2010","BE_Belgium",1142,1103,331,62,55,0,0,0,0
+"internationalsocialsurvey_2010","AT_Austria",1019,1010,331,62,58,2,0,0,0
+"internationalsocialsurvey_2010","AR_Argentina",1130,1111,331,62,55,2,0,0,0
+"internationalsocialsurvey_2009","ZA_South Africa",3305,3227,350,76,52,6,2,0,0
+"internationalsocialsurvey_2009","VE_Venezuela",999,995,350,76,55,72,66,60,38
+"internationalsocialsurvey_2009","US_United States",1581,1535,350,76,52,0,0,0,0
+"internationalsocialsurvey_2009","UA_Ukraine",2012,1981,350,76,47,10,2,0,0
+"internationalsocialsurvey_2009","TW_Taiwan",2026,2002,350,76,61,0,0,0,0
+"internationalsocialsurvey_2009","TR_Turkey",1569,1528,350,76,52,5,3,3,0
+"internationalsocialsurvey_2009","SK_Slovak Republic",1159,1133,350,76,56,2,0,0,0
+"internationalsocialsurvey_2009","SI_Slovenia",1065,1044,350,76,43,7,0,0,0
+"internationalsocialsurvey_2009","SE_Sweden",1137,1098,350,76,50,0,0,0,0
+"internationalsocialsurvey_2009","RU_Russia",1603,1558,350,76,50,2,0,0,0
+"internationalsocialsurvey_2009","PT_Portugal",1000,985,350,76,45,2,0,0,0
+"internationalsocialsurvey_2009","PL_Poland",1263,1237,350,76,48,0,0,0,0
+"internationalsocialsurvey_2009","PH_Philippines",1200,1194,350,76,49,0,0,0,0
+"internationalsocialsurvey_2009","NZ_New Zealand",935,903,350,76,60,2,2,2,0
+"internationalsocialsurvey_2009","NO_Norway",1456,1411,350,76,56,335,322,253,102
+"internationalsocialsurvey_2009","LV_Latvia",1069,1058,350,76,52,37,25,6,0
+"internationalsocialsurvey_2009","KR_South Korea",1599,1590,350,76,68,0,0,0,0
+"internationalsocialsurvey_2009","JP_Japan",1296,1239,350,76,40,0,0,0,0
+"internationalsocialsurvey_2009","IT_Italy",1084,1019,350,76,51,0,0,0,0
+"internationalsocialsurvey_2009","IS_Iceland",947,934,350,76,62,0,0,0,0
+"internationalsocialsurvey_2009","IL_Israel",1193,1180,350,76,48,0,0,0,0
+"internationalsocialsurvey_2009","HU_Hungary",1010,1007,350,76,59,0,0,0,0
+"internationalsocialsurvey_2009","HR_Croatia",1201,1187,350,76,49,0,0,0,0
+"internationalsocialsurvey_2009","GB_GBN_Great Britain and_or United Kingdom",958,930,350,76,44,0,0,0,0
+"internationalsocialsurvey_2009","FR_France",2817,2739,350,76,47,2,2,0,0
+"internationalsocialsurvey_2009","FI_Finland",880,842,350,76,56,0,0,0,0
+"internationalsocialsurvey_2009","ES_Spain",1215,1193,350,76,46,8,0,0,0
+"internationalsocialsurvey_2009","EE_Estonia",1005,992,350,76,60,0,0,0,0
+"internationalsocialsurvey_2009","DK_Denmark",1518,1458,350,76,47,0,0,0,0
+"internationalsocialsurvey_2009","DE_Germany",1395,1369,350,76,51,0,0,0,0
+"internationalsocialsurvey_2009","CZ_Czech Republic",1205,1199,350,76,64,0,0,0,0
+"internationalsocialsurvey_2009","CY_Cyprus",1000,994,350,76,55,0,0,0,0
+"internationalsocialsurvey_2009","CN_China",3010,2955,350,76,50,14,6,0,0
+"internationalsocialsurvey_2009","CL_Chile",1505,1477,350,76,50,2,2,0,0
+"internationalsocialsurvey_2009","CH_Switzerland",1229,1224,350,76,57,0,0,0,0
+"internationalsocialsurvey_2009","BG_Bulgaria",1000,946,350,76,32,11,6,2,0
+"internationalsocialsurvey_2009","BE_Belgium",1115,1078,350,76,45,0,0,0,0
+"internationalsocialsurvey_2009","AU_Australia",1525,1467,350,76,47,0,0,0,0
+"internationalsocialsurvey_2009","AT_Austria",1019,1005,350,76,55,0,0,0,0
+"internationalsocialsurvey_2009","AR_Argentina",1133,1117,350,76,49,2,0,0,0
+"internationalsocialsurvey_2008","ZA_South Africa",3292,3261,363,83,66,101,50,19,4
+"internationalsocialsurvey_2008","VE_Venezuela",1077,1063,363,83,61,7,0,0,0
+"internationalsocialsurvey_2008","UY_Uruguay",1010,999,363,83,65,4,0,0,0
+"internationalsocialsurvey_2008","US_United States",1365,1349,363,83,65,0,0,0,0
+"internationalsocialsurvey_2008","UA_Ukraine",2036,1992,363,83,27,212,14,2,0
+"internationalsocialsurvey_2008","TW_Taiwan",1927,1886,363,83,56,0,0,0,0
+"internationalsocialsurvey_2008","TR_Turkey",1453,1434,363,83,68,80,38,7,0
+"internationalsocialsurvey_2008","SK_Slovak Republic",1138,1094,363,83,56,7,5,0,0
+"internationalsocialsurvey_2008","SI_Slovenia",1065,1035,363,83,57,3,2,0,0
+"internationalsocialsurvey_2008","SE_Sweden",1235,1178,363,83,41,6,0,0,0
+"internationalsocialsurvey_2008","RU_Russia",1015,981,363,83,15,380,71,8,8
+"internationalsocialsurvey_2008","PT_Portugal",1000,993,363,83,59,2,0,0,0
+"internationalsocialsurvey_2008","PL_Poland",1263,1225,363,83,53,10,2,0,0
+"internationalsocialsurvey_2008","PH_Philippines",1200,1199,363,83,73,2,2,2,0
+"internationalsocialsurvey_2008","NZ_New Zealand",1027,997,363,83,56,0,0,0,0
+"internationalsocialsurvey_2008","NO_Norway",1072,1037,363,83,45,0,0,0,0
+"internationalsocialsurvey_2008","NL_Netherlands",1951,1901,363,83,57,0,0,0,0
+"internationalsocialsurvey_2008","MX_Mexico",1471,1446,363,83,69,53,20,4,2
+"internationalsocialsurvey_2008","LV_Latvia",1069,1042,363,83,67,50,34,20,2
+"internationalsocialsurvey_2008","KR_South Korea",1508,1498,363,83,71,2,2,0,0
+"internationalsocialsurvey_2008","JP_Japan",1200,1155,363,83,14,196,17,0,0
+"internationalsocialsurvey_2008","IT_Italy",1078,1072,363,83,56,28,2,0,0
+"internationalsocialsurvey_2008","IL_Israel",1193,1174,363,83,58,2,0,0,0
+"internationalsocialsurvey_2008","IE_Ireland",2049,2034,363,83,60,30,14,12,6
+"internationalsocialsurvey_2008","HU_Hungary",1010,997,363,83,63,22,10,4,0
+"internationalsocialsurvey_2008","HR_Croatia",1201,1187,363,83,44,2,2,0,0
+"internationalsocialsurvey_2008","GB_United Kingdom",3075,2957,363,83,44,8,4,2,0
+"internationalsocialsurvey_2008","FR_France",2454,2342,363,83,45,4,0,0,0
+"internationalsocialsurvey_2008","FI_Finland",1136,1083,363,83,38,0,0,0,0
+"internationalsocialsurvey_2008","ES_Spain",2373,2320,363,83,58,4,4,4,2
+"internationalsocialsurvey_2008","DO_Dominican Republic",2086,2084,363,83,72,11,0,0,0
+"internationalsocialsurvey_2008","DK_Denmark",2004,1947,363,83,53,8,0,0,0
+"internationalsocialsurvey_2008","DE_Germany",1706,1620,363,83,45,11,0,0,0
+"internationalsocialsurvey_2008","CZ_Czech Republic",1512,1454,363,83,59,27,15,2,0
+"internationalsocialsurvey_2008","CY_Cyprus",1000,994,363,83,53,3,0,0,0
+"internationalsocialsurvey_2008","CL_Chile",1505,1477,363,83,59,0,0,0,0
+"internationalsocialsurvey_2008","CH_Switzerland",1229,1223,363,83,70,0,0,0,0
+"internationalsocialsurvey_2008","BE_Belgium",1263,1210,363,83,45,0,0,0,0
+"internationalsocialsurvey_2008","AU_Australia",1718,1660,363,83,44,2,2,2,0
+"internationalsocialsurvey_2008","AT_Austria",1020,999,363,83,41,4,0,0,0
