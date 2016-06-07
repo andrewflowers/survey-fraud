@@ -20,6 +20,7 @@ survey_metadata <- read_csv("survey_metadata_for_cleaning.csv")
 data_files <- list.files("./raw_survey_data", full.names=TRUE, recursive=TRUE)
 
 summaryData <- data.frame()
+triangleMatrices <- data.frame()
 
 for (df in data_files){
   
@@ -106,6 +107,7 @@ for (df in data_files){
   
   for (c in countries){
     countryData <- subData %>% filter(country==c)  
+    # countryData <- subData %>% filter(country=="Botswana") 
     
     initial_observations <- nrow(countryData)
     
@@ -131,6 +133,12 @@ for (df in data_files){
           pmatch <- percentmatchR(countryData) # Calls percentmatchR function in percentmatch.R file
           # pmatch <- percentmatchCpp(data.matrix(countryData)) # Calls percentmatchCpp function in percentmatch.R file
           
+        # Step 7a: Calculate the lower-triangle matrix of respondent-by-respondent percentmatches  
+          triangleMatrices <- triangleMatrices %>% 
+            bind_rows(data.frame(dataset = dataset, 
+                                 country = c, 
+                                 matrix =  I(list(percentmatchMatrix(countryData)))))
+
         # Calculate median number of responses to questions
           median_num_resp <- numRespCat(countryData, var_list %>% str_split(" ") %>% unlist() %>% as.character())
           
@@ -171,4 +179,4 @@ summaryData2 <- summaryData %>%
                         abCountryCodes[match(country, abCountryCodes$country_code),]$country_name))
 
 # Write out summary data file
-write_csv(summaryData2, "./results/replication_summary_051816.csv")
+write_csv(summaryData2, "./results/replication_summary_060716.csv")
