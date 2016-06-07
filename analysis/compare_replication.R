@@ -103,7 +103,21 @@ sum(topLine$rep_5pt, na.rm=T)/nrow(topLine)
 
 ##### Pew counter analysis #####
 
+chartbuilder <- compData %>% 
+  # group_by(dataset) %>% 
+  summarize(org_pct_at_85=sum(dup_observations_at_85.x, na.rm=T)/sum(final_observations.x, na.rm=T),
+            rep_pct_at_85=sum(dup_observations_at_85.y, na.rm=T)/sum(final_observations.y, na.rm=T))
+
+# # %>% gather(method, pct, -dataset) %>% 
+#   ggplot(aes(dataset, stat_count(pct), fill=method)) + geom_bar(position='dodge')
 
 
+write_csv(chartbuilder, "chart_data.csv")
 
-
+worst <- compData %>% 
+  group_by(dataset, country) %>% 
+  mutate(difference=abs(dup_observations_at_100.x-dup_observations_at_100.y)) %>% 
+  ungroup() %>% 
+  select(dataset, country, dup_observations_at_100.x, dup_observations_at_100.y, difference) %>% 
+  filter(dup_observations_at_100.x> dup_observations_at_100.y) %>% 
+  arrange(desc(difference))
